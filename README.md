@@ -34,6 +34,8 @@ The social-account cards display owner-provided Douyin and Xiaohongshu account n
 
 ## Bookmark collection
 
+Direct bookmark-bar shortcuts are excluded from imports. Bookmark-bar folders are promoted into the public collection without a separate 收藏栏 group.
+
 The homepage's collection preserves Chrome folder hierarchy and duplicate entries. Native folder controls work without JavaScript; assets/bookmarks.js adds title, folder, and URL search. data/bookmarks.json contains only the published names, URLs, and folder tree. The importer renders that same tree into index.html, so visitors need no data request.
 
 For a future import, first verify GitHub repository targets are public and prepare a local JSON proof array with requested and status fields. Then run the importer with explicit paths:
