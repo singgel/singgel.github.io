@@ -123,7 +123,22 @@ h3 a:focus-visible::after { outline: 3px solid var(--focus); outline-offset: 3px
 .featured h3 { font-size: 29px; margin-top: 0; }
 .project-card p { margin: 0 0 24px; font-size: 13px; color: var(--muted); line-height: 1.85; max-width: 390px; }
 .card-bottom { display: flex; gap: 14px; margin-top: auto; font: 10px ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--muted); }
-.notes { border-top: 1px solid var(--line); }
+.library, .notes, .journey { border-top: 1px solid var(--line); }
+.library-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 24px; }
+.library-card { min-width: 0; padding: 25px; border: 1px solid var(--line); border-radius: 5px; background: var(--surface); }
+.library-card .eyebrow { font-size: 9px; letter-spacing: .8px; }
+.library-card h3 { margin-top: 0; font-family: inherit; font-size: 20px; }
+.library-card > p:not(.eyebrow) { color: var(--muted); font-size: 13px; line-height: 1.85; }
+.repository-links { display: flex; flex-wrap: wrap; gap: 10px 16px; padding: 0; margin: 24px 0 0; list-style: none; }
+.repository-links li { min-width: 0; }
+.repository-links a { color: var(--muted); font-size: 12px; overflow-wrap: anywhere; text-decoration: underline; text-underline-offset: 4px; }
+.repository-links a:hover { color: var(--accent); }
+.career-timeline { padding: 0; margin: 0; list-style: none; }
+.career-timeline li { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 35px; padding: 24px 0; border-top: 1px solid var(--line); }
+.career-timeline li:last-child { border-bottom: 1px solid var(--line); }
+.career-period { margin: 4px 0 0; color: var(--muted); font: 12px/1.7 ui-monospace, SFMono-Regular, Menlo, monospace; }
+.career-timeline h3 { margin: 0 0 8px; font-family: inherit; font-size: 20px; }
+.career-timeline li > div > p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.85; }
 .section-description { margin: 0 0 4px; font-size: 13px; color: var(--muted); line-height: 1.85; }
 .writing-link { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 25px 0; border-top: 1px solid var(--line); }
 .writing-link:last-child { border-bottom: 1px solid var(--line); }
@@ -180,6 +195,9 @@ h3 a:focus-visible::after { outline: 3px solid var(--focus); outline-offset: 3px
   .project-card { min-height: 215px; padding: 24px; }
   .featured h3 { font-size: 24px; }
   .network-sketch { min-height: 126px; }
+  .library-grid { grid-template-columns: 1fr; }
+  .library-card { padding: 24px; }
+  .career-timeline li { grid-template-columns: 1fr; gap: 10px; }
   .notes .section-heading { display: block; }
   .section-description { margin-top: 18px; font-size: 12px; }
   .writing-link { padding-block: 22px; }
