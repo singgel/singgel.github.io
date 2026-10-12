@@ -101,3 +101,7 @@ Backend & Platform
 - Zhihu: https://www.zhihu.com/people/gexingyumi/posts
 - Juejin: https://juejin.cn/user/4055442887022119
 - Stack Overflow: https://stackoverflow.com/users/10727010/singgel
+- Douyin / 抖音号: 53454430349 — https://www.douyin.com/
+- Xiaohongshu / 小红书号: 2608737253 — https://www.xiaohongshu.com/
+
+For Douyin and Xiaohongshu, search the account number in the app. The links above open the platforms; account numbers are not verified profile URL identifiers.
