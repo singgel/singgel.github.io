@@ -106,18 +106,20 @@ def import_tree(source, github_status=None):
         return {"type": "url", "name": name, "url": url}
 
     folders = []
-    for root in source.get("roots", {}).values():
+    for root_key, root in source.get("roots", {}).items():
         if not isinstance(root, dict):
             continue
         report["source_total"] += count_links(root)
+        is_bar = root_key == "bookmark_bar" or root.get("name") == "Bookmarks Bar"
+        if is_bar:
+            # Do not publish loose shortcuts as a separate bookmark-bar group.
+            children = root.get("children", [])
+            report["excluded"] += sum(count_links(child) for child in children if child.get("type") == "url")
+            root = {**root, "children": [child for child in children if child.get("type") != "url"]}
         result = visit(root, [])
         if result:
-            # Promote bar folders while retaining direct bar links as one group.
-            if root.get("name") == "Bookmarks Bar":
-                loose = [child for child in result["children"] if child["type"] == "url"]
-                if loose:
-                    folders.append({"type": "folder", "name": "收藏栏", "children": loose})
-                folders.extend(child for child in result["children"] if child["type"] == "folder")
+            if is_bar:
+                folders.extend(result["children"])
             else:
                 folders.append(result)
     assert report["source_total"] == report["excluded"] + report["published"] + len(report["held"])

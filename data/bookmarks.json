@@ -2,22 +2,6 @@
   "folders": [
     {
       "type": "folder",
-      "name": "收藏栏",
-      "children": [
-        {
-          "type": "url",
-          "name": "GitHub",
-          "url": "https://github.com/singgel"
-        },
-        {
-          "type": "url",
-          "name": "CSDN",
-          "url": "https://blog.csdn.net/singgel/"
-        }
-      ]
-    },
-    {
-      "type": "folder",
       "name": "TOOLS",
       "children": [
         {
