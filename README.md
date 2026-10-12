@@ -30,6 +30,8 @@ Career history, technical interests, infrastructure repositories, and community 
 
 Before retiring a content repository, preserve its complete Git history, migrate its unique public content and links, and verify the deployed destination before deletion. GitHub's profile README panel depends on a repository named exactly after the account; the website repository does not replace that panel.
 
+The social-account cards display owner-provided Douyin and Xiaohongshu account numbers, with clipboard buttons and manual-copy fallback. Platform links open the official homepages until a shareable profile URL is verified; an account number must not be guessed into a profile URL. Keep the visible number, copy-button data, and docs/profile.md consistent when updating these accounts.
+
 ## Bookmark collection
 
 The homepage's collection preserves Chrome folder hierarchy and duplicate entries. Native folder controls work without JavaScript; assets/bookmarks.js adds title, folder, and URL search. data/bookmarks.json contains only the published names, URLs, and folder tree. The importer renders that same tree into index.html, so visitors need no data request.
