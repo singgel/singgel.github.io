@@ -29,3 +29,20 @@ Use repository links as the source of truth for project descriptions. Test filte
 Career history, technical interests, infrastructure repositories, and community links are consolidated in this repository. The [detailed profile](docs/profile.md) preserves the publicly published biography. Keep its career dates and repository links consistent with index.html when updating the profile. The standalone website is the public entrypoint; a separate GitHub profile README repository is no longer maintained.
 
 Before retiring a content repository, preserve its complete Git history, migrate its unique public content and links, and verify the deployed destination before deletion. GitHub's profile README panel depends on a repository named exactly after the account; the website repository does not replace that panel.
+
+## Bookmark collection
+
+The homepage's collection preserves Chrome folder hierarchy and duplicate entries. Native folder controls work without JavaScript; assets/bookmarks.js adds title, folder, and URL search. data/bookmarks.json contains only the published names, URLs, and folder tree. The importer renders that same tree into index.html, so visitors need no data request.
+
+For a future import, first verify GitHub repository targets are public and prepare a local JSON proof array with requested and status fields. Then run the importer with explicit paths:
+
+```sh
+python3 scripts/import_bookmarks.py /absolute/Chrome/Bookmarks \
+  --catalog data/bookmarks.json --page index.html \
+  --github-proof /absolute/local/github-public-targets.json \
+  --report /absolute/local/import-report.json
+make test
+make test-coverage
+```
+
+The importer excludes the complete 雪球, 京东, and 字节 folder subtrees. It keeps local files, literal IP addresses, internal hosts, credentials, unverified GitHub repository links, and personal analysis results out of the public tree. Only specifically recognized nonessential article or translation parameters are removed; other suspicious URLs are held for local review. Original Chrome files are never modified. Keep source snapshots, reports, visibility proofs, and withheld links outside this public repository and out of assistant review packets. Recheck the import counts, source hash, desktop/mobile layout, search, and deployed HTML before calling an import complete. Old bookmark availability is separate from successful migration.

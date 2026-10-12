@@ -2,7 +2,9 @@
 
 test:
 	node --check assets/app.js
+	node --check assets/bookmarks.js
 	node --test tests/*.test.cjs
+	python3 -m unittest discover -s tests -p 'test_*.py'
 
 test-coverage:
 	node --test --experimental-test-coverage --test-coverage-include='assets/*.js' --test-coverage-lines=50 tests/*.test.cjs

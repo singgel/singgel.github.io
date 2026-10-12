@@ -120,7 +120,7 @@ test("HTML contains valid anchors and existing local assets, with safe external 
     const target = tag.match(/(?:href|src)="([^"]+)"/)?.[1];
     if (!target || target === "#") continue;
     if (target.startsWith("#")) assert.ok(ids.includes(target.slice(1)), target);
-    else if (target.startsWith("https://")) {
+    else if (/^https?:\/\//.test(target)) {
       if (tag.startsWith("<a")) assert.match(tag, /rel="noopener noreferrer"/);
     } else assert.ok(fs.existsSync(path.join(root, target)), target);
   }
