@@ -21,13 +21,30 @@ class ImportTests(unittest.TestCase):
     def test_recursive_exclusion_and_duplicate_folder_names(self):
         source = {"roots": {"bookmark_bar": folder("Bookmarks Bar", link(), folder("学习", folder("字节", folder("nested", link())), folder("Linux", link("one")), folder("Linux", link("two"))), folder("雪球", link()), folder("京东", link()))}}
         catalog, report = IMPORTER.import_tree(source)
-        self.assertEqual((report["source_total"], report["excluded"], report["published"]), (6, 3, 3))
-        self.assertEqual(catalog["folders"][0]["name"], "收藏栏")
-        self.assertEqual([node["name"] for node in catalog["folders"][1]["children"]], ["Linux", "Linux"])
+        self.assertEqual((report["source_total"], report["excluded"], report["published"]), (6, 4, 2))
+        self.assertEqual(catalog["folders"][0]["name"], "学习")
+        self.assertEqual([node["name"] for node in catalog["folders"][0]["children"]], ["Linux", "Linux"])
         self.assertNotIn("guid", json.dumps(catalog))
         rendered = IMPORTER.render_catalog(catalog)
+        self.assertIn('id="bookmark-folder-2"', rendered)
         self.assertIn('id="bookmark-folder-3"', rendered)
-        self.assertIn('id="bookmark-folder-4"', rendered)
+
+    def test_bar_shortcuts_are_excluded_without_changing_other_roots_or_source(self):
+        source = {"roots": {
+            "bookmark_bar": folder("收藏夹栏", link("shortcut"), folder("TOOLS", link("tool"))),
+            "other": folder("Other", link("other shortcut")),
+        }}
+        original = json.dumps(source)
+        catalog, report = IMPORTER.import_tree(source)
+        self.assertEqual((report["source_total"], report["excluded"], report["published"]), (3, 1, 2))
+        self.assertEqual([node["name"] for node in catalog["folders"]], ["TOOLS", "Other"])
+        self.assertEqual(catalog["folders"][1]["children"][0]["name"], "other shortcut")
+        self.assertEqual(json.dumps(source), original)
+
+    def test_bar_with_only_shortcuts_does_not_create_an_empty_group(self):
+        catalog, report = IMPORTER.import_tree({"roots": {"bookmark_bar": folder("Bookmarks Bar", link())}})
+        self.assertEqual(catalog, {"folders": []})
+        self.assertEqual((report["source_total"], report["excluded"], report["published"]), (1, 1, 0))
 
     def test_private_and_unsafe_urls_are_held(self):
         urls = ["file:///home/report.pdf", "javascript:alert(1)", "data:text/html,hello", "http://localhost:8080/a", "http://10.0.0.1/a", "http://127.0.0.1/a", "https://[::1]/", "http://198.51.100.2/", "http://2130706433/", "https://portal.internal/", "https://foo.local/", "https://sso.bytedance.net/", "https://user:secret@example.com/", "https://example.com/?access_token=secret", "https://example.com/#session=secret", "https://example.com:wrong/", "https://example.com/\nsecret", "https://example.com\\@localhost/"]
@@ -86,6 +103,7 @@ class ImportTests(unittest.TestCase):
         catalog = json.loads((ROOT / "data/bookmarks.json").read_text())
         page = (ROOT / "index.html").read_text()
         self.assertEqual(IMPORTER.update_page(page, catalog), page)
+        self.assertNotIn("收藏栏", [node["name"] for node in catalog["folders"]])
         def check(node):
             if node["type"] == "url":
                 url, removed, reason = IMPORTER.public_url(node["url"])
