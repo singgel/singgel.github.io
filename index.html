@@ -13,11 +13,11 @@
     <link rel="canonical" href="https://singgel.github.io/">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/growth.css">
+    <link rel="stylesheet" href="assets/growth.css?v=2">
     <script src="assets/app.js" defer></script>
     <script src="assets/bookmarks.js" defer></script>
     <script src="assets/socials.js" defer></script>
-    <script src="assets/growth.js" defer></script>
+    <script src="assets/growth.js?v=2" defer></script>
     <title>singgel · 阿拉斯加大闸蟹</title>
   </head>
   <body>
@@ -77,9 +77,11 @@
         <div class="section-heading"><div><p class="eyebrow">01 / THE GROWTH QUEST</p><h2 id="journey-title">一路打怪，一路升级<span class="small-dot">.</span></h2></div><p class="section-description">从连接与消息，到云网络与可靠性。<br>回放成长经历，逐关点亮技术栈。</p></div>
         <div class="growth-adventure" id="growth-adventure" data-phase="ready" data-playing="false" data-stage="0" hidden>
           <div class="growth-topline"><span>PLAYER / 阿拉斯加大闸蟹</span><span id="growth-progress">成长回放 0 / 6</span><button class="growth-play" id="growth-play" type="button">开始冒险</button></div>
+          <p class="growth-favorites"><span>我最喜爱的公司</span><strong>雪球</strong><strong>字节跳动</strong></p>
           <div class="growth-main">
             <div class="growth-scene" id="growth-scene" role="img" aria-label="新手村：大闸蟹迎战连接怪">
               <div class="growth-world-title"><span class="growth-level" id="growth-level">LV.01</span><span id="growth-land">新手村</span></div>
+              <p class="growth-favorite" id="growth-favorite" hidden></p>
               <div class="growth-mountains" aria-hidden="true"><i></i><i></i><i></i></div>
               <div class="growth-ground" aria-hidden="true"></div>
               <div class="growth-player"><img src="assets/growth-crab.svg" width="160" height="130" alt=""><span>大闸蟹</span></div>
@@ -104,10 +106,10 @@
           <div class="growth-route" role="group" aria-label="选择成长关卡">
             <button type="button" data-growth-stage="0" aria-pressed="true"><span>01</span>连接与消息</button>
             <button type="button" data-growth-stage="1" aria-pressed="false"><span>02</span>数据管道</button>
-            <button type="button" data-growth-stage="2" aria-pressed="false"><span>03</span>服务治理</button>
-            <button type="button" data-growth-stage="3" aria-pressed="false"><span>04</span>并发与缓存</button>
+            <button type="button" data-growth-stage="2" aria-pressed="false"><span>03</span>服务治理<small class="growth-company-marker">最爱 · 雪球</small></button>
+            <button type="button" data-growth-stage="3" aria-pressed="false"><span>04</span>并发与缓存<small class="growth-company-marker">最爱 · 字节</small></button>
             <button type="button" data-growth-stage="4" aria-pressed="false"><span>05</span>云网络</button>
-            <button type="button" data-growth-stage="5" aria-pressed="false"><span>06</span>可靠性</button>
+            <button type="button" data-growth-stage="5" aria-pressed="false"><span>06</span>可靠性<small class="growth-company-marker">最爱 · 字节</small></button>
           </div>
           <div class="growth-controls"><button id="growth-next" type="button">下一关 →</button><button id="growth-restart" type="button">重来</button><p id="growth-status" role="status" aria-live="polite" aria-atomic="true">第 1 关 · 连接与消息</p></div>
           <details class="growth-bag"><summary><span>技能背包</span><span id="growth-skill-count">已点亮 0 / 23</span></summary><ul class="growth-inventory" id="growth-inventory" aria-label="技能点亮记录"></ul></details>
