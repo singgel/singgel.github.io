@@ -21,8 +21,8 @@ function fixture({ saved = null, dark = false, storageThrows = false, writeThrow
   const filters = new Element();
   const status = new Element();
   const meta = {};
-  const buttons = ["all", "network", "data", "system"].map((filter) => new Element({ filter }, filter));
-  const projects = ["network", "data", "data", "network", "system"].map((category) => new Element({ category }));
+  const buttons = ["all", "network", "backend", "data"].map((filter) => new Element({ filter }, filter));
+  const projects = ["network", "backend", "data"].map((category) => new Element({ category }));
   projects.forEach((project) => { project.hidden = false; });
   filters.querySelectorAll = () => buttons;
   const doc = {
@@ -99,8 +99,8 @@ test("invalid stored preference and failed reads fall back to the system prefere
 test("each project filter updates cards, selected buttons, and the live result count", () => {
   const page = fixture();
   initSite(page.doc, page.win);
-  const expected = { network: 2, data: 2, system: 1, all: 5 };
-  for (const filter of ["network", "data", "system", "all"]) {
+  const expected = { network: 1, backend: 1, data: 1, all: 3 };
+  for (const filter of ["network", "backend", "data", "all"]) {
     const selected = page.buttons.find((button) => button.dataset.filter === filter);
     selected.click();
     assert.equal(page.projects.filter((project) => !project.hidden).length, expected[filter]);
@@ -126,5 +126,16 @@ test("HTML contains valid anchors and existing local assets, with safe external 
   }
   assert.match(html, /<html lang="zh-CN">/);
   assert.match(html, /class="filters"[^>]* hidden/);
-  assert.equal((html.match(/class="project-card/g) || []).length, 5);
+  assert.equal((html.match(/class="project-card/g) || []).length, 3);
+});
+
+test("visitors reach growth and representative work before reference collections", () => {
+  const html = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
+  const sections = [...html.matchAll(/<section\b[^>]*\bid="([^"]+)"/g)].map((match) => match[1]);
+  assert.deepEqual(sections, ["journey", "projects", "notes", "library", "bookmarks", "social", "about"]);
+  assert.match(html, /class="button button-dark" href="#journey"/);
+  const projects = html.slice(html.indexOf('id="projects"'), html.indexOf('id="notes"'));
+  for (const repo of ["igw-p4", "grpc-infra", "flink-kafka-hbase"]) {
+    assert.ok(projects.includes(`href="https://github.com/singgel/${repo}"`));
+  }
 });

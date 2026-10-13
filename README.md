@@ -24,6 +24,10 @@ GitHub Pages publishes the root of master. A push to master triggers a Pages bui
 
 Use repository links as the source of truth for project descriptions. Test filters, both themes, keyboard navigation, and a narrow mobile viewport after changes. Keep a single maintainer editing the same checkout. New project categories must be added to both the filters and the card data-category values.
 
+The homepage introduces cloud networking, backend and reliability engineering, then leads into the growth adventure and three representative public code repositories. Writing precedes the reference library and bookmark collection. Keep the source claims traceable to public READMEs and code; a learning library or direction-only README is not a released implementation or evidence of production results. Earlier examples remain available in the reference library.
+
+The mobile header uses a second row for navigation, and the decorative crab becomes a small frame beside the introduction. Check 320px and 390px widths as well as desktop after layout changes, including long chapter labels and all primary touch controls.
+
 ## Profile content
 
 Career history, technical interests, infrastructure repositories, and community links are consolidated in this repository. The [detailed profile](docs/profile.md) preserves the publicly published biography. Keep its career dates and repository links consistent with index.html when updating the profile. The standalone website is the public entrypoint; a separate GitHub profile README repository is no longer maintained.
