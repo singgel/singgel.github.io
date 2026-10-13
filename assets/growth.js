@@ -29,10 +29,10 @@ const GROWTH_SKILLS = {
 const GROWTH_STAGES = [
   { title: "连接与消息", land: "新手村", boss: "连接怪", period: "2015.06 — 2018.04", place: "CATARC", description: "从车联网与分布式后端出发，把连接、消息和存储串起来。", skills: ["c", "java", "netty", "mysql"], link: "https://github.com/singgel/Netty-SkillTree" },
   { title: "数据管道", land: "数据之河", boss: "数据乱流", period: "2018.05 — 2019.04", place: "易车 · 大数据", description: "走进推荐系统和数据管道，让消息、存储与缓存协同工作。", skills: ["java", "kafka", "hbase", "redis"], link: "https://github.com/singgel/BIGDATA_LINE" },
-  { title: "服务治理", land: "治理森林", boss: "调用迷雾", period: "2019.04 — 2022.03", place: "雪球 · 基础设施", description: "把视野从单个服务扩展到中间件平台、服务治理与可观测性。", skills: ["spring", "grpc", "envoy", "redis", "kafka"], link: "https://github.com/singgel/envoy-infra" },
-  { title: "并发与缓存", land: "缓存城堡", boss: "缓存风暴", period: "2022.04 — 2022.06", place: "字节跳动 · People Platform", description: "在 HR 中台服务重构与高并发缓存中，继续积累 Go 后端工程经验。", skills: ["go", "java", "kitex", "redis", "mysql"], link: "https://github.com/singgel/singgel.github.io/blob/master/docs/profile.md" },
+  { title: "服务治理", land: "治理森林", boss: "调用迷雾", period: "2019.04 — 2022.03", place: "雪球 · 基础设施", favoriteCompany: "雪球", description: "把视野从单个服务扩展到中间件平台、服务治理与可观测性。", skills: ["spring", "grpc", "envoy", "redis", "kafka"], link: "https://github.com/singgel/envoy-infra" },
+  { title: "并发与缓存", land: "缓存城堡", boss: "缓存风暴", period: "2022.04 — 2022.06", place: "字节跳动 · People Platform", favoriteCompany: "字节跳动", description: "在 HR 中台服务重构与高并发缓存中，继续积累 Go 后端工程经验。", skills: ["go", "java", "kitex", "redis", "mysql"], link: "https://github.com/singgel/singgel.github.io/blob/master/docs/profile.md" },
   { title: "云网络", land: "网络迷宫", boss: "路由迷宫", period: "2022.07 — 2026.04", place: "京东云 · IaaS 网络", description: "探索 SDN 控制面、可编程网关与数据平面，从路由走向整张网络。", skills: ["go", "p4", "bgp", "dpdk", "ovs", "ipv6", "linux"], link: "https://github.com/singgel/igw-p4" },
-  { title: "可靠性", land: "云端远征", boss: "未知山峰", period: "2026.05 — 至今", place: "字节跳动 · Data DCS", description: "继续探索分布式云服务与基础设施，把后端、云网络和可靠性连接起来。", skills: ["go", "vpc", "nat", "lb", "observability", "failover"], link: "https://github.com/singgel/iaas-network", ongoing: true },
+  { title: "可靠性", land: "云端远征", boss: "未知山峰", period: "2026.05 — 至今", place: "字节跳动 · Data DCS", favoriteCompany: "字节跳动", description: "继续探索分布式云服务与基础设施，把后端、云网络和可靠性连接起来。", skills: ["go", "vpc", "nat", "lb", "observability", "failover"], link: "https://github.com/singgel/iaas-network", ongoing: true },
 ];
 
 const GROWTH_DELAYS = { ready: 650, battle: 1450, won: 1700 };
@@ -175,6 +175,9 @@ function initGrowth(doc, win) {
     doc.getElementById("growth-title").textContent = stage.title;
     doc.getElementById("growth-period").textContent = stage.period;
     doc.getElementById("growth-place").textContent = stage.place;
+    const favorite = doc.getElementById("growth-favorite");
+    favorite.hidden = !stage.favoriteCompany;
+    favorite.textContent = stage.favoriteCompany ? `我最喜爱的公司：${stage.favoriteCompany}` : "";
     doc.getElementById("growth-description").textContent = stage.description;
     const link = doc.getElementById("growth-source");
     link.href = stage.link;
@@ -185,7 +188,8 @@ function initGrowth(doc, win) {
     }
     levels.forEach((button, index) => {
       button.setAttribute("aria-pressed", String(index === state.stage));
-      button.setAttribute("aria-label", `第 ${index + 1} 关 · ${GROWTH_STAGES[index].title}${state.completed.includes(index) ? "，已点亮" : ""}`);
+      const favoriteCompany = GROWTH_STAGES[index].favoriteCompany;
+      button.setAttribute("aria-label", `第 ${index + 1} 关 · ${GROWTH_STAGES[index].title}${favoriteCompany ? `，我最喜爱的公司：${favoriteCompany}` : ""}${state.completed.includes(index) ? "，已点亮" : ""}`);
       button.dataset.completed = String(state.completed.includes(index));
     });
     const unlocked = unlockedSkills(state.completed);
@@ -195,7 +199,7 @@ function initGrowth(doc, win) {
     });
     doc.getElementById("growth-skill-count").textContent = `已点亮 ${unlocked.size} / ${bagItems.size}`;
     doc.getElementById("growth-progress").textContent = `成长回放 ${state.completed.length} / ${GROWTH_STAGES.length}`;
-    scene.setAttribute("aria-label", `${stage.land}：大闸蟹迎战${stage.boss}`);
+    scene.setAttribute("aria-label", `${stage.land}：大闸蟹迎战${stage.boss}${stage.favoriteCompany ? `，我最喜爱的公司：${stage.favoriteCompany}` : ""}`);
     next.disabled = state.stage === GROWTH_STAGES.length - 1;
     play.disabled = Boolean(motion?.matches && state.phase === "won");
     play.textContent = motion?.matches
