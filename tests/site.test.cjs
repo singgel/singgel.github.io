@@ -122,7 +122,7 @@ test("HTML contains valid anchors and existing local assets, with safe external 
     if (target.startsWith("#")) assert.ok(ids.includes(target.slice(1)), target);
     else if (/^https?:\/\//.test(target)) {
       if (tag.startsWith("<a")) assert.match(tag, /rel="noopener noreferrer"/);
-    } else assert.ok(fs.existsSync(path.join(root, target)), target);
+    } else assert.ok(fs.existsSync(path.join(root, target.split(/[?#]/)[0])), target);
   }
   assert.match(html, /<html lang="zh-CN">/);
   assert.match(html, /class="filters"[^>]* hidden/);

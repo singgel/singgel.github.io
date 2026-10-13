@@ -226,6 +226,23 @@ test("manual controls also work without media queries or intersection observers"
   assert.equal(initGrowth({ getElementById: () => null }, {}), undefined);
 });
 
+test("favorite-company badges follow their chapters and clear when leaving them", () => {
+  const page = fixture();
+  const expected = [null, null, "雪球", "字节跳动", null, "字节跳动"];
+  for (const stage of [2, 4, 3, 0, 5, 1]) {
+    page.levels[stage].click();
+    const badge = page.nodes.get("growth-favorite");
+    const company = expected[stage];
+    assert.equal(badge.hidden, !company);
+    assert.equal(badge.textContent, company ? `我最喜爱的公司：${company}` : "");
+    for (const node of [page.levels[stage], page.nodes.get("growth-scene")]) {
+      if (company) assert.ok(node.attributes["aria-label"].includes(`我最喜爱的公司：${company}`));
+      else assert.doesNotMatch(node.attributes["aria-label"], /最喜爱/);
+    }
+    assert.deepEqual(page.game.getState().completed, []);
+  }
+});
+
 test("technology badges have safe local assets and the original career history is readable without JS", () => {
   const root = path.resolve(__dirname, "..");
   for (const stage of GROWTH_STAGES) {

@@ -40,6 +40,8 @@ The social-account cards display owner-provided Douyin and Xiaohongshu account n
 
 The journey section replays six chapters from docs/profile.md as a small crab adventure. Its levels and skill lighting are narrative playback, not a measurement of proficiency; the current Data DCS chapter remains an ongoing exploration. The original career timeline stays open and readable without JavaScript.
 
+The game displays the owner's favorite companies, Xueqiu and ByteDance, as personal preferences. Keep favoriteCompany chapter metadata, visible route markers and docs/profile.md aligned. When changing the growth script or stylesheet alongside its markup, bump their version query in index.html so returning visitors receive matching assets.
+
 assets/growth.js owns the chapter data, pure state transitions and one cancellable timer. A first visible visit starts one replay; pause preserves the remaining phase time, and leaving the scene, hiding the page or requesting reduced motion pauses it. Manual input takes precedence over first-view autoplay. Reduced motion uses immediate manual skill lighting. Selecting a chapter pauses playback, and restarting clears only this visit's progress. Keep the battle delay in growth.js and the animation duration in growth.css synchronized when changing pacing.
 
 Technology badges are local assets. Ten original Devicon v2.17.0 icons retain their MIT license in assets/icons/devicon/LICENSE; assets/icons/NOTICE.md documents the source revision and the site's generic symbols. Keep branded assets unchanged and preserve their notices. Update the chapter controls, skill registry, original timeline and public profile together when adding a new chapter.

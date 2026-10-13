@@ -6,6 +6,8 @@ Website: [singgel.github.io](https://singgel.github.io/)
 
 I focus on large-scale infrastructure, cloud networking, distributed systems, high availability, and engineering knowledge sharing.
 
+个人偏好：我最喜爱的公司是 **雪球** 和 **字节跳动**。
+
 - 🌐 Cloud network: VPC / NAT / LB / BGP / IPv6 / VPN / private connectivity
 - 🚀 Data plane: DPDK / OVS / P4 / Barefoot-Tofino / programmable gateway
 - 🧩 Backend: Java / Go / Spring Cloud / Redis / Kafka / MySQL
