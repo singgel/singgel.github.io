@@ -1,6 +1,7 @@
 .PHONY: test test-coverage serve
 
 test:
+	python3 scripts/version_assets.py --check
 	node --check assets/app.js
 	node --check assets/bookmarks.js
 	node --check assets/socials.js
