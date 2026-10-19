@@ -8,6 +8,8 @@ Built with plain HTML, CSS, and JavaScript. No build step, external fonts, analy
 
 ## Development
 
+Development scripts require Python 3.9 or newer.
+
 ```sh
 python3 -m http.server 8080
 python3 scripts/version_assets.py
