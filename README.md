@@ -10,6 +10,7 @@ Built with plain HTML, CSS, and JavaScript. No build step, external fonts, analy
 
 ```sh
 python3 -m http.server 8080
+python3 scripts/version_assets.py
 make test
 make test-coverage
 ```
@@ -40,7 +41,9 @@ The social-account cards display owner-provided Douyin and Xiaohongshu account n
 
 The journey section replays six chapters from docs/profile.md as a small crab adventure. Its levels and skill lighting are narrative playback, not a measurement of proficiency; the current Data DCS chapter remains an ongoing exploration. The original career timeline stays open and readable without JavaScript.
 
-The game displays the owner's favorite companies, Xueqiu and ByteDance, as personal preferences. Keep favoriteCompany chapter metadata, visible route markers and docs/profile.md aligned. When changing the growth script or stylesheet alongside its markup, bump their version query in index.html so returning visitors receive matching assets.
+The game displays the owner's favorite companies, Xueqiu and ByteDance, as personal preferences. Keep favoriteCompany chapter metadata, visible route markers and docs/profile.md aligned.
+
+After changing a local stylesheet or script, run `python3 scripts/version_assets.py` and commit the updated index.html with the asset. The script sets each local CSS/JavaScript URL's v query to the first 12 characters of its file's SHA-256. `make test` and CI check these versions without rewriting files, and fail if a reference is missing, stale or leaves the page directory. This prevents the same URL from serving an older cached asset after its content changes; it does not prove a Pages deployment has finished. After publishing, verify the HTML references and the returned asset bytes as well as the page's interactions. Icons are outside this check.
 
 assets/growth.js owns the chapter data, pure state transitions and one cancellable timer. A first visible visit starts one replay; pause preserves the remaining phase time, and leaving the scene, hiding the page or requesting reduced motion pauses it. Manual input takes precedence over first-view autoplay. Reduced motion uses immediate manual skill lighting. Selecting a chapter pauses playback, and restarting clears only this visit's progress. Keep the battle delay in growth.js and the animation duration in growth.css synchronized when changing pacing.
 
