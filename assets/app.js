@@ -55,6 +55,7 @@ function initSite(doc, win) {
   });
 
   const filters = doc.querySelector(".filters");
+  if (!filters) return;
   const buttons = Array.from(filters.querySelectorAll("button"));
   const projects = Array.from(doc.querySelectorAll(".project-card"));
   filters.hidden = false;

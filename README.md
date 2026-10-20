@@ -39,6 +39,10 @@ Before retiring a content repository, preserve its complete Git history, migrate
 
 The social-account cards display owner-provided Douyin and Xiaohongshu account numbers, with clipboard buttons and manual-copy fallback. Platform links open the official homepages until a shareable profile URL is verified; an account number must not be guessed into a profile URL. Keep the visible number, copy-button data, and docs/profile.md consistent when updating these accounts.
 
+## AI intelligence
+
+The [AI page](https://singgel.github.io/ai.html) shows source-labelled Arena rankings, public Codex reset clues and official AI news/tool releases. See [operation and source boundaries](docs/ai-hub.md) for refresh, attribution, failure handling and rollback. Update asset fingerprints for both index.html and ai.html after changing shared assets.
+
 ## Growth adventure
 
 The journey section replays six chapters from docs/profile.md as a small crab adventure. Its levels and skill lighting are narrative playback, not a measurement of proficiency; the current Data DCS chapter remains an ongoing exploration. The original career timeline stays open and readable without JavaScript.
