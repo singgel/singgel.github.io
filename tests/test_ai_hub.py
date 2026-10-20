@@ -152,6 +152,48 @@ class AIHubTests(unittest.TestCase):
         for source in ["2026-10-20T06:00:00.123Z", "Mon, 20 Oct 2026 06:00:00 +0000"]:
             self.assertTrue(HUB.iso_date(source).startswith("2026-10-20T06:00:00"))
 
+    def test_benchmark_task_costs_and_configuration_are_verified(self):
+        selected = {"model": "A", "source_model_id": "public/a", "agent_version": "1", "harness": "Agent", "effort": "max", "source_main_url": "https://example.com/result"}
+        payload = {"source_filter": {"model_name": "public/a", "agent_version": "1"}, "metadata": {"agent_display": {"label": "Agent"}, "reasoning_effort": "max"}, "metrics": {"accuracy": 50, "n_trials": 10, "total_cost_usd": 2, "successes": 5}}
+        result = HUB.benchmark_entry(payload, selected)
+        self.assertEqual(result["cost_usd"], .2)
+        self.assertEqual(result["source_url"], selected["source_main_url"])
+        for key, value in [("n_trials", 0), ("n_trials", 1.5), ("total_cost_usd", 0), ("accuracy", 90), ("successes", 11), ("accuracy", True)]:
+            bad = json.loads(json.dumps(payload))
+            bad["metrics"][key] = value
+            with self.subTest(key=key, value=value), self.assertRaises(ValueError):
+                HUB.benchmark_entry(bad, selected)
+        payload["source_filter"]["agent_version"] = "changed"
+        with self.assertRaises(ValueError):
+            HUB.benchmark_entry(payload, selected)
+
+    def test_benchmark_failure_retains_previous_result_without_advancing_success(self):
+        previous = {"entries": [{"model": "A", "score": 50}], "last_success_at": "2026-10-19T00:00:00Z"}
+        def unavailable():
+            raise ValueError("dataset version changed")
+        result = HUB.refresh_part({"id": "benchmark"}, previous, unavailable, NOW)
+        self.assertEqual(result["status"], "stale")
+        self.assertEqual(result["last_success_at"], previous["last_success_at"])
+        self.assertEqual(result["entries"], previous["entries"])
+
+    def test_benchmark_version_and_source_allowlist_before_refresh(self):
+        point = {"model": "A", "source_model_id": "public/a", "agent_version": "1", "harness": "Agent", "effort": "max", "source_main_url": "https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/leaderboard/submissions/a.json"}
+        payload = {"source_filter": {"model_name": "public/a", "agent_version": "1"}, "metadata": {"agent_display": {"label": "Agent"}, "reasoning_effort": "max"}, "metrics": {"accuracy": 50, "n_trials": 10, "total_cost_usd": 2, "successes": 5}}
+        def read(url):
+            return b"dataset_version_refs:\n- '4'\n" if url.endswith(".yaml") else json.dumps(payload).encode()
+        with tempfile.TemporaryDirectory() as directory:
+            manifest = Path(directory) / "benchmark.json"
+            manifest.write_text(json.dumps({"entries": [point]}))
+            with patch.object(HUB, "BENCHMARK_FILE", manifest):
+                result = HUB.benchmark_entries(read)
+                self.assertEqual(result["entries"][0]["cost_usd"], .2)
+                with self.assertRaises(ValueError):
+                    HUB.benchmark_entries(lambda _: b"dataset_version_refs:\n- '5'\n")
+                point["source_main_url"] = "https://example.com/unexpected"
+                manifest.write_text(json.dumps({"entries": [point]}))
+                with self.assertRaises(ValueError):
+                    HUB.benchmark_entries(read)
+
 
 if __name__ == "__main__":
     unittest.main()
