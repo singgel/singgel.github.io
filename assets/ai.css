@@ -57,3 +57,70 @@
 @media (max-width: 760px) { .ai-layout { grid-template-columns: 1fr; } .ai-reset h2 br { display: none; } .ai-stamp { flex-basis: 145px; padding: 17px; } .ai-stamp p { font-size: 16px; } .ai-intro { gap: 20px; } .ai-news-section { padding-block: 42px; } }
 @media (max-width: 720px) { .ai-page .site-header { height: auto; } }
 @media (max-width: 520px) { .ai-intro { padding-top: 40px; align-items: start; } .ai-intro h1 { font-size: 38px; } .ai-stamp { flex: 0 0 57px; border: 0; padding: 8px 0; background: transparent; } .ai-stamp img { width: 52px; height: 52px; } .ai-stamp p, .ai-stamp span { display: none; } .ai-lede { font-size: 13px; } .ai-panel { padding: 18px 14px; } .ai-panel h2, .ai-news-section h2 { font-size: 25px; } .ai-news-grid, .ai-source-list { grid-template-columns: 1fr; } .ai-panel-heading { flex-wrap: wrap; gap: 10px; } .ai-update .button { min-width: 98px; padding-inline: 10px; } .ai-votes { display: none; } .ai-table td:nth-child(2) { width: auto; } .ai-table td:nth-child(3) { width: 92px; } .ai-table th, .ai-table td { padding-inline: 3px; } .ai-table td:first-child { width: 28px; } .ai-controls { gap: 10px; } .ai-controls label:first-child { flex: 0 0 100px; } .ai-search { min-width: 120px; } }
+
+/* Charts share the site's paper palette, with cyan reserved for reset signals. */
+html:has(.ai-page) { scroll-behavior: auto; scroll-padding-top: 24px; }
+.ai-layout { grid-template-columns: minmax(0, 1fr); }
+.reset-dashboard { margin-bottom: 48px; scroll-margin-top: 28px; }
+.reset-dashboard h2 { font-size: 30px; }
+.reset-chart-grid { display: grid; grid-template-columns: minmax(260px, .8fr) minmax(0, 1.8fr); gap: 20px; margin-top: 24px; }
+.reset-gauge-card, .reset-pulse-card { border: 1px solid var(--line); border-radius: 18px; padding: 26px; min-width: 0; background: var(--surface); }
+.reset-gauge-card { text-align: center; background: linear-gradient(145deg, rgba(16,182,191,.08), transparent 70%), var(--surface); }
+.reset-gauge-card .eyebrow { text-align: left; margin-bottom: 8px; }
+.reset-signal-label { color: #087f8b; font-size: 13px; text-align: left; margin-top: 0; }
+[data-theme="dark"] .reset-signal-label { color: #50d1d6; }
+.reset-gauge { position: relative; width: min(100%, 240px); aspect-ratio: 1; margin: 24px auto 14px; }
+.reset-gauge canvas { width: 100%; height: 100%; }
+.reset-gauge-value { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; pointer-events: none; }
+.reset-gauge-value strong { font-size: clamp(42px, 5vw, 62px); letter-spacing: -3px; line-height: 1.2; }
+.reset-gauge-value span { margin-top: 12px; font-size: 12px; letter-spacing: 2px; color: var(--muted); }
+.reset-last { color: #087f8b; font-weight: 600; font-size: 14px; }
+[data-theme="dark"] .reset-last { color: #50d1d6; }
+.reset-gauge-card > .ai-caption { padding-top: 16px; border-top: 1px solid var(--line); font-size: 11px; }
+.reset-pulse-card h3 { margin: 0; font-size: 21px; line-height: 1.5; letter-spacing: -.5px; }
+.reset-pulse-card .eyebrow { margin-bottom: 8px; }
+.reset-pulse-wrap { height: 290px; margin-top: 24px; position: relative; }
+.chart-select { font-size: 11px; color: var(--muted); display: flex; align-items: center; gap: 8px; white-space: nowrap; }
+.chart-select select { min-height: 44px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 6px; padding: 8px; font: inherit; font-size: 12px; }
+.reset-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: 12px; margin-block: 18px; background: var(--surface); }
+.reset-stats > div { padding: 18px 22px; border-right: 1px solid var(--line); }
+.reset-stats > div:last-child { border-right: 0; }
+.reset-stats span { display: block; font-size: 11px; color: var(--muted); }
+.reset-stats strong { display: block; font-size: 30px; font-weight: 600; margin-top: 4px; }
+.reset-stats .reset-unknown { font-size: 23px; line-height: 1.9; }
+.reset-records { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 24px; padding: 22px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.reset-calendar-details summary, .reset-monitor summary, .chart-table summary, .arena-details summary { cursor: pointer; min-height: 44px; padding-block: 10px; font-size: 14px; font-weight: 600; }
+.reset-calendar-toolbar { display: flex; align-items: center; gap: 5px; margin-block: 12px; }
+.reset-calendar-toolbar strong { margin-right: auto; font-size: 14px; }
+.reset-calendar-toolbar button, .reset-record-actions button { min-height: 44px; padding: 8px 12px; border: 1px solid var(--line); background: var(--paper); border-radius: 5px; font-size: 12px; }
+.reset-record-actions { display: flex; gap: 8px; margin-top: 10px; }
+.reset-weekdays, .reset-calendar { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
+.reset-weekdays { color: var(--muted); font-size: 11px; text-align: center; margin-block: 10px; }
+.reset-day { min-height: 53px; border: 1px solid transparent; border-radius: 6px; background: var(--paper); padding: 3px 1px; font-size: 12px; }
+.reset-day small { display: block; color: #087f8b; font-size: 9px; }
+[data-theme="dark"] .reset-day small { color: #50d1d6; }
+.reset-day[aria-pressed="true"] { border-color: #10aeb7; background: var(--tint); font-weight: 700; }
+.reset-outside { opacity: .5; }
+.reset-detail { min-width: 0; border-left: 1px solid var(--line); padding-left: 24px; }
+.reset-detail h3 { font-size: 17px; margin: 0; }
+.reset-detail [role="status"] { color: var(--muted); font-size: 11px; }
+.reset-event { border-top: 1px solid var(--line); padding-top: 12px; margin-top: 14px; }
+.reset-event h4 { margin: 6px 0; font-size: 16px; }
+.reset-event p { font-size: 13px; margin-block: 8px; }
+.reset-event .reset-event-state { color: #087f8b; font-size: 11px; }
+[data-theme="dark"] .reset-event .reset-event-state { color: #50d1d6; }
+.reset-event .text-link { margin-right: 14px; font-size: 12px; }
+.reset-monitor { border-top: 1px solid var(--line); margin-top: 20px; padding-top: 8px; }
+.reset-monitor > .text-link { margin-right: 22px; }
+.reset-monitor .ai-reset-state { font-size: 13px; padding-block: 8px; margin-block: 8px; }
+.model-chart-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.model-cost-wrap { position: relative; height: 420px; margin-block: 20px 12px; }
+.model-toggles { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.model-toggle { min-height: 44px; padding: 8px 12px; background: var(--surface); border: 2px solid; border-radius: 24px; font-size: 12px; }
+.model-toggle[aria-pressed="false"] { opacity: .45; text-decoration: line-through; }
+.chart-table, .arena-details { border-top: 1px solid var(--line); margin-top: 18px; padding-top: 8px; }
+.chart-table .ai-table td:first-child { width: auto; color: var(--ink); font-family: inherit; overflow-wrap: anywhere; }
+.chart-table .ai-table td:nth-child(2), .chart-table .ai-table td:nth-child(3) { width: 22%; white-space: nowrap; }
+@media (max-width: 900px) { .reset-chart-grid { grid-template-columns: minmax(220px, .85fr) minmax(0, 1.4fr); gap: 14px; } .reset-gauge-card, .reset-pulse-card { padding: 20px; } .reset-pulse-card .ai-panel-heading { flex-wrap: wrap; gap: 8px; } }
+@media (max-width: 680px) { .reset-chart-grid, .reset-records { grid-template-columns: minmax(0, 1fr); } .reset-gauge-card { display: grid; grid-template-columns: 1fr 1fr; align-items: center; column-gap: 14px; } .reset-gauge-card .eyebrow, .reset-gauge-card .reset-signal-label, .reset-gauge-card > .ai-caption { grid-column: 1 / -1; } .reset-gauge { width: 160px; margin-block: 12px; } .reset-gauge-value strong { font-size: 39px; } .reset-gauge-value span { font-size: 10px; letter-spacing: 0; } .reset-last { text-align: left; } .reset-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } .reset-stats > div { padding: 14px; } .reset-stats > div:nth-child(2) { border-right: 0; } .reset-stats > div:nth-child(-n+2) { border-bottom: 1px solid var(--line); } .reset-detail { padding: 18px 0 0; border-left: 0; border-top: 1px solid var(--line); } .reset-records { padding: 16px; gap: 12px; } .model-cost-wrap { height: 330px; } .model-chart-toolbar { align-items: start; flex-wrap: wrap; gap: 0; } .reset-pulse-wrap { height: 260px; } }
+@media (max-width: 360px) { .reset-gauge-card { padding: 14px; column-gap: 8px; } .reset-gauge { width: 136px; } .reset-gauge-value strong { font-size: 34px; } .reset-signal-label { font-size: 12px; } .reset-records { padding: 10px; } .reset-calendar-toolbar button { padding-inline: 7px; } }

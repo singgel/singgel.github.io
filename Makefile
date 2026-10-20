@@ -8,6 +8,7 @@ test:
 	node --check assets/socials.js
 	node --check assets/growth.js
 	node --check assets/ai.js
+	node --check assets/ai-charts.js
 	node --test tests/*.test.cjs
 	python3 -m unittest discover -s tests -p 'test_*.py'
 
