@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-20T07:48:26.561673+00:00",
+  "coverage": "Selected independently verified public posts, not complete history. Dates are confirmation or announcement post dates, not execution/account receipt times.",
+  "timestamp_source": "https://docs.x.com/fundamentals/x-ids",
+  "events": [
+    {
+      "id": "tibo_2026_10_20",
+      "kind": "reset",
+      "state": "confirmed",
+      "published_at": "2026-10-20T06:33:48.848000+00:00",
+      "timestamp_basis": "snowflake",
+      "summary": "Tibo 确认完成一次重置；原帖未说明重置形式和适用人群。",
+      "scope": "未说明适用人群或套餐；不能推断本人到账",
+      "sources": [
+        {
+          "url": "https://x.com/thsottiaux/status/2112432076767289678",
+          "role": "confirmation"
+        }
+      ]
+    },
+    {
+      "id": "tibo_2026_10_18",
+      "kind": "reset",
+      "state": "announced",
+      "published_at": "2026-10-17T16:21:13.040000+00:00",
+      "timestamp_basis": "snowflake",
+      "summary": "已读到重置预告及计划，本站尚未取得可独立核验的完成原帖。",
+      "scope": "原帖未说明适用人群或套餐",
+      "sources": [
+        {
+          "url": "https://x.com/thsottiaux/status/2111492673890824348",
+          "role": "announcement"
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2111492738025959922",
+          "role": "schedule"
+        }
+      ]
+    },
+    {
+      "id": "tibo_2026_10_15",
+      "kind": "reset",
+      "state": "confirmed",
+      "published_at": "2026-10-15T06:28:13.924000+00:00",
+      "timestamp_basis": "snowflake",
+      "summary": "原始主题、两小时内完成的预告与后续确认帖已串联核实。",
+      "scope": "原帖未说明适用人群或套餐",
+      "sources": [
+        {
+          "url": "https://x.com/thsottiaux/status/2110595484180214059",
+          "role": "announcement"
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2110618732666257557",
+          "role": "confirmation"
+        }
+      ]
+    },
+    {
+      "id": "tibo_2026_10_13",
+      "kind": "reset",
+      "state": "confirmed",
+      "published_at": "2026-10-13T05:06:06.031000+00:00",
+      "timestamp_basis": "snowflake",
+      "summary": "全球重置预告后，Tibo 发帖确认完成。",
+      "scope": "预告称global；未列明各套餐或账号条件",
+      "sources": [
+        {
+          "url": "https://x.com/thsottiaux/status/2109812360596865224",
+          "role": "announcement"
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2109873287853707513",
+          "role": "confirmation"
+        }
+      ]
+    },
+    {
+      "id": "tibo_2026_10_11",
+      "kind": "reset",
+      "state": "confirmed",
+      "published_at": "2026-10-11T04:01:09.077000+00:00",
+      "timestamp_basis": "snowflake",
+      "summary": "全球重置预告后，Tibo 确认重置已分发。",
+      "scope": "预告称global；未列明各套餐或账号条件",
+      "sources": [
+        {
+          "url": "https://x.com/thsottiaux/status/2109045392684032299",
+          "role": "announcement"
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2109132167112782291",
+          "role": "confirmation"
+        }
+      ]
+    },
+    {
+      "id": "tibo_2026_10_08",
+      "kind": "card",
+      "state": "confirmed",
+      "published_at": "2026-10-08T03:44:55.740000+00:00",
+      "timestamp_basis": "snowflake",
+      "summary": "发放可留待使用的 banked reset 卡，后续确认发卡完成；不是即时恢复额度。",
+      "scope": "公告为所有付费账户；确认帖称已在所有账户落地",
+      "sources": [
+        {
+          "url": "https://x.com/thsottiaux/status/2107913674593644711",
+          "role": "announcement"
+        },
+        {
+          "url": "https://x.com/thsottiaux/status/2108040921044639779",
+          "role": "confirmation"
+        }
+      ]
+    }
+  ]
+}

@@ -9,9 +9,11 @@
     <link rel="canonical" href="https://singgel.github.io/ai.html">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/style.css?v=f806f96ed359">
-    <link rel="stylesheet" href="assets/ai.css?v=c3983f6455bf">
+    <link rel="stylesheet" href="assets/ai.css?v=9ce22454022c">
     <script src="assets/app.js?v=8a101b7a5d00" defer></script>
-    <script src="assets/ai.js?v=ae0e9e1405b3" defer></script>
+    <script src="assets/vendor/chartjs/chart.umd.min.js?v=48444a82d4ed" defer></script>
+    <script src="assets/ai-charts.js?v=3f3e45372134" defer></script>
+    <script src="assets/ai.js?v=e2dba59445e7" defer></script>
     <title>AI 情报站 · singgel</title>
   </head>
   <body class="ai-page">
@@ -28,21 +30,29 @@
       </section>
       <div class="ai-update"><p id="ai-status" role="status" aria-live="polite">正在读取公开数据…</p><button id="ai-refresh" class="button button-outline" type="button" hidden>检查更新 ↻</button></div>
       <noscript><p>启用 JavaScript 可查看榜单、筛选动态。也可以直接阅读下方的数据来源。</p></noscript>
+      <section class="reset-dashboard" id="resets" aria-labelledby="reset-title">
+        <div class="ai-panel-heading"><div><p class="eyebrow">01 / CODEX RESET RADAR</p><h2 id="reset-title">重置信号，一眼看清<span class="small-dot">.</span></h2></div><a class="text-link" href="https://chatgpt.com/codex/settings/usage" target="_blank" rel="noopener noreferrer">查看本人用量 ↗</a></div>
+        <p class="ai-caption">看确认记录、预告与发卡，把过去和未来分开。所有时间均为北京时间。</p>
+        <div class="reset-chart-grid">
+          <article class="reset-gauge-card"><p class="eyebrow">48-HOUR OBSERVATION</p><p class="reset-signal-label">下一次：尚无已核验公告</p><div class="reset-gauge"><canvas id="reset-gauge" role="img" aria-label="距上次确认帖的时间，占48小时观察窗口的比例"></canvas><div class="reset-gauge-value"><strong id="reset-elapsed">—</strong><span>距最近确认帖</span></div></div><p id="reset-last" class="reset-last">正在加载已核验记录</p><p class="ai-caption">环形表示已过去的时间，不是重置概率。未接入经过校准的预测模型，不显示猜测的百分比。</p></article>
+          <article class="reset-pulse-card"><div class="ai-panel-heading"><div><p class="eyebrow">EVENT PULSE</p><h3>重置、发卡与待核实信号</h3></div><label class="chart-select">范围<select id="reset-period"><option value="14">近14天</option><option value="30">近30天</option><option value="90">近90天</option></select></label></div><p class="ai-caption">点击事件查看原帖。右侧浅色区为未来48小时，暂无预测。</p><div class="reset-pulse-wrap"><canvas id="reset-pulse" role="img" aria-label="过去已收录的重置与发卡原帖时间线，未来48小时为未知"></canvas></div><p class="ai-caption">这是本站已核验记录和关键词候选，覆盖不完整；没有标记的时间不代表没有发生重置。</p></article>
+        </div>
+        <div class="reset-stats"><div><span>近90天 · 已收录重置确认</span><strong id="reset-count">—</strong></div><div><span>近90天 · 已收录发卡确认</span><strong id="reset-card-count">—</strong></div><div><span>全部已收录记录</span><strong id="reset-record-count">—</strong></div><div><span>下一次重置</span><strong class="reset-unknown">待公告</strong></div></div>
+        <div class="reset-records"><div><details class="reset-calendar-details"><summary>按日历浏览记录</summary><div class="reset-calendar-toolbar"><strong id="reset-month"></strong><button id="reset-prev-month" type="button" aria-label="上个月">上月</button><button id="reset-next-month" type="button" aria-label="下个月">下月</button></div><div class="reset-weekdays" aria-hidden="true"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div><div id="reset-calendar" class="reset-calendar" role="group" aria-label="按北京时间选择记录日期"></div></details><div class="reset-record-actions"><button id="reset-today" type="button">今天</button><button id="reset-latest" type="button">最近记录</button></div><p id="reset-curated-at" class="ai-caption"></p></div><div class="reset-detail"><div class="ai-panel-heading"><h3 id="reset-selected"></h3><span id="reset-selection-status" role="status" aria-live="polite"></span></div><div id="reset-event-details"></div></div></div>
+        <details class="reset-monitor"><summary>自动发现状态与未确认原帖</summary><p id="ai-reset-status" class="ai-reset-state">正在检查来源状态</p><p id="ai-reset-detail" class="ai-caption"></p><div id="ai-reset-items"></div><p class="ai-caption">读取失败不会抹掉已核验历史。关键词命中不代表账号已恢复；发卡不等同即时重置。确认帖时间不是精确执行时间，个人到账以账号用量页为准。</p><a class="text-link" href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer">Tibo 原始时间线 ↗</a><a class="text-link" href="https://aihot.news/codex-reset" target="_blank" rel="noopener noreferrer">AIHOT 完整整理 ↗</a><a class="text-link" href="https://willcodexreset.com/" target="_blank" rel="noopener noreferrer">参考：Will Codex Reset ↗</a></details>
+      </section>
       <div class="ai-layout">
         <section class="ai-panel" id="rankings" aria-labelledby="ranking-title">
-          <div class="ai-panel-heading"><div><p class="eyebrow">01 / MODEL LEADERBOARD</p><h2 id="ranking-title">模型，各有所长<span class="small-dot">.</span></h2></div><span class="ai-label">Arena · Top 20</span></div>
-          <p class="ai-caption">按场景看人类偏好评分，分数仅在同一榜内比较。区间重叠时，微小名次差异不代表稳定领先。</p>
+          <div class="ai-panel-heading"><div><p class="eyebrow">02 / MODEL BENCHMARK</p><h2 id="ranking-title">能力 × 成本，直观看<span class="small-dot">.</span></h2></div><span class="ai-label">模型＋Agent · 实测成本</span></div>
+          <p class="ai-caption">越靠左、越靠上，表示单任务成本更低、成功率更高。点击家族名称筛选散点，悬停或轻点数据点，查看配置与准确数值。</p>
+          <div class="model-chart-toolbar"><p id="model-chart-state" class="ai-caption">正在加载能力与成本数据…</p><label class="chart-select">Agent<select id="model-harness"><option value="all">全部配置</option><option value="Claude Code">Claude Code</option><option value="Codex">Codex</option></select></label><label class="chart-select">成本轴<select id="model-cost-scale"><option value="logarithmic">对数刻度</option><option value="linear">线性刻度</option></select></label></div><div class="model-cost-wrap"><canvas id="model-cost-chart" role="img" aria-label="模型任务成功率与人民币单任务成本散点图"></canvas></div><div id="model-toggles" class="model-toggles" aria-label="显示或隐藏模型曲线"></div><p id="model-chart-date" class="ai-caption"></p><p class="ai-caption">固定换算：1 USD = 6.6862 CNY，沿用参考图口径，非实时汇率。Terminal-Bench 4.0 官方公开样本，成本 = 总 API 用量成本 / 运行次数，含失败任务。各点是模型＋Agent 配置，不同 Agent 不连线；不等同 MiniMax 报告中的 AutomationBench。</p><details class="chart-table"><summary>查看图表数值与来源</summary><p class="ai-caption"><a href="https://www.tbench.ai/" target="_blank" rel="noopener noreferrer">Terminal-Bench 官方结果 ↗</a> · <a href="https://github.com/harbor-framework/terminal-bench/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">Apache-2.0</a> · <a href="https://www.minimax.io/blog/minimax-m31f" target="_blank" rel="noopener noreferrer">参考图原始报告 ↗</a></p><div class="ai-table-wrap"><table class="ai-table"><caption class="sr-only">成本散点图精确数值</caption><thead><tr><th>模型配置</th><th>成功率</th><th>人民币 / 任务</th></tr></thead><tbody id="model-cost-table"></tbody></table></div></details>
+          <details class="arena-details"><summary>补充参考：Arena 人类偏好榜</summary><p class="ai-caption">以下评分为人类偏好，不是任务成功率；不同榜单的分数不能混合。</p>
           <div class="ai-controls"><label>评测场景<select id="ai-board"><option value="text">文本偏好</option><option value="webdev">网页开发</option><option value="vision">视觉理解</option></select></label><label class="ai-search">找一个模型<input id="ai-model-search" type="search" placeholder="Kimi / GPT / Claude…" autocomplete="off"></label></div>
           <p id="ai-board-status" class="ai-caption" role="status" aria-live="polite">榜单加载后显示来源发布日期与读取状态。</p>
           <div class="ai-table-wrap" role="region" aria-label="模型排行榜" tabindex="0"><table class="ai-table"><caption class="sr-only">模型排行榜，按场景筛选，保留来源名次</caption><thead><tr><th scope="col">排名</th><th scope="col">模型</th><th scope="col">偏好评分 / 区间</th><th scope="col" class="ai-votes">投票数</th></tr></thead><tbody id="ai-ranking-rows"></tbody></table></div>
-          <p class="ai-caption ai-credit">数据：<a href="https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset" target="_blank" rel="noopener noreferrer">Arena 官方数据集 ↗</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · 已筛选、四舍五入及重新排版。文本与视觉采用 style control 口径。</p>
+          <p class="ai-caption ai-credit">数据：<a href="https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset" target="_blank" rel="noopener noreferrer">Arena 官方数据集 ↗</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · 已筛选、四舍五入及重新排版。文本与视觉采用 style control 口径。</p></details>
         </section>
-        <aside class="ai-panel ai-reset" id="resets" aria-labelledby="reset-title">
-          <p class="eyebrow">02 / CODEX RESET WATCH</p><h2 id="reset-title">等重置，<br>先看原帖<span class="small-dot">.</span></h2>
-          <p id="ai-reset-status" class="ai-reset-state">正在检查来源状态</p><p id="ai-reset-detail" class="ai-caption">追踪 Tibo 公开页面中的重置关键词线索。</p><div id="ai-reset-items"></div>
-          <p class="ai-caption">原帖命中不等于所有账号已恢复。未宣布的下一次重置不做倒计时，个人额度以账号用量页为准。</p>
-          <a class="text-link" href="https://x.com/thsottiaux" target="_blank" rel="noopener noreferrer">Tibo 原始时间线 ↗</a><br><a class="text-link" href="https://chatgpt.com/codex/settings/usage" target="_blank" rel="noopener noreferrer">查看自己的 Codex 用量 ↗</a><br><a class="text-link" href="https://aihot.news/codex-reset" target="_blank" rel="noopener noreferrer">AIHOT 重置整理 ↗</a>
-        </aside>
+
       </div>
       <section class="ai-news-section" id="news" aria-labelledby="news-title">
         <div class="ai-panel-heading"><div><p class="eyebrow">03 / NEWS & TOOLS</p><h2 id="news-title">新消息，接着动手<span class="small-dot">.</span></h2></div><a class="text-link" href="#sources">看看信息从哪里来 ↓</a></div>

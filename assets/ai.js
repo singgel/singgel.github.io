@@ -85,6 +85,7 @@ function initAI(doc, win) {
     element.rel = "noopener noreferrer";
     return element;
   };
+  const charts = typeof win.createAICharts === "function" ? win.createAICharts(doc, win) : null;
   let data = null;
   let busy = false;
 
@@ -147,6 +148,7 @@ function initAI(doc, win) {
     renderRanking();
     renderNews();
     renderReset();
+    charts?.update(data);
     const parts = [...data.boards, ...data.feeds, { ...data.resets, name: "Tibo 公开原帖" }];
     const labels = { ok: "读取成功", partial: "部分覆盖", stale: "读取失败，保留旧数据", unavailable: "暂不可用" };
     get("ai-source-status").replaceChildren(...parts.map((part) => node("li", `${part.name} · ${labels[part.status] || "未知"} · 成功读取 ${formatAITime(part.last_success_at)}`)));

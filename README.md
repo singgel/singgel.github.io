@@ -4,7 +4,7 @@ Personal website of [singgel](https://github.com/singgel), also known as 阿拉�
 
 Live site: **https://singgel.github.io/**
 
-Built with plain HTML, CSS, and JavaScript. No build step, external fonts, analytics, or runtime dependencies. Project links and biography are drawn from the public GitHub profile and repository READMEs. The crab artwork is drawn specifically for this site.
+Built with plain HTML, CSS, and JavaScript. No build step, external fonts, analytics, or network-hosted runtime dependencies. Chart.js 4.5.1 is bundled locally with its MIT license. Project links and biography are drawn from the public GitHub profile and repository READMEs. The crab artwork is drawn specifically for this site.
 
 ## Development
 
@@ -41,7 +41,7 @@ The social-account cards display owner-provided Douyin and Xiaohongshu account n
 
 ## AI intelligence
 
-The [AI page](https://singgel.github.io/ai.html) shows source-labelled Arena rankings, public Codex reset clues and official AI news/tool releases. See [operation and source boundaries](docs/ai-hub.md) for refresh, attribution, failure handling and rollback. Update asset fingerprints for both index.html and ai.html after changing shared assets.
+The [AI page](https://singgel.github.io/ai.html) uses interactive cost-versus-success scatter charts, a reset observation ring and event timeline, with Arena rankings and official news/tool releases as supporting views. See [operation and source boundaries](docs/ai-hub.md) for refresh, attribution, failure handling and rollback. Update asset fingerprints for both index.html and ai.html after changing shared assets.
 
 ## Growth adventure
 

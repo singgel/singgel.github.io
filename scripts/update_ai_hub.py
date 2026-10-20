@@ -34,6 +34,35 @@ FEEDS = [
     ("claude", "Claude Code", "tools", "https://github.com/anthropics/claude-code/releases.atom"),
 ]
 TIBO = "https://x.com/thsottiaux"
+BENCHMARK_FILE = Path(__file__).resolve().parents[1] / "data/benchmark.json"
+
+
+def benchmark_entry(payload, selected):
+    metrics, identity = payload["metrics"], payload["source_filter"]
+    metadata = payload["metadata"]
+    score, count, total, successes = (number(metrics[key]) for key in ["accuracy", "n_trials", "total_cost_usd", "successes"])
+    if count <= 0 or count != int(count) or total <= 0 or not 0 <= score <= 100 or not 0 <= successes <= count or successes != int(successes) or abs(score - 100 * successes / count) > .011:
+        raise ValueError("Invalid benchmark trial metrics")
+    if identity["model_name"] != selected["source_model_id"] or identity["agent_version"] != selected["agent_version"] or metadata["agent_display"]["label"] != selected["harness"] or metadata["reasoning_effort"] != selected["effort"]:
+        raise ValueError("Benchmark configuration changed")
+    return {**selected, "source_url": selected["source_main_url"], "score": score, "n_trials": int(count), "total_cost_usd": total, "cost_usd": total / count}
+
+
+def benchmark_entries(read):
+    selected = json.loads(BENCHMARK_FILE.read_text())
+    definition = read("https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/leaderboard/leaderboard.yaml").decode("utf-8")
+    if not re.search(r"dataset_version_refs:\s*\n- ['\"]?4['\"]?\s*\n", definition):
+        raise ValueError("Benchmark dataset version changed")
+
+    def load(point):
+        url = point["source_main_url"]
+        if not url.startswith("https://raw.githubusercontent.com/harbor-framework/terminal-bench/main/leaderboard/submissions/"):
+            raise ValueError("Unexpected benchmark source")
+        return benchmark_entry(json.loads(read(url)), point)
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        entries = list(pool.map(load, selected["entries"]))
+    return {**selected, "entries": entries}
 
 
 def public_url(value):
@@ -210,6 +239,7 @@ def refresh_part(identity, previous, loader, now):
 def build_snapshot(previous, now, read=fetch):
     old = {item["id"]: item for item in previous.get("boards", []) + previous.get("feeds", [])}
     old["resets"] = previous.get("resets", {})
+    old["benchmark"] = previous.get("benchmark") or json.loads(BENCHMARK_FILE.read_text())
     jobs = []
     for identifier, name, config in BOARDS:
         url = "https://datasets-server.huggingface.co/rows?dataset=lmarena-ai%2Fleaderboard-dataset&config=" + config + "&split=latest&offset=0&length=100"
@@ -220,9 +250,10 @@ def build_snapshot(previous, now, read=fetch):
         identity = {"id": identifier, "name": name, "kind": kind, "source_url": url}
         jobs.append((identity, lambda identity=identity, url=url: feed_entries(read(url), identity)))
     jobs.append(({"id": "resets", "source_url": TIBO}, lambda: reset_entries(read(TIBO))))
+    jobs.append(({"id": "benchmark"}, lambda: benchmark_entries(read)))
     with ThreadPoolExecutor(max_workers=4) as pool:
         parts = list(pool.map(lambda job: refresh_part(job[0], old.get(job[0]["id"], {}), job[1], now), jobs))
-    return {"schema_version": 1, "updated_at": now, "boards": parts[:3], "feeds": parts[3:9], "resets": parts[9]}
+    return {"schema_version": 1, "updated_at": now, "boards": parts[:3], "feeds": parts[3:9], "resets": parts[9], "benchmark": parts[10]}
 
 
 def main(argv=None):
@@ -242,7 +273,7 @@ def main(argv=None):
     temporary = args.output.with_suffix(".json.tmp")
     temporary.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     temporary.replace(args.output)
-    print(json.dumps({part["id"]: part["status"] for part in snapshot["boards"] + snapshot["feeds"] + [snapshot["resets"]]}))
+    print(json.dumps({part["id"]: part["status"] for part in snapshot["boards"] + snapshot["feeds"] + [snapshot["resets"], snapshot["benchmark"]]}))
     return 0 if any(part["status"] == "ok" for part in snapshot["boards"] + snapshot["feeds"]) else 1
 
 
