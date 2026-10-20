@@ -2,10 +2,12 @@
 
 test:
 	python3 scripts/version_assets.py --check
+	python3 scripts/version_assets.py --page ai.html --check
 	node --check assets/app.js
 	node --check assets/bookmarks.js
 	node --check assets/socials.js
 	node --check assets/growth.js
+	node --check assets/ai.js
 	node --test tests/*.test.cjs
 	python3 -m unittest discover -s tests -p 'test_*.py'
 
