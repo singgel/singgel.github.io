@@ -118,6 +118,16 @@ test("remote failure uses the bundled snapshot and full failure preserves loaded
   assert.match(empty.elements["ai-status"].textContent, /暂时不可读/);
 });
 
+test("refresh avoids a cached branch URL rather than presenting its stale response as current", async () => {
+  const page = fixture(async (url) => {
+    const data = structuredClone(snapshot);
+    if (!new URL(url).searchParams.has("refresh")) data.boards[0].entries = [];
+    return { ok: true, json: async () => data };
+  });
+  await initAI(page.doc, page.win).ready;
+  assert.equal(page.elements["ai-ranking-rows"].children.length, 20);
+});
+
 test("pending refresh does not start duplicate reads and reset failures stay explicit", async () => {
   let complete;
   let calls = 0;
