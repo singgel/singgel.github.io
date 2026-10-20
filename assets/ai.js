@@ -162,7 +162,7 @@ function initAI(doc, win) {
     try {
       let source = "最新快照";
       let next;
-      try { next = await fetchAISnapshot(win, AI_LIVE_DATA); }
+      try { next = await fetchAISnapshot(win, `${AI_LIVE_DATA}?refresh=${Date.now()}`); }
       catch { next = await fetchAISnapshot(win, "data/ai.json"); source = "随站快照"; }
       data = next;
       render();
