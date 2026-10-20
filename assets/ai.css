@@ -1,0 +1,59 @@
+.ai-page .site-header { height: 84px; }
+.ai-page .site-header nav a { white-space: nowrap; }
+.ai-intro { display: flex; justify-content: space-between; align-items: center; gap: 40px; padding-block: 36px 24px; }
+.ai-intro h1 { font-size: clamp(38px, 4.2vw, 52px); line-height: 1.2; }
+.ai-accent { color: var(--accent); }
+.ai-lede { color: var(--muted); margin: 14px 0 0; line-height: 1.9; }
+.ai-stamp { flex: 0 0 180px; padding: 17px; border: 1px solid var(--line); border-radius: 50% 50% 4px 4px; text-align: center; transform: rotate(4deg); background: var(--tint); }
+.ai-stamp img { display: block; margin: auto; }
+.ai-stamp p { font-size: 19px; margin-block: 12px; }
+.ai-stamp span { color: var(--muted); font-size: 11px; }
+.ai-update { display: flex; justify-content: space-between; align-items: center; gap: 16px; border-block: 1px solid var(--line); padding-block: 12px; margin-bottom: 32px; font-size: 13px; color: var(--muted); }
+.ai-update p { margin: 0; }
+.ai-update .button { min-width: 120px; font-size: 13px; }
+.ai-layout { display: grid; grid-template-columns: minmax(0, 2.3fr) minmax(270px, 1fr); gap: 24px; align-items: start; }
+.ai-panel { padding: 28px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); min-width: 0; scroll-margin-top: 30px; }
+.ai-panel-heading { display: flex; justify-content: space-between; align-items: end; gap: 20px; }
+.ai-panel h2, .ai-news-section h2 { font-size: 29px; letter-spacing: -1px; }
+.ai-panel .eyebrow, .ai-news-section .eyebrow { margin-bottom: 12px; }
+.ai-label { font: 11px ui-monospace, monospace; white-space: nowrap; color: var(--muted); }
+.ai-caption { color: var(--muted); font-size: 13px; line-height: 1.8; }
+.ai-caption a { text-decoration: underline; text-underline-offset: 3px; }
+.ai-controls { display: flex; flex-wrap: wrap; gap: 14px; margin-block: 22px 16px; }
+.ai-controls label { font-size: 12px; color: var(--muted); display: flex; flex-direction: column; gap: 6px; }
+.ai-controls select, .ai-controls input { min-height: 46px; border: 1px solid var(--line); border-radius: 4px; padding: 9px 12px; color: var(--ink); background: var(--paper); font: inherit; font-size: 14px; width: 100%; }
+.ai-search { flex: 1; min-width: 145px; }
+.ai-table-wrap { overflow-x: auto; }
+.ai-table { width: 100%; border-collapse: collapse; font-size: 13px; text-align: left; }
+.ai-table th { font-size: 11px; font-weight: 500; color: var(--muted); padding: 10px 6px; border-bottom: 1px solid var(--line); }
+.ai-table td { padding: 13px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.ai-table td:first-child { width: 38px; color: var(--accent); font-family: ui-monospace, monospace; }
+.ai-table td:nth-child(2) { width: 49%; overflow-wrap: anywhere; font-weight: 600; }
+.ai-table td:nth-child(3) { white-space: nowrap; }
+.ai-table td small { display: block; color: var(--muted); font-size: 11px; font-weight: 400; }
+.ai-table td strong { font-size: 17px; letter-spacing: -.5px; }
+.ai-credit { margin-bottom: 0; font-size: 11px; }
+.ai-reset { background: var(--tint); }
+.ai-reset-state { color: var(--accent); font-weight: 650; border-block: 1px solid var(--line); padding-block: 14px; margin-block: 22px 14px; }
+.ai-reset-item { border-left: 2px solid var(--accent); padding-left: 12px; margin-block: 18px; }
+.ai-reset-item a { font-size: 14px; text-decoration: underline; text-underline-offset: 4px; }
+.ai-reset-item time { display: block; color: var(--muted); font-size: 11px; margin-bottom: 5px; }
+.ai-news-section { padding-block: 60px; scroll-margin-top: 24px; }
+.ai-news-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.ai-news-card { display: flex; flex-direction: column; padding: 23px; border: 1px solid var(--line); background: var(--surface); border-radius: 6px; min-width: 0; }
+.ai-news-card:hover { border-color: var(--muted); }
+.ai-news-meta { margin: 0 0 14px; color: var(--muted); font: 11px/1.7 ui-monospace, monospace; }
+.ai-news-card h3 { margin: 0 0 18px; font-size: 16px; line-height: 1.6; letter-spacing: -.3px; overflow-wrap: anywhere; }
+.ai-news-card .text-link { margin-top: auto; font-size: 12px; align-self: start; }
+.ai-sources { padding-block: 32px 65px; border-top: 1px solid var(--line); }
+.ai-sources h2 { font-size: 26px; }
+.ai-source-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); list-style: none; padding: 0; margin-block: 22px; gap: 8px 28px; }
+.ai-source-list li { font-size: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); color: var(--muted); overflow-wrap: anywhere; }
+.ai-sources summary { cursor: pointer; min-height: 44px; font-size: 13px; padding-block: 10px; }
+.ai-source-links { display: flex; flex-wrap: wrap; gap: 10px 24px; padding-block: 10px; font-size: 13px; }
+.ai-source-links a { text-decoration: underline; text-underline-offset: 4px; min-height: 36px; }
+.ai-empty { color: var(--muted); padding-block: 18px; font-size: 14px; }
+@media (max-width: 1000px) { .ai-layout { grid-template-columns: minmax(0, 1.7fr) minmax(250px, 1fr); gap: 16px; } .ai-panel { padding: 22px; } .ai-label { display: none; } .ai-news-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .ai-layout { grid-template-columns: 1fr; } .ai-reset h2 br { display: none; } .ai-stamp { flex-basis: 145px; padding: 17px; } .ai-stamp p { font-size: 16px; } .ai-intro { gap: 20px; } .ai-news-section { padding-block: 42px; } }
+@media (max-width: 720px) { .ai-page .site-header { height: auto; } }
+@media (max-width: 520px) { .ai-intro { padding-top: 40px; align-items: start; } .ai-intro h1 { font-size: 38px; } .ai-stamp { flex: 0 0 57px; border: 0; padding: 8px 0; background: transparent; } .ai-stamp img { width: 52px; height: 52px; } .ai-stamp p, .ai-stamp span { display: none; } .ai-lede { font-size: 13px; } .ai-panel { padding: 18px 14px; } .ai-panel h2, .ai-news-section h2 { font-size: 25px; } .ai-news-grid, .ai-source-list { grid-template-columns: 1fr; } .ai-panel-heading { flex-wrap: wrap; gap: 10px; } .ai-update .button { min-width: 98px; padding-inline: 10px; } .ai-votes { display: none; } .ai-table td:nth-child(2) { width: auto; } .ai-table td:nth-child(3) { width: 92px; } .ai-table th, .ai-table td { padding-inline: 3px; } .ai-table td:first-child { width: 28px; } .ai-controls { gap: 10px; } .ai-controls label:first-child { flex: 0 0 100px; } .ai-search { min-width: 120px; } }
