@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-21T01:41:48.414271+00:00",
+  "updated_at": "2026-10-21T07:48:15.377117+00:00",
   "boards": [
     {
       "id": "text",
@@ -8,7 +8,7 @@
       "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
       "data_url": "https://datasets-server.huggingface.co/rows?dataset=lmarena-ai%2Fleaderboard-dataset&config=text_style_control&split=latest&offset=0&length=100",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "published_at": "2026-10-15",
+      "published_at": "2026-10-20",
       "entries": [
         {
           "rank": 1,
@@ -17,133 +17,133 @@
           "score": 1523.9,
           "lower": 1515.1,
           "upper": 1532.7,
-          "votes": 4904
+          "votes": 4900
         },
         {
           "rank": 2,
           "model": "Muse Wonder (Max)",
           "organization": "meta",
-          "score": 1508.9,
-          "lower": 1498.3,
-          "upper": 1519.5,
-          "votes": 3247
+          "score": 1509.5,
+          "lower": 1500.8,
+          "upper": 1518.2,
+          "votes": 5099
         },
         {
           "rank": 3,
           "model": "Claude Opus 5.5 (High)",
           "organization": "anthropic",
-          "score": 1508.2,
-          "lower": 1500.8,
-          "upper": 1515.5,
-          "votes": 8300
+          "score": 1508.8,
+          "lower": 1501.8,
+          "upper": 1515.7,
+          "votes": 9496
         },
         {
           "rank": 4,
           "model": "Claude Fable 5 (High)",
           "organization": "anthropic",
-          "score": 1503.6,
-          "lower": 1499.3,
+          "score": 1503.7,
+          "lower": 1499.4,
           "upper": 1507.9,
-          "votes": 42004
+          "votes": 43399
         },
         {
           "rank": 5,
           "model": "Claude Opus 4.6 (High)",
           "organization": "anthropic",
-          "score": 1503.1,
-          "lower": 1499.7,
-          "upper": 1506.4,
-          "votes": 81394
+          "score": 1502.6,
+          "lower": 1499.3,
+          "upper": 1505.9,
+          "votes": 82619
         },
         {
           "rank": 6,
           "model": "Claude Fable 5.1 (Max)",
           "organization": "anthropic",
-          "score": 1502.3,
-          "lower": 1496.2,
-          "upper": 1508.3,
-          "votes": 14590
+          "score": 1502.6,
+          "lower": 1496.7,
+          "upper": 1508.5,
+          "votes": 15623
         },
         {
           "rank": 7,
           "model": "Claude Opus 4.7 (High)",
           "organization": "anthropic",
-          "score": 1501.1,
+          "score": 1501.0,
           "lower": 1497.3,
           "upper": 1504.8,
-          "votes": 65116
+          "votes": 65131
         },
         {
           "rank": 8,
           "model": "Claude Opus 4.6",
           "organization": "anthropic",
-          "score": 1497.2,
-          "lower": 1494.0,
-          "upper": 1500.5,
-          "votes": 86071
+          "score": 1496.8,
+          "lower": 1493.5,
+          "upper": 1500.0,
+          "votes": 87372
         },
         {
           "rank": 9,
           "model": "Gemini 3.8 Flash (High)",
           "organization": "google",
-          "score": 1496.4,
+          "score": 1496.3,
           "lower": 1491.8,
-          "upper": 1501.0,
-          "votes": 37454
+          "upper": 1500.8,
+          "votes": 41423
         },
         {
           "rank": 10,
           "model": "Muse Spark 1.3 (Max)",
           "organization": "meta",
-          "score": 1494.4,
-          "lower": 1488.8,
-          "upper": 1500.0,
-          "votes": 17561
+          "score": 1494.7,
+          "lower": 1489.3,
+          "upper": 1500.2,
+          "votes": 19323
         },
         {
           "rank": 11,
           "model": "Claude Opus 4.7",
           "organization": "anthropic",
-          "score": 1493.6,
-          "lower": 1489.8,
-          "upper": 1497.3,
-          "votes": 66216
+          "score": 1493.7,
+          "lower": 1490.0,
+          "upper": 1497.5,
+          "votes": 66185
         },
         {
           "rank": 12,
           "model": "Muse Spark 1.2 (xHigh)",
           "organization": "meta",
-          "score": 1493.1,
-          "lower": 1485.9,
-          "upper": 1500.2,
-          "votes": 8248
+          "score": 1492.0,
+          "lower": 1485.2,
+          "upper": 1498.8,
+          "votes": 9578
         },
         {
           "rank": 13,
-          "model": "Muse Spark 1.1",
-          "organization": "meta",
-          "score": 1490.2,
-          "lower": 1485.9,
-          "upper": 1494.4,
-          "votes": 42810
+          "model": "Claude Opus 5 (Max)",
+          "organization": "anthropic",
+          "score": 1491.1,
+          "lower": 1486.4,
+          "upper": 1495.9,
+          "votes": 33683
         },
         {
           "rank": 14,
-          "model": "Claude Opus 5 (Max)",
-          "organization": "anthropic",
-          "score": 1490.0,
-          "lower": 1485.2,
-          "upper": 1494.8,
-          "votes": 32495
+          "model": "Muse Spark 1.1",
+          "organization": "meta",
+          "score": 1490.4,
+          "lower": 1486.2,
+          "upper": 1494.6,
+          "votes": 44815
         },
         {
           "rank": 15,
           "model": "Claude Opus 5 (High)",
           "organization": "anthropic",
-          "score": 1489.9,
-          "lower": 1486.2,
-          "upper": 1493.6,
-          "votes": 66824
+          "score": 1490.1,
+          "lower": 1486.5,
+          "upper": 1493.8,
+          "votes": 69307
         },
         {
           "rank": 16,
@@ -152,34 +152,34 @@
           "score": 1489.0,
           "lower": 1483.3,
           "upper": 1494.8,
-          "votes": 14150
+          "votes": 14153
         },
         {
           "rank": 17,
           "model": "Gemini 3.7 Flash (High)",
           "organization": "google",
-          "score": 1487.6,
-          "lower": 1482.7,
-          "upper": 1492.5,
-          "votes": 27232
+          "score": 1488.9,
+          "lower": 1484.1,
+          "upper": 1493.7,
+          "votes": 29177
         },
         {
           "rank": 18,
           "model": "Kimi K3 (Max)",
           "organization": "moonshot",
-          "score": 1487.1,
-          "lower": 1482.5,
-          "upper": 1491.7,
-          "votes": 32795
+          "score": 1488.1,
+          "lower": 1483.6,
+          "upper": 1492.6,
+          "votes": 34325
         },
         {
           "rank": 19,
           "model": "Gemini 3.1 Pro Preview",
           "organization": "google",
-          "score": 1486.9,
+          "score": 1486.8,
           "lower": 1483.9,
-          "upper": 1489.9,
-          "votes": 127649
+          "upper": 1489.8,
+          "votes": 129523
         },
         {
           "rank": 20,
@@ -187,12 +187,12 @@
           "organization": "google",
           "score": 1485.5,
           "lower": 1481.7,
-          "upper": 1489.2,
-          "votes": 42072
+          "upper": 1489.3,
+          "votes": 42059
         }
       ],
-      "checked_at": "2026-10-21T01:41:48.414271+00:00",
-      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
+      "checked_at": "2026-10-21T07:48:15.377117+00:00",
+      "last_success_at": "2026-10-21T07:48:15.377117+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 4798
         }
       ],
-      "checked_at": "2026-10-21T01:41:48.414271+00:00",
-      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
+      "checked_at": "2026-10-21T07:48:15.377117+00:00",
+      "last_success_at": "2026-10-21T07:48:15.377117+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 18303
         }
       ],
-      "checked_at": "2026-10-21T01:41:48.414271+00:00",
-      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
+      "checked_at": "2026-10-21T07:48:15.377117+00:00",
+      "last_success_at": "2026-10-21T07:48:15.377117+00:00",
       "status": "ok"
     }
   ],
@@ -630,16 +630,16 @@
           "kind": "news"
         },
         {
-          "title": "Benefit Street Partners answers questions faster with Codex",
-          "url": "https://openai.com/index/benefit-street-partners",
+          "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+          "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
           "published_at": "2026-10-16T00:00:00+00:00",
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
         },
         {
-          "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-          "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+          "title": "Benefit Street Partners answers questions faster with Codex",
+          "url": "https://openai.com/index/benefit-street-partners",
           "published_at": "2026-10-16T00:00:00+00:00",
           "source": "OpenAI",
           "source_id": "openai",
@@ -654,8 +654,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-21T01:41:48.414271+00:00",
-      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
+      "checked_at": "2026-10-21T07:48:15.377117+00:00",
+      "last_success_at": "2026-10-21T07:48:15.377117+00:00",
       "status": "ok"
     },
     {
@@ -664,6 +664,14 @@
       "kind": "news",
       "source_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "items": [
+        {
+          "title": "Southeast Asia’s digital economy to hit $368 billion",
+          "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+          "published_at": "2026-10-21T04:00:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
         {
           "title": "Gemini 4 Argon: Built to solve your hardest problems",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
@@ -719,18 +727,10 @@
           "source": "Google AI",
           "source_id": "google",
           "kind": "news"
-        },
-        {
-          "title": "Making global data easier to explore",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-          "published_at": "2026-09-17T20:00:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-10-21T01:41:48.414271+00:00",
-      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
+      "checked_at": "2026-10-21T07:48:15.377117+00:00",
+      "last_success_at": "2026-10-21T07:48:15.377117+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-21T01:41:48.414271+00:00",
-      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
+      "checked_at": "2026-10-21T07:48:15.377117+00:00",
+      "last_success_at": "2026-10-21T07:48:15.377117+00:00",
       "status": "ok"
     },
     {
@@ -879,8 +879,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-21T01:41:48.414271+00:00",
-      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
+      "checked_at": "2026-10-21T07:48:15.377117+00:00",
+      "last_success_at": "2026-10-21T07:48:15.377117+00:00",
       "status": "ok"
     },
     {
@@ -889,6 +889,14 @@
       "kind": "tools",
       "source_url": "https://github.com/MoonshotAI/kimi-code/releases.atom",
       "items": [
+        {
+          "title": "@moonshot-ai/kimi-code@2.3.0",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.3.0",
+          "published_at": "2026-10-21T06:06:23+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
         {
           "title": "@moonshot-ai/kimi-code@2.2.0",
           "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.2.0",
@@ -944,18 +952,10 @@
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
-        },
-        {
-          "title": "@moonshot-ai/kimi-code@0.43.0",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%400.43.0",
-          "published_at": "2026-09-14T12:14:33+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-21T01:41:48.414271+00:00",
-      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
+      "checked_at": "2026-10-21T07:48:15.377117+00:00",
+      "last_success_at": "2026-10-21T07:48:15.377117+00:00",
       "status": "ok"
     },
     {
@@ -964,6 +964,14 @@
       "kind": "tools",
       "source_url": "https://github.com/anthropics/claude-code/releases.atom",
       "items": [
+        {
+          "title": "v2.1.306",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+          "published_at": "2026-10-21T03:16:31+00:00",
+          "source": "Claude Code",
+          "source_id": "claude",
+          "kind": "tools"
+        },
         {
           "title": "v2.1.305",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
@@ -1019,18 +1027,10 @@
           "source": "Claude Code",
           "source_id": "claude",
           "kind": "tools"
-        },
-        {
-          "title": "v2.1.296",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
-          "published_at": "2026-10-09T19:28:59+00:00",
-          "source": "Claude Code",
-          "source_id": "claude",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-21T01:41:48.414271+00:00",
-      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
+      "checked_at": "2026-10-21T07:48:15.377117+00:00",
+      "last_success_at": "2026-10-21T07:48:15.377117+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-10-21T01:41:48.414271+00:00",
+    "checked_at": "2026-10-21T07:48:15.377117+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-10-21T01:41:48.414271+00:00",
-    "last_success_at": "2026-10-21T01:41:48.414271+00:00",
+    "checked_at": "2026-10-21T07:48:15.377117+00:00",
+    "last_success_at": "2026-10-21T07:48:15.377117+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
