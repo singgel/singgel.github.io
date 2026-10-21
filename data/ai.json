@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-20T22:24:07.456344+00:00",
+  "updated_at": "2026-10-21T01:41:48.414271+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 42072
         }
       ],
-      "checked_at": "2026-10-20T22:24:07.456344+00:00",
-      "last_success_at": "2026-10-20T22:24:07.456344+00:00",
+      "checked_at": "2026-10-21T01:41:48.414271+00:00",
+      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 4798
         }
       ],
-      "checked_at": "2026-10-20T22:24:07.456344+00:00",
-      "last_success_at": "2026-10-20T22:24:07.456344+00:00",
+      "checked_at": "2026-10-21T01:41:48.414271+00:00",
+      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 18303
         }
       ],
-      "checked_at": "2026-10-20T22:24:07.456344+00:00",
-      "last_success_at": "2026-10-20T22:24:07.456344+00:00",
+      "checked_at": "2026-10-21T01:41:48.414271+00:00",
+      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
       "status": "ok"
     }
   ],
@@ -593,6 +593,14 @@
           "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
           "url": "https://openai.com/index/ted-taylor-restaurant",
           "published_at": "2026-10-20T10:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+          "url": "https://openai.com/index/terminal-x",
+          "published_at": "2026-10-20T07:00:00+00:00",
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
@@ -644,18 +652,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "Teaching students to think and learn through questions",
-          "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-          "published_at": "2026-10-15T13:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-10-20T22:24:07.456344+00:00",
-      "last_success_at": "2026-10-20T22:24:07.456344+00:00",
+      "checked_at": "2026-10-21T01:41:48.414271+00:00",
+      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
       "status": "ok"
     },
     {
@@ -729,8 +729,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-20T22:24:07.456344+00:00",
-      "last_success_at": "2026-10-20T22:24:07.456344+00:00",
+      "checked_at": "2026-10-21T01:41:48.414271+00:00",
+      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-20T22:24:07.456344+00:00",
-      "last_success_at": "2026-10-20T22:24:07.456344+00:00",
+      "checked_at": "2026-10-21T01:41:48.414271+00:00",
+      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
       "status": "ok"
     },
     {
@@ -817,7 +817,7 @@
         {
           "title": "0.164.0-alpha.8",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.8",
-          "published_at": "2026-10-20T22:24:02+00:00",
+          "published_at": "2026-10-20T22:35:19+00:00",
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
@@ -879,8 +879,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-20T22:24:07.456344+00:00",
-      "last_success_at": "2026-10-20T22:24:07.456344+00:00",
+      "checked_at": "2026-10-21T01:41:48.414271+00:00",
+      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
       "status": "ok"
     },
     {
@@ -954,8 +954,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-20T22:24:07.456344+00:00",
-      "last_success_at": "2026-10-20T22:24:07.456344+00:00",
+      "checked_at": "2026-10-21T01:41:48.414271+00:00",
+      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-20T22:24:07.456344+00:00",
-      "last_success_at": "2026-10-20T22:24:07.456344+00:00",
+      "checked_at": "2026-10-21T01:41:48.414271+00:00",
+      "last_success_at": "2026-10-21T01:41:48.414271+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-10-20T22:24:07.456344+00:00",
+    "checked_at": "2026-10-21T01:41:48.414271+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-10-20T22:24:07.456344+00:00",
-    "last_success_at": "2026-10-20T22:24:07.456344+00:00",
+    "checked_at": "2026-10-21T01:41:48.414271+00:00",
+    "last_success_at": "2026-10-21T01:41:48.414271+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
