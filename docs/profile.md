@@ -58,7 +58,6 @@ timeline
 | 2023 | [iaas-network](https://github.com/singgel/iaas-network) | Systematic IaaS cloud network knowledge base: BGP, IPv6, NAT, LB, VPN, VPC, OVS and DPDK. |
 | 2024 | [igw](https://github.com/singgel/igw), [igw-p4](https://github.com/singgel/igw-p4), [bgw](https://github.com/singgel/bgw), [bgw-p4](https://github.com/singgel/bgw-p4) | Programmable gateway research, P4/Barefoot-Tofino practice, source code, BGP failover and hybrid gateway architecture. |
 | 2025 | ops | Cloud-network operations notes, NAT/LB/controller APIs and reliability practices. |
-| 2026 | [AI-Agent-Test](https://github.com/singgel/AI-Agent-Test) | AI-agent generated service demos and infrastructure documentation modernization. |
 
 ## What I'm building / organizing
 
@@ -69,7 +68,6 @@ timeline
 | Internet gateway | [igw](https://github.com/singgel/igw), [igw-p4](https://github.com/singgel/igw-p4) | Unified public gateway docs plus P4 source code: pipeline design, Barefoot/Tofino practice, rate limiting and failover notes. |
 | Border gateway | [bgw](https://github.com/singgel/bgw), [bgw-p4](https://github.com/singgel/bgw-p4) | Hybrid border gateway docs plus P4 source code: VPC connectivity, BGP convergence and multi-cluster disaster recovery. |
 | Operations notes | ops | Infrastructure operations notes around LB/NAT, private connectivity, controller APIs and daily practices. |
-| AI coding | [AI-Agent-Test](https://github.com/singgel/AI-Agent-Test) | AI-agent generated Go service examples and engineering experiments. |
 | Personal notes | notify | Notes to future self, learning methods, career reflections and knowledge fragments. |
 
 ## Technical map
