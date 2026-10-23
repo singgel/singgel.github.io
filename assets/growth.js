@@ -189,7 +189,7 @@ function initGrowth(doc, win) {
     levels.forEach((button, index) => {
       button.setAttribute("aria-pressed", String(index === state.stage));
       const favoriteCompany = GROWTH_STAGES[index].favoriteCompany;
-      button.setAttribute("aria-label", `第 ${index + 1} 关 · ${GROWTH_STAGES[index].title}${favoriteCompany ? `，我最喜爱的公司：${favoriteCompany}` : ""}${state.completed.includes(index) ? "，已点亮" : ""}`);
+      button.setAttribute("aria-label", `第 ${index + 1} 关 · ${GROWTH_STAGES[index].title} · ${GROWTH_STAGES[index].place}${favoriteCompany ? `，我最喜爱的公司：${favoriteCompany}` : ""}${state.completed.includes(index) ? "，已点亮" : ""}`);
       button.dataset.completed = String(state.completed.includes(index));
     });
     const unlocked = unlockedSkills(state.completed);

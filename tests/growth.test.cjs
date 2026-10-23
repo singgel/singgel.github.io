@@ -233,6 +233,7 @@ test("favorite-company badges follow their chapters and clear when leaving them"
     page.levels[stage].click();
     const badge = page.nodes.get("growth-favorite");
     const company = expected[stage];
+    assert.ok(page.levels[stage].attributes["aria-label"].includes(GROWTH_STAGES[stage].place));
     assert.equal(badge.hidden, !company);
     assert.equal(badge.textContent, company ? `我最喜爱的公司：${company}` : "");
     for (const node of [page.levels[stage], page.nodes.get("growth-scene")]) {
