@@ -57,6 +57,8 @@ assets/growth.js owns the chapter data, pure state transitions and one cancellab
 
 Technology badges are local assets. Ten original Devicon v2.17.0 icons retain their MIT license in assets/icons/devicon/LICENSE; assets/icons/NOTICE.md documents the source revision and the site's generic symbols. Keep branded assets unchanged and preserve their notices. Update the chapter controls, skill registry, original timeline and public profile together when adding a new chapter.
 
+The six chapter cards use local company logos, with ByteDance reused for its two chapters. [Company asset sources](assets/companies/NOTICE.md) records the original files and display crops. Preserve the source bytes and accessible company names when updating them; these trademarks are separate from the Devicon license.
+
 ## Bookmark collection
 
 Direct bookmark-bar shortcuts are excluded from imports. Bookmark-bar folders are promoted into the public collection without a separate 收藏栏 group.
