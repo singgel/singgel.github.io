@@ -55,8 +55,14 @@
 .growth-loadout img, .growth-skill img { box-sizing: content-box; padding: 6px; border-radius: 6px; background: #faf9f1; object-fit: contain; }
 .growth-quest .text-link { font-size: 14px; }
 .growth-route { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; padding: 20px 24px 0; }
-.growth-route button { position: relative; min-width: 0; min-height: 65px; padding: 8px 3px; border: 1px solid var(--line); border-radius: 5px; background: transparent; color: var(--muted); font-size: 14px; }
-.growth-route button span { display: block; margin-bottom: 5px; font: 600 13px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
+.growth-route button { position: relative; display: flex; flex-direction: column; align-items: center; min-width: 0; min-height: 65px; padding: 10px 4px; border: 1px solid var(--line); border-radius: 5px; background: transparent; color: var(--muted); font-size: 14px; }
+.growth-route button > span:first-child { display: block; margin-bottom: 5px; font: 600 13px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
+.growth-company-logo { display: flex; align-items: center; justify-content: center; box-sizing: border-box; width: calc(100% - 8px); max-width: 112px; height: 40px; margin: 0 auto 8px; padding: 6px; border-radius: 4px; background: #fff; object-fit: contain; }
+.growth-company-logo-dark { background: #243b46; }
+.growth-company-logo-jdcloud { width: 64px; padding: 0; object-fit: cover; }
+.growth-company-logo-catarc::before { content: ""; display: block; width: 100%; max-width: 64px; aspect-ratio: 121 / 53; background: url("companies/catarc.png") left center / 413.22% 100% no-repeat; }
+/* The official Yiche header contains its logo at the right end of a sprite. */
+.growth-company-logo-yiche::before { content: ""; display: block; width: 100%; max-width: 80px; aspect-ratio: 268 / 90; background: url("companies/yiche-sprite.png") right center / 455.6% 100% no-repeat; }
 .growth-route button[aria-pressed="true"] { border-color: var(--accent); color: var(--ink); background: var(--tint); }
 .growth-route button[data-completed="true"]::after { content: "✓"; position: absolute; top: 2px; right: 6px; color: var(--accent); font-size: 11px; }
 .growth-company-marker { display: block; width: fit-content; margin: 6px auto 0; padding: 2px 4px; border: 1px solid var(--accent); border-radius: 4px; background: var(--tint); color: var(--ink); font-size: 11px; line-height: 1.4; }
@@ -109,7 +115,7 @@
   .growth-scene-caption { left: 16px; font-size: 10px; letter-spacing: 0; }
   .growth-quest { padding: 20px; }
   .growth-route { grid-template-columns: repeat(3, 1fr); padding: 16px 16px 0; }
-  .growth-route button { min-height: 58px; }
+  .growth-route button { min-height: 58px; font-size: 12px; }
   .growth-controls { padding: 16px; gap: 8px; }
   .growth-controls button { padding-inline: 12px; }
   .growth-controls p { flex-basis: 100%; }
