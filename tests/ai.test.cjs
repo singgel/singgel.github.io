@@ -15,9 +15,14 @@ function fixture(fetch) {
   const elements = Object.fromEntries(ids.map((id) => [id, new Element()]));
   elements["ai-board"].value = "text";
   elements["ai-news-kind"].value = "all";
-  const doc = { getElementById: (id) => elements[id], createElement: () => new Element() };
-  const win = { fetch, setTimeout, clearTimeout };
-  return { doc, win, elements };
+  const doc = Object.assign(new EventTarget(), { getElementById: (id) => elements[id], createElement: () => new Element(), hidden: false });
+  const timers = new Map();
+  let nextTimer = 0;
+  const win = Object.assign(new EventTarget(), { fetch, setTimeout, clearTimeout,
+    setInterval(callback) { timers.set(++nextTimer, callback); return nextTimer; },
+    clearInterval(id) { timers.delete(id); },
+  });
+  return { doc, win, elements, timers, tick() { for (const callback of [...timers.values()]) callback(); } };
 }
 const ok = async () => ({ ok: true, json: async () => structuredClone(snapshot) });
 
@@ -112,10 +117,66 @@ test("remote failure uses the bundled snapshot and full failure preserves loaded
   page.win.fetch = async () => { throw new Error("offline"); };
   await app.refresh();
   assert.match(page.elements["ai-status"].textContent, /继续显示/);
+  page.tick();
+  page.win.dispatchEvent(new Event("pageshow"));
+  assert.match(page.elements["ai-status"].textContent, /继续显示/);
   assert.equal(page.elements["ai-ranking-rows"].children.length, 20);
   const empty = fixture(page.win.fetch);
   await initAI(empty.doc, empty.win).ready;
   assert.match(empty.elements["ai-status"].textContent, /暂时不可读/);
+});
+
+test("snapshot freshness ages while the page stays open without fetching again", async () => {
+  let now = Date.now();
+  let calls = 0;
+  const data = structuredClone(snapshot);
+  data.updated_at = new Date(now - 2 * 60 * 60 * 1000).toISOString();
+  const page = fixture(async () => { calls += 1; return { ok: true, json: async () => data }; });
+  await initAI(page.doc, page.win, () => now).ready;
+  assert.match(page.elements["ai-status"].textContent, /约每小时/);
+  const status = page.elements["ai-status"];
+  let message = status.textContent;
+  let writes = 0;
+  Object.defineProperty(status, "textContent", { get() { return message; }, set(value) { message = value; writes += 1; } });
+  page.tick();
+  assert.equal(writes, 0);
+  now += 2 * 60 * 60 * 1000;
+  page.tick();
+  assert.match(page.elements["ai-status"].textContent, /已超过预期刷新时间/);
+  assert.equal(writes, 1);
+  page.tick();
+  assert.equal(writes, 1);
+  assert.equal(calls, 1);
+  assert.equal(page.timers.size, 1);
+});
+
+test("freshness checks pause on hide and resume immediately with only one timer", async () => {
+  let now = Date.now();
+  let calls = 0;
+  const data = structuredClone(snapshot);
+  data.updated_at = new Date(now - 2 * 60 * 60 * 1000).toISOString();
+  const page = fixture(async () => { calls += 1; return { ok: true, json: async () => data }; });
+  page.doc.hidden = true;
+  await initAI(page.doc, page.win, () => now).ready;
+  assert.equal(page.timers.size, 0);
+  page.doc.hidden = false;
+  page.doc.dispatchEvent(new Event("visibilitychange"));
+  assert.equal(page.timers.size, 1);
+  page.doc.hidden = true;
+  page.doc.dispatchEvent(new Event("visibilitychange"));
+  assert.equal(page.timers.size, 0);
+  now += 2 * 60 * 60 * 1000;
+  page.doc.hidden = false;
+  page.doc.dispatchEvent(new Event("visibilitychange"));
+  assert.match(page.elements["ai-status"].textContent, /已超过预期刷新时间/);
+  page.win.dispatchEvent(new Event("pageshow"));
+  page.win.dispatchEvent(new Event("pageshow"));
+  assert.equal(page.timers.size, 1);
+  page.win.dispatchEvent(new Event("pagehide"));
+  assert.equal(page.timers.size, 0);
+  page.win.dispatchEvent(new Event("pageshow"));
+  assert.equal(page.timers.size, 1);
+  assert.equal(calls, 1);
 });
 
 test("refresh avoids a cached branch URL rather than presenting its stale response as current", async () => {
@@ -134,6 +195,8 @@ test("pending refresh does not start duplicate reads and reset failures stay exp
   const waiting = new Promise((resolve) => { complete = resolve; });
   const page = fixture(async () => { calls += 1; await waiting; const data = structuredClone(snapshot); data.resets = { status: "stale" }; return { ok: true, json: async () => data }; });
   const app = initAI(page.doc, page.win);
+  page.tick();
+  assert.match(page.elements["ai-status"].textContent, /正在读取/);
   await app.refresh();
   assert.equal(calls, 1);
   complete();
