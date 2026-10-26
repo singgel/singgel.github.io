@@ -25,6 +25,8 @@ The Refresh AI data workflow is scheduled at minute 23 of each UTC hour and supp
 
 The browser reads that branch's public raw JSON and falls back to the bundled data/ai.json. Consequently data refreshes do not depend on GITHUB_TOKEN commits triggering Pages, and do not add hourly commits to master. A snapshot older than three hours is labelled overdue; source publication dates remain separate. Browser refresh is a data read, not a request to rerun collection.
 
+The visible page recalculates snapshot age locally every minute and immediately after returning. Hiding or leaving the page stops this status timer; resuming keeps at most one timer. These checks make no additional data requests and preserve loading or failure notices.
+
 To investigate a failure, inspect the workflow run, per-source statuses and the last success time. Do not reset a success timestamp merely because a request was attempted. Check an original source when its structure changes; add a fixture before changing the parser. Never add cookies, private usage, API keys or raw authentication responses to this public branch.
 
 To pause collection, disable the Refresh AI data workflow; the page continues to show a timestamped snapshot. To roll back the feature, revert its source PR and retain the data branch until any readers have migrated. Removing the page does not require changing account permissions or deleting source data.
