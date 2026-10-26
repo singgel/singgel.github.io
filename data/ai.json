@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T14:23:03.641222+00:00",
+  "updated_at": "2026-10-26T20:01:38.649199+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 42054
         }
       ],
-      "checked_at": "2026-10-26T14:23:03.641222+00:00",
-      "last_success_at": "2026-10-26T14:23:03.641222+00:00",
+      "checked_at": "2026-10-26T20:01:38.649199+00:00",
+      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 5749
         }
       ],
-      "checked_at": "2026-10-26T14:23:03.641222+00:00",
-      "last_success_at": "2026-10-26T14:23:03.641222+00:00",
+      "checked_at": "2026-10-26T20:01:38.649199+00:00",
+      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 18303
         }
       ],
-      "checked_at": "2026-10-26T14:23:03.641222+00:00",
-      "last_success_at": "2026-10-26T14:23:03.641222+00:00",
+      "checked_at": "2026-10-26T20:01:38.649199+00:00",
+      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
       "status": "ok"
     }
   ],
@@ -590,9 +590,33 @@
       "source_url": "https://openai.com/news/rss.xml",
       "items": [
         {
+          "title": "ChatGPT’s expanding world of work",
+          "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+          "published_at": "2026-10-26T10:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
           "title": "How Fanatics and OpenAI streamline the fan experience",
           "url": "https://openai.com/index/fanatics-streamline-fan-experience",
           "published_at": "2026-10-26T07:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+          "url": "https://openai.com/index/openai-cut-incident-investigation",
+          "published_at": "2026-10-26T07:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "Introducing GPT-6.1 Terra",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+          "published_at": "2026-10-26T00:00:00+00:00",
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
@@ -628,34 +652,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "What FDE means at OpenAI",
-          "url": "https://openai.com/index/forward-deployed-engineering-means",
-          "published_at": "2026-10-22T06:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-          "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-          "published_at": "2026-10-22T00:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "Broad access through consistent standards",
-          "url": "https://openai.com/index/broad-access-through-consistent-standards",
-          "published_at": "2026-10-21T21:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-10-26T14:23:03.641222+00:00",
-      "last_success_at": "2026-10-26T14:23:03.641222+00:00",
+      "checked_at": "2026-10-26T20:01:38.649199+00:00",
+      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
       "status": "ok"
     },
     {
@@ -664,6 +664,14 @@
       "kind": "news",
       "source_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "items": [
+        {
+          "title": "Our newest AI Quest: Mapping the human brain",
+          "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+          "published_at": "2026-10-26T16:00:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
         {
           "title": "Southeast Asia’s digital economy to hit $368 billion",
           "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
@@ -719,18 +727,10 @@
           "source": "Google AI",
           "source_id": "google",
           "kind": "news"
-        },
-        {
-          "title": "Co-creating the future of fashion with Google",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-          "published_at": "2026-09-18T13:00:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-10-26T14:23:03.641222+00:00",
-      "last_success_at": "2026-10-26T14:23:03.641222+00:00",
+      "checked_at": "2026-10-26T20:01:38.649199+00:00",
+      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-26T14:23:03.641222+00:00",
-      "last_success_at": "2026-10-26T14:23:03.641222+00:00",
+      "checked_at": "2026-10-26T20:01:38.649199+00:00",
+      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
       "status": "ok"
     },
     {
@@ -814,6 +814,22 @@
       "kind": "tools",
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
+        {
+          "title": "rust-v0.165.0-alpha.3",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.3",
+          "published_at": "2026-10-26T19:53:24+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "rust-v0.165.0-alpha.2",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.2",
+          "published_at": "2026-10-26T15:40:14+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
         {
           "title": "0.165.0-alpha.1",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1",
@@ -861,26 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.164.0-alpha.10",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.10",
-          "published_at": "2026-10-22T00:13:20+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.163.0-alpha.11.1",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11.1",
-          "published_at": "2026-10-21T22:23:33+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-26T14:23:03.641222+00:00",
-      "last_success_at": "2026-10-26T14:23:03.641222+00:00",
+      "checked_at": "2026-10-26T20:01:38.649199+00:00",
+      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
       "status": "ok"
     },
     {
@@ -954,8 +954,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-26T14:23:03.641222+00:00",
-      "last_success_at": "2026-10-26T14:23:03.641222+00:00",
+      "checked_at": "2026-10-26T20:01:38.649199+00:00",
+      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-26T14:23:03.641222+00:00",
-      "last_success_at": "2026-10-26T14:23:03.641222+00:00",
+      "checked_at": "2026-10-26T20:01:38.649199+00:00",
+      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-10-26T14:23:03.641222+00:00",
+    "checked_at": "2026-10-26T20:01:38.649199+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-10-26T14:23:03.641222+00:00",
-    "last_success_at": "2026-10-26T14:23:03.641222+00:00",
+    "checked_at": "2026-10-26T20:01:38.649199+00:00",
+    "last_success_at": "2026-10-26T20:01:38.649199+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
