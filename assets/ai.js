@@ -67,7 +67,7 @@ async function fetchAISnapshot(win, url) {
   } finally { win.clearTimeout(timer); }
 }
 
-function initAI(doc, win) {
+function initAI(doc, win, clock = Date.now) {
   if (!doc.getElementById("ai-ranking-rows")) return null;
   const get = (id) => doc.getElementById(id);
   const node = (tag, text, className) => {
@@ -88,6 +88,7 @@ function initAI(doc, win) {
   const charts = typeof win.createAICharts === "function" ? win.createAICharts(doc, win) : null;
   let data = null;
   let busy = false;
+  let renderSnapshotStatus = null;
 
   function renderRanking() {
     const board = data.boards.find((item) => item.id === get("ai-board").value);
@@ -166,9 +167,14 @@ function initAI(doc, win) {
       catch { next = await fetchAISnapshot(win, "data/ai.json"); source = "随站快照"; }
       data = next;
       render();
-      const age = snapshotAge(data.updated_at);
-      get("ai-status").textContent = `${source} · ${formatAITime(data.updated_at)} 北京时间 · ${age === "recent" ? "约每小时检查来源" : "已超过预期刷新时间，请核对来源状态"}`;
+      renderSnapshotStatus = () => {
+        const age = snapshotAge(data.updated_at, clock());
+        const message = `${source} · ${formatAITime(data.updated_at)} 北京时间 · ${age === "recent" ? "约每小时检查来源" : "已超过预期刷新时间，请核对来源状态"}`;
+        if (get("ai-status").textContent !== message) get("ai-status").textContent = message;
+      };
+      renderSnapshotStatus();
     } catch {
+      renderSnapshotStatus = null;
       get("ai-status").textContent = data ? "刷新失败，继续显示本次已读取的数据。" : "数据暂时不可读，可通过下方来源链接阅读原文。";
     } finally {
       busy = false;
@@ -181,6 +187,18 @@ function initAI(doc, win) {
   get("ai-model-search").addEventListener("input", () => { if (data) renderRanking(); });
   get("ai-news-kind").addEventListener("change", () => { if (data) renderNews(); });
   get("ai-news-search").addEventListener("input", () => { if (data) renderNews(); });
+  let timer = null;
+  const updateFreshness = () => { if (!busy && !doc.hidden) renderSnapshotStatus?.(); };
+  const stopFreshness = () => { if (timer !== null) win.clearInterval(timer); timer = null; };
+  const startFreshness = () => {
+    if (doc.hidden) return;
+    if (timer === null && win.setInterval) timer = win.setInterval(updateFreshness, 60000);
+    updateFreshness();
+  };
+  doc.addEventListener?.("visibilitychange", () => { if (doc.hidden) stopFreshness(); else startFreshness(); });
+  win.addEventListener?.("pagehide", stopFreshness);
+  win.addEventListener?.("pageshow", startFreshness);
+  startFreshness();
   return { ready: refresh(), refresh };
 }
 
