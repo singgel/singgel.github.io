@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T20:01:38.649199+00:00",
+  "updated_at": "2026-10-26T23:56:28.608623+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 42054
         }
       ],
-      "checked_at": "2026-10-26T20:01:38.649199+00:00",
-      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
+      "checked_at": "2026-10-26T23:56:28.608623+00:00",
+      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 5749
         }
       ],
-      "checked_at": "2026-10-26T20:01:38.649199+00:00",
-      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
+      "checked_at": "2026-10-26T23:56:28.608623+00:00",
+      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 18303
         }
       ],
-      "checked_at": "2026-10-26T20:01:38.649199+00:00",
-      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
+      "checked_at": "2026-10-26T23:56:28.608623+00:00",
+      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
       "status": "ok"
     }
   ],
@@ -589,6 +589,30 @@
       "kind": "news",
       "source_url": "https://openai.com/news/rss.xml",
       "items": [
+        {
+          "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+          "url": "https://openai.com/index/greptile-code-review-codex-astra",
+          "published_at": "2026-10-26T22:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "Working with academic communities to build scientific understanding",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+          "published_at": "2026-10-26T14:30:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+          "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+          "published_at": "2026-10-26T13:45:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
         {
           "title": "ChatGPT’s expanding world of work",
           "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
@@ -628,34 +652,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "Securing our frontier model training environment",
-          "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-          "published_at": "2026-10-23T10:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-          "published_at": "2026-10-23T00:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "Build more responsive apps with the Decisions API",
-          "url": "https://openai.com/index/decisions-api",
-          "published_at": "2026-10-22T19:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-10-26T20:01:38.649199+00:00",
-      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
+      "checked_at": "2026-10-26T23:56:28.608623+00:00",
+      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
       "status": "ok"
     },
     {
@@ -729,8 +729,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-26T20:01:38.649199+00:00",
-      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
+      "checked_at": "2026-10-26T23:56:28.608623+00:00",
+      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-26T20:01:38.649199+00:00",
-      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
+      "checked_at": "2026-10-26T23:56:28.608623+00:00",
+      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
       "status": "ok"
     },
     {
@@ -815,9 +815,17 @@
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
         {
-          "title": "rust-v0.165.0-alpha.3",
+          "title": "rust-v0.165.0-alpha.1.1",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1.1",
+          "published_at": "2026-10-26T23:04:07+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.165.0-alpha.3",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.3",
-          "published_at": "2026-10-26T19:53:24+00:00",
+          "published_at": "2026-10-26T21:58:55+00:00",
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
@@ -869,18 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.164.0-alpha.11",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11",
-          "published_at": "2026-10-22T04:31:23+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-26T20:01:38.649199+00:00",
-      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
+      "checked_at": "2026-10-26T23:56:28.608623+00:00",
+      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
       "status": "ok"
     },
     {
@@ -954,8 +954,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-26T20:01:38.649199+00:00",
-      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
+      "checked_at": "2026-10-26T23:56:28.608623+00:00",
+      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
       "status": "ok"
     },
     {
@@ -964,6 +964,14 @@
       "kind": "tools",
       "source_url": "https://github.com/anthropics/claude-code/releases.atom",
       "items": [
+        {
+          "title": "v2.1.311",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+          "published_at": "2026-10-26T21:51:23+00:00",
+          "source": "Claude Code",
+          "source_id": "claude",
+          "kind": "tools"
+        },
         {
           "title": "v2.1.310",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
@@ -1019,18 +1027,10 @@
           "source": "Claude Code",
           "source_id": "claude",
           "kind": "tools"
-        },
-        {
-          "title": "v2.1.303",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
-          "published_at": "2026-10-18T22:26:54+00:00",
-          "source": "Claude Code",
-          "source_id": "claude",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-26T20:01:38.649199+00:00",
-      "last_success_at": "2026-10-26T20:01:38.649199+00:00",
+      "checked_at": "2026-10-26T23:56:28.608623+00:00",
+      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-10-26T20:01:38.649199+00:00",
+    "checked_at": "2026-10-26T23:56:28.608623+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-10-26T20:01:38.649199+00:00",
-    "last_success_at": "2026-10-26T20:01:38.649199+00:00",
+    "checked_at": "2026-10-26T23:56:28.608623+00:00",
+    "last_success_at": "2026-10-26T23:56:28.608623+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
