@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27T16:43:50.944415+00:00",
+  "updated_at": "2026-10-27T21:23:17.445920+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 42054
         }
       ],
-      "checked_at": "2026-10-27T16:43:50.944415+00:00",
-      "last_success_at": "2026-10-27T16:43:50.944415+00:00",
+      "checked_at": "2026-10-27T21:23:17.445920+00:00",
+      "last_success_at": "2026-10-27T21:23:17.445920+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 5749
         }
       ],
-      "checked_at": "2026-10-27T16:43:50.944415+00:00",
-      "last_success_at": "2026-10-27T16:43:50.944415+00:00",
+      "checked_at": "2026-10-27T21:23:17.445920+00:00",
+      "last_success_at": "2026-10-27T21:23:17.445920+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 18303
         }
       ],
-      "checked_at": "2026-10-27T16:43:50.944415+00:00",
-      "last_success_at": "2026-10-27T16:43:50.944415+00:00",
+      "checked_at": "2026-10-27T21:23:17.445920+00:00",
+      "last_success_at": "2026-10-27T21:23:17.445920+00:00",
       "status": "ok"
     }
   ],
@@ -589,6 +589,22 @@
       "kind": "news",
       "source_url": "https://openai.com/news/rss.xml",
       "items": [
+        {
+          "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "published_at": "2026-10-27T07:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "How Check Point accelerates vulnerability research with Daybreak",
+          "url": "https://openai.com/index/check-point-daybreak",
+          "published_at": "2026-10-27T00:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
         {
           "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
           "url": "https://openai.com/index/greptile-code-review-codex-astra",
@@ -636,26 +652,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "Introducing GPT-6.1 Terra",
-          "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-          "published_at": "2026-10-23T17:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-10-27T16:43:50.944415+00:00",
-      "last_success_at": "2026-10-27T16:43:50.944415+00:00",
+      "checked_at": "2026-10-27T21:23:17.445920+00:00",
+      "last_success_at": "2026-10-27T21:23:17.445920+00:00",
       "status": "ok"
     },
     {
@@ -729,8 +729,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-27T16:43:50.944415+00:00",
-      "last_success_at": "2026-10-27T16:43:50.944415+00:00",
+      "checked_at": "2026-10-27T21:23:17.445920+00:00",
+      "last_success_at": "2026-10-27T21:23:17.445920+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-27T16:43:50.944415+00:00",
-      "last_success_at": "2026-10-27T16:43:50.944415+00:00",
+      "checked_at": "2026-10-27T21:23:17.445920+00:00",
+      "last_success_at": "2026-10-27T21:23:17.445920+00:00",
       "status": "ok"
     },
     {
@@ -814,6 +814,22 @@
       "kind": "tools",
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
+        {
+          "title": "0.165.0",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+          "published_at": "2026-10-27T20:11:49+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.166.0-alpha.3",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.3",
+          "published_at": "2026-10-27T19:32:53+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
         {
           "title": "0.166.0-alpha.2",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.2",
@@ -861,26 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.165.0-alpha.1",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1",
-          "published_at": "2026-10-23T14:18:55+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.164.0",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
-          "published_at": "2026-10-23T04:50:58+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-27T16:43:50.944415+00:00",
-      "last_success_at": "2026-10-27T16:43:50.944415+00:00",
+      "checked_at": "2026-10-27T21:23:17.445920+00:00",
+      "last_success_at": "2026-10-27T21:23:17.445920+00:00",
       "status": "ok"
     },
     {
@@ -954,8 +954,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-27T16:43:50.944415+00:00",
-      "last_success_at": "2026-10-27T16:43:50.944415+00:00",
+      "checked_at": "2026-10-27T21:23:17.445920+00:00",
+      "last_success_at": "2026-10-27T21:23:17.445920+00:00",
       "status": "ok"
     },
     {
@@ -964,6 +964,14 @@
       "kind": "tools",
       "source_url": "https://github.com/anthropics/claude-code/releases.atom",
       "items": [
+        {
+          "title": "v2.1.312",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+          "published_at": "2026-10-27T20:24:20+00:00",
+          "source": "Claude Code",
+          "source_id": "claude",
+          "kind": "tools"
+        },
         {
           "title": "v2.1.311",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
@@ -1019,18 +1027,10 @@
           "source": "Claude Code",
           "source_id": "claude",
           "kind": "tools"
-        },
-        {
-          "title": "v2.1.304",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
-          "published_at": "2026-10-19T21:34:39+00:00",
-          "source": "Claude Code",
-          "source_id": "claude",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-27T16:43:50.944415+00:00",
-      "last_success_at": "2026-10-27T16:43:50.944415+00:00",
+      "checked_at": "2026-10-27T21:23:17.445920+00:00",
+      "last_success_at": "2026-10-27T21:23:17.445920+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-10-27T16:43:50.944415+00:00",
+    "checked_at": "2026-10-27T21:23:17.445920+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-10-27T16:43:50.944415+00:00",
-    "last_success_at": "2026-10-27T16:43:50.944415+00:00",
+    "checked_at": "2026-10-27T21:23:17.445920+00:00",
+    "last_success_at": "2026-10-27T21:23:17.445920+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
