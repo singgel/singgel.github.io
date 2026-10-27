@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T23:56:28.608623+00:00",
+  "updated_at": "2026-10-27T05:16:14.948267+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 42054
         }
       ],
-      "checked_at": "2026-10-26T23:56:28.608623+00:00",
-      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
+      "checked_at": "2026-10-27T05:16:14.948267+00:00",
+      "last_success_at": "2026-10-27T05:16:14.948267+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 5749
         }
       ],
-      "checked_at": "2026-10-26T23:56:28.608623+00:00",
-      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
+      "checked_at": "2026-10-27T05:16:14.948267+00:00",
+      "last_success_at": "2026-10-27T05:16:14.948267+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 18303
         }
       ],
-      "checked_at": "2026-10-26T23:56:28.608623+00:00",
-      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
+      "checked_at": "2026-10-27T05:16:14.948267+00:00",
+      "last_success_at": "2026-10-27T05:16:14.948267+00:00",
       "status": "ok"
     }
   ],
@@ -654,8 +654,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-26T23:56:28.608623+00:00",
-      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
+      "checked_at": "2026-10-27T05:16:14.948267+00:00",
+      "last_success_at": "2026-10-27T05:16:14.948267+00:00",
       "status": "ok"
     },
     {
@@ -729,8 +729,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-26T23:56:28.608623+00:00",
-      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
+      "checked_at": "2026-10-27T05:16:14.948267+00:00",
+      "last_success_at": "2026-10-27T05:16:14.948267+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-26T23:56:28.608623+00:00",
-      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
+      "checked_at": "2026-10-27T05:16:14.948267+00:00",
+      "last_success_at": "2026-10-27T05:16:14.948267+00:00",
       "status": "ok"
     },
     {
@@ -815,9 +815,25 @@
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
         {
-          "title": "rust-v0.165.0-alpha.1.1",
+          "title": "0.165.0-alpha.1.2",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1.2",
+          "published_at": "2026-10-27T05:04:11+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.166.0-alpha.1",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.1",
+          "published_at": "2026-10-27T01:38:58+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.165.0-alpha.1.1",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1.1",
-          "published_at": "2026-10-26T23:04:07+00:00",
+          "published_at": "2026-10-27T00:40:54+00:00",
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
@@ -861,26 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.164.0-alpha.12",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.12",
-          "published_at": "2026-10-22T11:27:02+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.163.0-alpha.11.2",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11.2",
-          "published_at": "2026-10-22T06:47:07+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-26T23:56:28.608623+00:00",
-      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
+      "checked_at": "2026-10-27T05:16:14.948267+00:00",
+      "last_success_at": "2026-10-27T05:16:14.948267+00:00",
       "status": "ok"
     },
     {
@@ -954,8 +954,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-26T23:56:28.608623+00:00",
-      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
+      "checked_at": "2026-10-27T05:16:14.948267+00:00",
+      "last_success_at": "2026-10-27T05:16:14.948267+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-26T23:56:28.608623+00:00",
-      "last_success_at": "2026-10-26T23:56:28.608623+00:00",
+      "checked_at": "2026-10-27T05:16:14.948267+00:00",
+      "last_success_at": "2026-10-27T05:16:14.948267+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-10-26T23:56:28.608623+00:00",
+    "checked_at": "2026-10-27T05:16:14.948267+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-10-26T23:56:28.608623+00:00",
-    "last_success_at": "2026-10-26T23:56:28.608623+00:00",
+    "checked_at": "2026-10-27T05:16:14.948267+00:00",
+    "last_success_at": "2026-10-27T05:16:14.948267+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
