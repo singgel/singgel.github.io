@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T13:11:01.326415+00:00",
+  "updated_at": "2026-10-30T18:40:19.583144+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 132547
         }
       ],
-      "checked_at": "2026-10-30T13:11:01.326415+00:00",
-      "last_success_at": "2026-10-30T13:11:01.326415+00:00",
+      "checked_at": "2026-10-30T18:40:19.583144+00:00",
+      "last_success_at": "2026-10-30T18:40:19.583144+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 3724
         }
       ],
-      "checked_at": "2026-10-30T13:11:01.326415+00:00",
-      "last_success_at": "2026-10-30T13:11:01.326415+00:00",
+      "checked_at": "2026-10-30T18:40:19.583144+00:00",
+      "last_success_at": "2026-10-30T18:40:19.583144+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 18303
         }
       ],
-      "checked_at": "2026-10-30T13:11:01.326415+00:00",
-      "last_success_at": "2026-10-30T13:11:01.326415+00:00",
+      "checked_at": "2026-10-30T18:40:19.583144+00:00",
+      "last_success_at": "2026-10-30T18:40:19.583144+00:00",
       "status": "ok"
     }
   ],
@@ -589,6 +589,22 @@
       "kind": "news",
       "source_url": "https://openai.com/news/rss.xml",
       "items": [
+        {
+          "title": "Making it easier for websites to express AI training preferences",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "published_at": "2026-10-30T09:30:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "Community safety report and new protections for teens",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "published_at": "2026-10-30T09:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
         {
           "title": "An updated Model Spec for more capable and beneficial AI",
           "url": "https://openai.com/index/updated-model-spec",
@@ -614,6 +630,14 @@
           "kind": "news"
         },
         {
+          "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+          "url": "https://openai.com/index/credit-saison",
+          "published_at": "2026-10-29T00:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
           "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
           "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
           "published_at": "2026-10-28T13:15:00+00:00",
@@ -628,34 +652,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "Legora is building the agentic operating system for legal work",
-          "url": "https://openai.com/index/legora",
-          "published_at": "2026-10-28T09:30:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "Retell uses OpenAI models to help power 100M monthly calls",
-          "url": "https://openai.com/index/retell-ai",
-          "published_at": "2026-10-27T15:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-          "published_at": "2026-10-27T07:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-10-30T13:11:01.326415+00:00",
-      "last_success_at": "2026-10-30T13:11:01.326415+00:00",
+      "checked_at": "2026-10-30T18:40:19.583144+00:00",
+      "last_success_at": "2026-10-30T18:40:19.583144+00:00",
       "status": "ok"
     },
     {
@@ -729,8 +729,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-30T13:11:01.326415+00:00",
-      "last_success_at": "2026-10-30T13:11:01.326415+00:00",
+      "checked_at": "2026-10-30T18:40:19.583144+00:00",
+      "last_success_at": "2026-10-30T18:40:19.583144+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-10-30T13:11:01.326415+00:00",
-      "last_success_at": "2026-10-30T13:11:01.326415+00:00",
+      "checked_at": "2026-10-30T18:40:19.583144+00:00",
+      "last_success_at": "2026-10-30T18:40:19.583144+00:00",
       "status": "ok"
     },
     {
@@ -879,8 +879,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-30T13:11:01.326415+00:00",
-      "last_success_at": "2026-10-30T13:11:01.326415+00:00",
+      "checked_at": "2026-10-30T18:40:19.583144+00:00",
+      "last_success_at": "2026-10-30T18:40:19.583144+00:00",
       "status": "ok"
     },
     {
@@ -954,8 +954,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-30T13:11:01.326415+00:00",
-      "last_success_at": "2026-10-30T13:11:01.326415+00:00",
+      "checked_at": "2026-10-30T18:40:19.583144+00:00",
+      "last_success_at": "2026-10-30T18:40:19.583144+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-10-30T13:11:01.326415+00:00",
-      "last_success_at": "2026-10-30T13:11:01.326415+00:00",
+      "checked_at": "2026-10-30T18:40:19.583144+00:00",
+      "last_success_at": "2026-10-30T18:40:19.583144+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-10-30T13:11:01.326415+00:00",
+    "checked_at": "2026-10-30T18:40:19.583144+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-10-30T13:11:01.326415+00:00",
-    "last_success_at": "2026-10-30T13:11:01.326415+00:00",
+    "checked_at": "2026-10-30T18:40:19.583144+00:00",
+    "last_success_at": "2026-10-30T18:40:19.583144+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
