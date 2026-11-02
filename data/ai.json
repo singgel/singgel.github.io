@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T11:25:21.855950+00:00",
+  "updated_at": "2026-11-02T21:47:29.194877+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,9 +191,10 @@
           "votes": 132547
         }
       ],
-      "checked_at": "2026-11-02T11:25:21.855950+00:00",
+      "checked_at": "2026-11-02T21:47:29.194877+00:00",
       "last_success_at": "2026-11-02T11:25:21.855950+00:00",
-      "status": "ok"
+      "status": "stale",
+      "error": "HTTPError"
     },
     {
       "id": "webdev",
@@ -384,9 +385,10 @@
           "votes": 3724
         }
       ],
-      "checked_at": "2026-11-02T11:25:21.855950+00:00",
+      "checked_at": "2026-11-02T21:47:29.194877+00:00",
       "last_success_at": "2026-11-02T11:25:21.855950+00:00",
-      "status": "ok"
+      "status": "stale",
+      "error": "HTTPError"
     },
     {
       "id": "vision",
@@ -577,9 +579,10 @@
           "votes": 18303
         }
       ],
-      "checked_at": "2026-11-02T11:25:21.855950+00:00",
+      "checked_at": "2026-11-02T21:47:29.194877+00:00",
       "last_success_at": "2026-11-02T11:25:21.855950+00:00",
-      "status": "ok"
+      "status": "stale",
+      "error": "HTTPError"
     }
   ],
   "feeds": [
@@ -589,6 +592,30 @@
       "kind": "news",
       "source_url": "https://openai.com/news/rss.xml",
       "items": [
+        {
+          "title": "Introducing the Grid Protectors Program",
+          "url": "https://openai.com/index/grid-protectors-program",
+          "published_at": "2026-11-02T15:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "LifeVal",
+          "url": "https://openai.com/index/lifeval",
+          "published_at": "2026-11-02T09:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "Qodo builds context into AI code review with Codex",
+          "url": "https://openai.com/index/qodo-codex-plugin",
+          "published_at": "2026-11-02T00:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
         {
           "title": "Making it easier for websites to express AI training preferences",
           "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
@@ -628,34 +655,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "How Ropes & Gray is developing AI for transactional diligence",
-          "url": "https://openai.com/index/ropes-gray-ai-diligence",
-          "published_at": "2026-10-29T07:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-          "url": "https://openai.com/index/credit-saison",
-          "published_at": "2026-10-29T00:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-          "published_at": "2026-10-28T13:15:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-02T11:25:21.855950+00:00",
-      "last_success_at": "2026-11-02T11:25:21.855950+00:00",
+      "checked_at": "2026-11-02T21:47:29.194877+00:00",
+      "last_success_at": "2026-11-02T21:47:29.194877+00:00",
       "status": "ok"
     },
     {
@@ -664,6 +667,14 @@
       "kind": "news",
       "source_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "items": [
+        {
+          "title": "The latest AI news we announced in October 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+          "published_at": "2026-11-02T17:45:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
         {
           "title": "Our newest AI Quest: Mapping the human brain",
           "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
@@ -719,18 +730,10 @@
           "source": "Google AI",
           "source_id": "google",
           "kind": "news"
-        },
-        {
-          "title": "New experts join Google’s AI & Economy team",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-          "published_at": "2026-09-18T14:00:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-02T11:25:21.855950+00:00",
-      "last_success_at": "2026-11-02T11:25:21.855950+00:00",
+      "checked_at": "2026-11-02T21:47:29.194877+00:00",
+      "last_success_at": "2026-11-02T21:47:29.194877+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +807,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-02T11:25:21.855950+00:00",
-      "last_success_at": "2026-11-02T11:25:21.855950+00:00",
+      "checked_at": "2026-11-02T21:47:29.194877+00:00",
+      "last_success_at": "2026-11-02T21:47:29.194877+00:00",
       "status": "ok"
     },
     {
@@ -879,8 +882,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-02T11:25:21.855950+00:00",
-      "last_success_at": "2026-11-02T11:25:21.855950+00:00",
+      "checked_at": "2026-11-02T21:47:29.194877+00:00",
+      "last_success_at": "2026-11-02T21:47:29.194877+00:00",
       "status": "ok"
     },
     {
@@ -954,8 +957,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-02T11:25:21.855950+00:00",
-      "last_success_at": "2026-11-02T11:25:21.855950+00:00",
+      "checked_at": "2026-11-02T21:47:29.194877+00:00",
+      "last_success_at": "2026-11-02T21:47:29.194877+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1032,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-02T11:25:21.855950+00:00",
-      "last_success_at": "2026-11-02T11:25:21.855950+00:00",
+      "checked_at": "2026-11-02T21:47:29.194877+00:00",
+      "last_success_at": "2026-11-02T21:47:29.194877+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1050,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-02T11:25:21.855950+00:00",
+    "checked_at": "2026-11-02T21:47:29.194877+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1062,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-02T11:25:21.855950+00:00",
-    "last_success_at": "2026-11-02T11:25:21.855950+00:00",
+    "checked_at": "2026-11-02T21:47:29.194877+00:00",
+    "last_success_at": "2026-11-02T21:47:29.194877+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
