@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T12:31:11.888229+00:00",
+  "updated_at": "2026-11-05T20:42:51.765675+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 132547
         }
       ],
-      "checked_at": "2026-11-05T12:31:11.888229+00:00",
-      "last_success_at": "2026-11-05T12:31:11.888229+00:00",
+      "checked_at": "2026-11-05T20:42:51.765675+00:00",
+      "last_success_at": "2026-11-05T20:42:51.765675+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 3724
         }
       ],
-      "checked_at": "2026-11-05T12:31:11.888229+00:00",
-      "last_success_at": "2026-11-05T12:31:11.888229+00:00",
+      "checked_at": "2026-11-05T20:42:51.765675+00:00",
+      "last_success_at": "2026-11-05T20:42:51.765675+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 18303
         }
       ],
-      "checked_at": "2026-11-05T12:31:11.888229+00:00",
-      "last_success_at": "2026-11-05T12:31:11.888229+00:00",
+      "checked_at": "2026-11-05T20:42:51.765675+00:00",
+      "last_success_at": "2026-11-05T20:42:51.765675+00:00",
       "status": "ok"
     }
   ],
@@ -589,6 +589,14 @@
       "kind": "news",
       "source_url": "https://openai.com/news/rss.xml",
       "items": [
+        {
+          "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber",
+          "published_at": "2026-11-05T09:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
         {
           "title": "Setting a new standard for responsible AI infrastructure",
           "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
@@ -644,18 +652,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "How Cisco defends at machine speed with OpenAI",
-          "url": "https://openai.com/index/cisco-cyber",
-          "published_at": "2026-11-03T08:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-05T12:31:11.888229+00:00",
-      "last_success_at": "2026-11-05T12:31:11.888229+00:00",
+      "checked_at": "2026-11-05T20:42:51.765675+00:00",
+      "last_success_at": "2026-11-05T20:42:51.765675+00:00",
       "status": "ok"
     },
     {
@@ -664,6 +664,14 @@
       "kind": "news",
       "source_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "items": [
+        {
+          "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "published_at": "2026-11-05T17:00:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
         {
           "title": "The latest AI news we announced in October 2026",
           "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
@@ -719,18 +727,10 @@
           "source": "Google AI",
           "source_id": "google",
           "kind": "news"
-        },
-        {
-          "title": "Google Beam expands with new regions, partners, and customers",
-          "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-          "published_at": "2026-09-23T18:00:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-05T12:31:11.888229+00:00",
-      "last_success_at": "2026-11-05T12:31:11.888229+00:00",
+      "checked_at": "2026-11-05T20:42:51.765675+00:00",
+      "last_success_at": "2026-11-05T20:42:51.765675+00:00",
       "status": "ok"
     },
     {
@@ -739,6 +739,14 @@
       "kind": "news",
       "source_url": "https://deepmind.google/blog/rss.xml",
       "items": [
+        {
+          "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+          "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+          "published_at": "2026-11-05T17:05:16+00:00",
+          "source": "Google DeepMind",
+          "source_id": "deepmind",
+          "kind": "news"
+        },
         {
           "title": "Agentic cheminformatics with Google Antigravity",
           "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
@@ -794,18 +802,10 @@
           "source": "Google DeepMind",
           "source_id": "deepmind",
           "kind": "news"
-        },
-        {
-          "title": "Developing Gemini 4 Argon responsibly and safely",
-          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-          "published_at": "2026-10-13T19:43:07+00:00",
-          "source": "Google DeepMind",
-          "source_id": "deepmind",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-05T12:31:11.888229+00:00",
-      "last_success_at": "2026-11-05T12:31:11.888229+00:00",
+      "checked_at": "2026-11-05T20:42:51.765675+00:00",
+      "last_success_at": "2026-11-05T20:42:51.765675+00:00",
       "status": "ok"
     },
     {
@@ -815,17 +815,33 @@
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
         {
-          "title": "rust-v0.168.0-alpha.4",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.4",
-          "published_at": "2026-11-05T11:20:13+00:00",
+          "title": "0.168.0-alpha.6",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.6",
+          "published_at": "2026-11-05T19:57:50+00:00",
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
         },
         {
-          "title": "rust-v0.167.0-alpha.3.2",
+          "title": "rust-v0.168.0-alpha.5",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.5",
+          "published_at": "2026-11-05T17:06:54+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.167.0-alpha.3.2",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3.2",
-          "published_at": "2026-11-05T06:26:50+00:00",
+          "published_at": "2026-11-05T13:21:12+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "rust-v0.168.0-alpha.4",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.4",
+          "published_at": "2026-11-05T11:20:13+00:00",
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
@@ -861,26 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.168.0-alpha.1",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.1",
-          "published_at": "2026-11-04T02:58:24+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "libcap 2.75 source archive",
-          "url": "https://github.com/openai/codex/releases/tag/libcap-v2.75",
-          "published_at": "2026-11-03T23:04:31+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-05T12:31:11.888229+00:00",
-      "last_success_at": "2026-11-05T12:31:11.888229+00:00",
+      "checked_at": "2026-11-05T20:42:51.765675+00:00",
+      "last_success_at": "2026-11-05T20:42:51.765675+00:00",
       "status": "ok"
     },
     {
@@ -954,8 +954,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-05T12:31:11.888229+00:00",
-      "last_success_at": "2026-11-05T12:31:11.888229+00:00",
+      "checked_at": "2026-11-05T20:42:51.765675+00:00",
+      "last_success_at": "2026-11-05T20:42:51.765675+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-05T12:31:11.888229+00:00",
-      "last_success_at": "2026-11-05T12:31:11.888229+00:00",
+      "checked_at": "2026-11-05T20:42:51.765675+00:00",
+      "last_success_at": "2026-11-05T20:42:51.765675+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-05T12:31:11.888229+00:00",
+    "checked_at": "2026-11-05T20:42:51.765675+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-05T12:31:11.888229+00:00",
-    "last_success_at": "2026-11-05T12:31:11.888229+00:00",
+    "checked_at": "2026-11-05T20:42:51.765675+00:00",
+    "last_success_at": "2026-11-05T20:42:51.765675+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
