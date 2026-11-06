@@ -126,7 +126,7 @@ test("HTML contains valid anchors and existing local assets, with safe external 
   }
   assert.match(html, /<html lang="zh-CN">/);
   assert.match(html, /class="filters"[^>]* hidden/);
-  assert.equal((html.match(/class="project-card/g) || []).length, 3);
+  assert.equal((html.match(/class="project-card/g) || []).length, 4);
 });
 
 test("visitors reach growth and representative work before reference collections", () => {
@@ -135,7 +135,7 @@ test("visitors reach growth and representative work before reference collections
   assert.deepEqual(sections, ["journey", "projects", "notes", "library", "bookmarks", "social", "about"]);
   assert.match(html, /class="button button-dark" href="#journey"/);
   const projects = html.slice(html.indexOf('id="projects"'), html.indexOf('id="notes"'));
-  for (const repo of ["igw-p4", "grpc-infra", "flink-kafka-hbase"]) {
+  for (const repo of ["igw-p4", "bgw-p4", "grpc-infra", "flink-kafka-hbase"]) {
     assert.ok(projects.includes(`href="https://github.com/singgel/${repo}"`));
   }
 });

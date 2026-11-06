@@ -10,6 +10,12 @@
     <meta property="og:description" content="把网络连起来，让系统更可靠。云网络、后端与可靠性工程的成长记录。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://singgel.github.io/">
+    <meta property="og:image" content="https://singgel.github.io/assets/og-image.png">
+    <meta property="og:locale" content="zh_CN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="singgel · 阿拉斯加大闸蟹">
+    <meta name="twitter:description" content="把网络连起来，让系统更可靠。云网络、后端与可靠性工程的成长记录。">
+    <meta name="twitter:image" content="https://singgel.github.io/assets/og-image.png">
     <link rel="canonical" href="https://singgel.github.io/">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/style.css?v=f806f96ed359">
@@ -19,6 +25,9 @@
     <script src="assets/socials.js?v=06faa0fc8fcc" defer></script>
     <script src="assets/growth.js?v=bdbe04a3a431" defer></script>
     <title>singgel · 阿拉斯加大闸蟹</title>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Person","name":"阿拉斯加大闸蟹","alternateName":"singgel","url":"https://singgel.github.io/","email":"mailto:18670310+singgel@users.noreply.github.com","jobTitle":"Infrastructure / Cloud Network Engineer","knowsAbout":["Cloud Network","P4 Programmable Data Plane","SDN","Backend Engineering","Reliability Engineering"],"sameAs":["https://github.com/singgel","https://blog.csdn.net/singgel/","https://www.zhihu.com/people/gexingyumi/posts","https://juejin.cn/user/4055442887022119","https://stackoverflow.com/users/10727010/singgel"]}
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">跳到正文</a>
@@ -129,7 +138,7 @@
 
       <section class="projects section" id="projects" aria-labelledby="projects-title">
         <div class="section-heading">
-          <div><p class="eyebrow">02 / SELECTED WORK</p><h2 id="projects-title">三个方向，三份实践<span class="small-dot">.</span></h2></div>
+          <div><p class="eyebrow">02 / SELECTED WORK</p><h2 id="projects-title">三个方向，四份实践<span class="small-dot">.</span></h2></div>
           <a class="text-link" href="https://github.com/singgel?tab=repositories" target="_blank" rel="noopener noreferrer">全部仓库 <span aria-hidden="true">↗</span></a>
         </div>
         <p class="section-description">从数据面到服务调用，再到实时数据流。打开仓库，看看具体的代码与实现记录。</p>
@@ -149,8 +158,16 @@
             <p class="project-detail">面向 Tofino 的 P4 管线，包含 VXLAN、EIP / NAT、限速与下一跳处理，配套 BF-RT 初始化和运维脚本。</p>
             <div class="card-bottom"><span>P4</span><span>Tofino</span><span>VXLAN / NAT</span></div>
           </article>
+          <article class="project-card" data-category="network">
+            <div class="card-top"><span class="project-number">02</span><span class="tag">云网络 / 数据面</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+            <h3><a href="https://github.com/singgel/bgw-p4" target="_blank" rel="noopener noreferrer">边界网关 P4 数据面<span class="sr-only"> · bgw-p4，在新窗口打开</span></a></h3>
+            <p class="project-repo">bgw-p4</p>
+            <p>专线与 VPN 流量，如何在边界网关上完成互通与收敛？</p>
+            <p class="project-detail">同样面向 Tofino 的 P4 管线：VXLAN、ECMP、系统 ACL 与多 pipeline 转发，配套 BF-RT 初始化和 PTF 回归测试。</p>
+            <div class="card-bottom"><span>P4</span><span>Tofino</span><span>ECMP / ACL</span></div>
+          </article>
           <article class="project-card" data-category="backend">
-            <div class="card-top"><span class="project-number">02</span><span class="tag">后端 / 服务通信</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+            <div class="card-top"><span class="project-number">03</span><span class="tag">后端 / 服务通信</span><span class="card-arrow" aria-hidden="true">↗</span></div>
             <h3><a href="https://github.com/singgel/grpc-infra" target="_blank" rel="noopener noreferrer">gRPC 通信机制实践<span class="sr-only"> · grpc-infra，在新窗口打开</span></a></h3>
             <p class="project-repo">grpc-infra</p>
             <p>阻塞调用与流式响应之间，如何处理异步结果？</p>
@@ -158,7 +175,7 @@
             <div class="card-bottom"><span>Java</span><span>gRPC</span><span>Streaming</span></div>
           </article>
           <article class="project-card" data-category="data">
-            <div class="card-top"><span class="project-number">03</span><span class="tag">数据 / 实时管道</span><span class="card-arrow" aria-hidden="true">↗</span></div>
+            <div class="card-top"><span class="project-number">04</span><span class="tag">数据 / 实时管道</span><span class="card-arrow" aria-hidden="true">↗</span></div>
             <h3><a href="https://github.com/singgel/flink-kafka-hbase" target="_blank" rel="noopener noreferrer">Kafka 到 HBase 的实时管道<span class="sr-only"> · flink-kafka-hbase，在新窗口打开</span></a></h3>
             <p class="project-repo">flink-kafka-hbase</p>
             <p>消息如何映射成存储字段，并与已有数据关联？</p>
