@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T10:00:01.429484+00:00",
+  "updated_at": "2026-11-10T17:57:16.195758+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 132296
         }
       ],
-      "checked_at": "2026-11-10T10:00:01.429484+00:00",
-      "last_success_at": "2026-11-10T10:00:01.429484+00:00",
+      "checked_at": "2026-11-10T17:57:16.195758+00:00",
+      "last_success_at": "2026-11-10T17:57:16.195758+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 4875
         }
       ],
-      "checked_at": "2026-11-10T10:00:01.429484+00:00",
-      "last_success_at": "2026-11-10T10:00:01.429484+00:00",
+      "checked_at": "2026-11-10T17:57:16.195758+00:00",
+      "last_success_at": "2026-11-10T17:57:16.195758+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 30058
         }
       ],
-      "checked_at": "2026-11-10T10:00:01.429484+00:00",
-      "last_success_at": "2026-11-10T10:00:01.429484+00:00",
+      "checked_at": "2026-11-10T17:57:16.195758+00:00",
+      "last_success_at": "2026-11-10T17:57:16.195758+00:00",
       "status": "ok"
     }
   ],
@@ -590,9 +590,25 @@
       "source_url": "https://openai.com/news/rss.xml",
       "items": [
         {
+          "title": "Helping caregivers use AI in everyday life",
+          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "published_at": "2026-11-10T12:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
           "title": "Closing the AI guidance gap in education",
           "url": "https://openai.com/index/closing-ai-guidance-gap-education",
           "published_at": "2026-11-10T09:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "Work at the Frontier: AI’s effect on freelance work",
+          "url": "https://openai.com/index/ai-effect-on-freelance-work",
+          "published_at": "2026-11-10T07:00:00+00:00",
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
@@ -636,26 +652,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "Measuring how AI agents handle everyday wet-lab science",
-          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-          "published_at": "2026-11-06T00:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "Cult.fit builds operational muscle with Codex",
-          "url": "https://openai.com/index/cultfit-builds-with-codex",
-          "published_at": "2026-11-05T20:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-10T10:00:01.429484+00:00",
-      "last_success_at": "2026-11-10T10:00:01.429484+00:00",
+      "checked_at": "2026-11-10T17:57:16.195758+00:00",
+      "last_success_at": "2026-11-10T17:57:16.195758+00:00",
       "status": "ok"
     },
     {
@@ -664,6 +664,22 @@
       "kind": "news",
       "source_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "items": [
+        {
+          "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+          "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+          "published_at": "2026-11-10T14:00:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
+        {
+          "title": "Google Cloud launches Gemini for healthcare.",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+          "published_at": "2026-11-10T13:00:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
         {
           "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
@@ -711,26 +727,10 @@
           "source": "Google AI",
           "source_id": "google",
           "kind": "news"
-        },
-        {
-          "title": "The latest AI news we announced in September 2026",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-          "published_at": "2026-10-02T15:00:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
-        },
-        {
-          "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-          "published_at": "2026-09-28T19:00:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-10T10:00:01.429484+00:00",
-      "last_success_at": "2026-11-10T10:00:01.429484+00:00",
+      "checked_at": "2026-11-10T17:57:16.195758+00:00",
+      "last_success_at": "2026-11-10T17:57:16.195758+00:00",
       "status": "ok"
     },
     {
@@ -739,6 +739,30 @@
       "kind": "news",
       "source_url": "https://deepmind.google/blog/rss.xml",
       "items": [
+        {
+          "title": "Gemini 4 Carbon is now available",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+          "published_at": "2026-11-10T16:03:47+00:00",
+          "source": "Google DeepMind",
+          "source_id": "deepmind",
+          "kind": "news"
+        },
+        {
+          "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+          "published_at": "2026-11-10T12:02:28+00:00",
+          "source": "Google DeepMind",
+          "source_id": "deepmind",
+          "kind": "news"
+        },
+        {
+          "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+          "published_at": "2026-11-09T19:51:47+00:00",
+          "source": "Google DeepMind",
+          "source_id": "deepmind",
+          "kind": "news"
+        },
         {
           "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
           "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
@@ -778,34 +802,10 @@
           "source": "Google DeepMind",
           "source_id": "deepmind",
           "kind": "news"
-        },
-        {
-          "title": "Beyond tree cover: mapping the world’s forest types",
-          "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-          "published_at": "2026-10-22T14:30:24+00:00",
-          "source": "Google DeepMind",
-          "source_id": "deepmind",
-          "kind": "news"
-        },
-        {
-          "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-          "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-          "published_at": "2026-10-15T16:08:03+00:00",
-          "source": "Google DeepMind",
-          "source_id": "deepmind",
-          "kind": "news"
-        },
-        {
-          "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-          "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-          "published_at": "2026-10-14T02:00:14+00:00",
-          "source": "Google DeepMind",
-          "source_id": "deepmind",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-10T10:00:01.429484+00:00",
-      "last_success_at": "2026-11-10T10:00:01.429484+00:00",
+      "checked_at": "2026-11-10T17:57:16.195758+00:00",
+      "last_success_at": "2026-11-10T17:57:16.195758+00:00",
       "status": "ok"
     },
     {
@@ -814,6 +814,14 @@
       "kind": "tools",
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
+        {
+          "title": "rust-v0.169.0-alpha.9",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.9",
+          "published_at": "2026-11-10T16:52:11+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
         {
           "title": "rust-v0.169.0-alpha.8",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.8",
@@ -869,18 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.169.0-alpha.2",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.2",
-          "published_at": "2026-11-06T22:17:19+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-10T10:00:01.429484+00:00",
-      "last_success_at": "2026-11-10T10:00:01.429484+00:00",
+      "checked_at": "2026-11-10T17:57:16.195758+00:00",
+      "last_success_at": "2026-11-10T17:57:16.195758+00:00",
       "status": "ok"
     },
     {
@@ -889,6 +889,14 @@
       "kind": "tools",
       "source_url": "https://github.com/MoonshotAI/kimi-code/releases.atom",
       "items": [
+        {
+          "title": "@moonshot-ai/kimi-code@2.5.3",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.5.3",
+          "published_at": "2026-11-10T13:21:38+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
         {
           "title": "@moonshot-ai/kimi-code@3.0.0-canary.20261109125038-713a200",
           "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%403.0.0-canary.20261109125038-713a200",
@@ -944,18 +952,10 @@
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
-        },
-        {
-          "title": "@moonshot-ai/kimi-code@2.6.0-canary.20261105045446-836a82b",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.6.0-canary.20261105045446-836a82b",
-          "published_at": "2026-11-05T05:12:38+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-10T10:00:01.429484+00:00",
-      "last_success_at": "2026-11-10T10:00:01.429484+00:00",
+      "checked_at": "2026-11-10T17:57:16.195758+00:00",
+      "last_success_at": "2026-11-10T17:57:16.195758+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-10T10:00:01.429484+00:00",
-      "last_success_at": "2026-11-10T10:00:01.429484+00:00",
+      "checked_at": "2026-11-10T17:57:16.195758+00:00",
+      "last_success_at": "2026-11-10T17:57:16.195758+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-10T10:00:01.429484+00:00",
+    "checked_at": "2026-11-10T17:57:16.195758+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-10T10:00:01.429484+00:00",
-    "last_success_at": "2026-11-10T10:00:01.429484+00:00",
+    "checked_at": "2026-11-10T17:57:16.195758+00:00",
+    "last_success_at": "2026-11-10T17:57:16.195758+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
