@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11T15:25:30.250310+00:00",
+  "updated_at": "2026-11-11T22:47:31.950434+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 132296
         }
       ],
-      "checked_at": "2026-11-11T15:25:30.250310+00:00",
-      "last_success_at": "2026-11-11T15:25:30.250310+00:00",
+      "checked_at": "2026-11-11T22:47:31.950434+00:00",
+      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 12122
         }
       ],
-      "checked_at": "2026-11-11T15:25:30.250310+00:00",
-      "last_success_at": "2026-11-11T15:25:30.250310+00:00",
+      "checked_at": "2026-11-11T22:47:31.950434+00:00",
+      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 30058
         }
       ],
-      "checked_at": "2026-11-11T15:25:30.250310+00:00",
-      "last_success_at": "2026-11-11T15:25:30.250310+00:00",
+      "checked_at": "2026-11-11T22:47:31.950434+00:00",
+      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
       "status": "ok"
     }
   ],
@@ -601,6 +601,14 @@
           "title": "ChatGPT Plus for veterans and servicemembers",
           "url": "https://openai.com/index/chatgpt-plus-for-veterans",
           "published_at": "2026-11-11T08:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+          "url": "https://openai.com/index/jiostar-vijay-seshadri",
+          "published_at": "2026-11-11T00:00:00+00:00",
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
@@ -644,18 +652,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-          "url": "https://openai.com/index/cogent-security",
-          "published_at": "2026-11-10T00:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-11T15:25:30.250310+00:00",
-      "last_success_at": "2026-11-11T15:25:30.250310+00:00",
+      "checked_at": "2026-11-11T22:47:31.950434+00:00",
+      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
       "status": "ok"
     },
     {
@@ -664,6 +664,22 @@
       "kind": "news",
       "source_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "items": [
+        {
+          "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "published_at": "2026-11-11T18:00:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
+        {
+          "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+          "published_at": "2026-11-11T16:00:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
         {
           "title": "Experience the art and legacy of Dr. Esther Mahlangu",
           "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
@@ -711,26 +727,10 @@
           "source": "Google AI",
           "source_id": "google",
           "kind": "news"
-        },
-        {
-          "title": "Our newest AI Quest: Mapping the human brain",
-          "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
-          "published_at": "2026-10-26T16:00:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
-        },
-        {
-          "title": "Southeast Asia’s digital economy to hit $368 billion",
-          "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
-          "published_at": "2026-10-21T04:00:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-11T15:25:30.250310+00:00",
-      "last_success_at": "2026-11-11T15:25:30.250310+00:00",
+      "checked_at": "2026-11-11T22:47:31.950434+00:00",
+      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-11T15:25:30.250310+00:00",
-      "last_success_at": "2026-11-11T15:25:30.250310+00:00",
+      "checked_at": "2026-11-11T22:47:31.950434+00:00",
+      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
       "status": "ok"
     },
     {
@@ -814,6 +814,38 @@
       "kind": "tools",
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
+        {
+          "title": "0.167.2",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
+          "published_at": "2026-11-11T22:46:17+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.169.0-alpha.11.1",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.11.1",
+          "published_at": "2026-11-11T22:27:26+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.170.0-alpha.1",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.1",
+          "published_at": "2026-11-11T20:09:52+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "rust-v0.167.0-alpha.4.3",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.3",
+          "published_at": "2026-11-11T19:57:10+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
         {
           "title": "0.169.0-alpha.11",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.11",
@@ -845,42 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.167.1",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.1",
-          "published_at": "2026-11-10T21:33:57+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "rust-v0.169.0-alpha.8",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.8",
-          "published_at": "2026-11-09T23:51:39+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.169.0-alpha.7",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.7",
-          "published_at": "2026-11-09T22:01:36+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.169.0-alpha.6",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.6",
-          "published_at": "2026-11-09T19:30:34+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-11T15:25:30.250310+00:00",
-      "last_success_at": "2026-11-11T15:25:30.250310+00:00",
+      "checked_at": "2026-11-11T22:47:31.950434+00:00",
+      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
       "status": "ok"
     },
     {
@@ -954,8 +954,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-11T15:25:30.250310+00:00",
-      "last_success_at": "2026-11-11T15:25:30.250310+00:00",
+      "checked_at": "2026-11-11T22:47:31.950434+00:00",
+      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-11T15:25:30.250310+00:00",
-      "last_success_at": "2026-11-11T15:25:30.250310+00:00",
+      "checked_at": "2026-11-11T22:47:31.950434+00:00",
+      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-11T15:25:30.250310+00:00",
+    "checked_at": "2026-11-11T22:47:31.950434+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-11T15:25:30.250310+00:00",
-    "last_success_at": "2026-11-11T15:25:30.250310+00:00",
+    "checked_at": "2026-11-11T22:47:31.950434+00:00",
+    "last_success_at": "2026-11-11T22:47:31.950434+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
