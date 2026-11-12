@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11T22:47:31.950434+00:00",
+  "updated_at": "2026-11-12T03:54:35.392673+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 132296
         }
       ],
-      "checked_at": "2026-11-11T22:47:31.950434+00:00",
-      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
+      "checked_at": "2026-11-12T03:54:35.392673+00:00",
+      "last_success_at": "2026-11-12T03:54:35.392673+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 12122
         }
       ],
-      "checked_at": "2026-11-11T22:47:31.950434+00:00",
-      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
+      "checked_at": "2026-11-12T03:54:35.392673+00:00",
+      "last_success_at": "2026-11-12T03:54:35.392673+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 30058
         }
       ],
-      "checked_at": "2026-11-11T22:47:31.950434+00:00",
-      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
+      "checked_at": "2026-11-12T03:54:35.392673+00:00",
+      "last_success_at": "2026-11-12T03:54:35.392673+00:00",
       "status": "ok"
     }
   ],
@@ -654,8 +654,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-11T22:47:31.950434+00:00",
-      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
+      "checked_at": "2026-11-12T03:54:35.392673+00:00",
+      "last_success_at": "2026-11-12T03:54:35.392673+00:00",
       "status": "ok"
     },
     {
@@ -729,8 +729,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-11T22:47:31.950434+00:00",
-      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
+      "checked_at": "2026-11-12T03:54:35.392673+00:00",
+      "last_success_at": "2026-11-12T03:54:35.392673+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-11T22:47:31.950434+00:00",
-      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
+      "checked_at": "2026-11-12T03:54:35.392673+00:00",
+      "last_success_at": "2026-11-12T03:54:35.392673+00:00",
       "status": "ok"
     },
     {
@@ -814,6 +814,22 @@
       "kind": "tools",
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
+        {
+          "title": "0.170.0-alpha.2",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.2",
+          "published_at": "2026-11-12T01:34:33+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.167.0-alpha.4.3",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.3",
+          "published_at": "2026-11-11T23:59:38+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
         {
           "title": "0.167.2",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
@@ -834,14 +850,6 @@
           "title": "0.170.0-alpha.1",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.1",
           "published_at": "2026-11-11T20:09:52+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "rust-v0.167.0-alpha.4.3",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.3",
-          "published_at": "2026-11-11T19:57:10+00:00",
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
@@ -869,18 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.169.0-alpha.9",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.9",
-          "published_at": "2026-11-10T22:13:52+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-11T22:47:31.950434+00:00",
-      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
+      "checked_at": "2026-11-12T03:54:35.392673+00:00",
+      "last_success_at": "2026-11-12T03:54:35.392673+00:00",
       "status": "ok"
     },
     {
@@ -889,6 +889,14 @@
       "kind": "tools",
       "source_url": "https://github.com/MoonshotAI/kimi-code/releases.atom",
       "items": [
+        {
+          "title": "@moonshot-ai/kimi-code@2.6.0-canary.20261112033252-d729f91",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.6.0-canary.20261112033252-d729f91",
+          "published_at": "2026-11-12T03:48:45+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
         {
           "title": "@moonshot-ai/kimi-code@2.6.0-canary.20261111095258-5518d54",
           "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.6.0-canary.20261111095258-5518d54",
@@ -944,18 +952,10 @@
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
-        },
-        {
-          "title": "@moonshot-ai/kimi-code@2.6.0-canary.20261106040415-d37c9d2",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.6.0-canary.20261106040415-d37c9d2",
-          "published_at": "2026-11-06T04:21:11+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-11T22:47:31.950434+00:00",
-      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
+      "checked_at": "2026-11-12T03:54:35.392673+00:00",
+      "last_success_at": "2026-11-12T03:54:35.392673+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-11T22:47:31.950434+00:00",
-      "last_success_at": "2026-11-11T22:47:31.950434+00:00",
+      "checked_at": "2026-11-12T03:54:35.392673+00:00",
+      "last_success_at": "2026-11-12T03:54:35.392673+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-11T22:47:31.950434+00:00",
+    "checked_at": "2026-11-12T03:54:35.392673+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-11T22:47:31.950434+00:00",
-    "last_success_at": "2026-11-11T22:47:31.950434+00:00",
+    "checked_at": "2026-11-12T03:54:35.392673+00:00",
+    "last_success_at": "2026-11-12T03:54:35.392673+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
