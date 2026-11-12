@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T12:54:42.160455+00:00",
+  "updated_at": "2026-11-12T20:55:52.788970+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 132296
         }
       ],
-      "checked_at": "2026-11-12T12:54:42.160455+00:00",
-      "last_success_at": "2026-11-12T12:54:42.160455+00:00",
+      "checked_at": "2026-11-12T20:55:52.788970+00:00",
+      "last_success_at": "2026-11-12T20:55:52.788970+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 12122
         }
       ],
-      "checked_at": "2026-11-12T12:54:42.160455+00:00",
-      "last_success_at": "2026-11-12T12:54:42.160455+00:00",
+      "checked_at": "2026-11-12T20:55:52.788970+00:00",
+      "last_success_at": "2026-11-12T20:55:52.788970+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 30058
         }
       ],
-      "checked_at": "2026-11-12T12:54:42.160455+00:00",
-      "last_success_at": "2026-11-12T12:54:42.160455+00:00",
+      "checked_at": "2026-11-12T20:55:52.788970+00:00",
+      "last_success_at": "2026-11-12T20:55:52.788970+00:00",
       "status": "ok"
     }
   ],
@@ -589,6 +589,14 @@
       "kind": "news",
       "source_url": "https://openai.com/news/rss.xml",
       "items": [
+        {
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "url": "https://openai.com/index/amplitude",
+          "published_at": "2026-11-12T20:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
         {
           "title": "Holiday Extras is rethinking what it can build with Codex",
           "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
@@ -644,18 +652,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "Closing the AI guidance gap in education",
-          "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-          "published_at": "2026-11-10T09:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-12T12:54:42.160455+00:00",
-      "last_success_at": "2026-11-12T12:54:42.160455+00:00",
+      "checked_at": "2026-11-12T20:55:52.788970+00:00",
+      "last_success_at": "2026-11-12T20:55:52.788970+00:00",
       "status": "ok"
     },
     {
@@ -664,6 +664,14 @@
       "kind": "news",
       "source_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "items": [
+        {
+          "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+          "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+          "published_at": "2026-11-12T18:00:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
         {
           "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
@@ -719,18 +727,10 @@
           "source": "Google AI",
           "source_id": "google",
           "kind": "news"
-        },
-        {
-          "title": "The latest AI news we announced in October 2026",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-          "published_at": "2026-11-02T17:45:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-12T12:54:42.160455+00:00",
-      "last_success_at": "2026-11-12T12:54:42.160455+00:00",
+      "checked_at": "2026-11-12T20:55:52.788970+00:00",
+      "last_success_at": "2026-11-12T20:55:52.788970+00:00",
       "status": "ok"
     },
     {
@@ -739,6 +739,14 @@
       "kind": "news",
       "source_url": "https://deepmind.google/blog/rss.xml",
       "items": [
+        {
+          "title": "Introducing Gemini 4 Hydrogen",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+          "published_at": "2026-11-12T18:00:50+00:00",
+          "source": "Google DeepMind",
+          "source_id": "deepmind",
+          "kind": "news"
+        },
         {
           "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
           "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
@@ -794,18 +802,10 @@
           "source": "Google DeepMind",
           "source_id": "deepmind",
           "kind": "news"
-        },
-        {
-          "title": "Gemini 4 Carbon: Our next frontier model",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-          "published_at": "2026-10-28T17:00:58+00:00",
-          "source": "Google DeepMind",
-          "source_id": "deepmind",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-12T12:54:42.160455+00:00",
-      "last_success_at": "2026-11-12T12:54:42.160455+00:00",
+      "checked_at": "2026-11-12T20:55:52.788970+00:00",
+      "last_success_at": "2026-11-12T20:55:52.788970+00:00",
       "status": "ok"
     },
     {
@@ -814,6 +814,22 @@
       "kind": "tools",
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
+        {
+          "title": "rust-v0.170.0-alpha.4",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4",
+          "published_at": "2026-11-12T19:55:18+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.170.0-alpha.3",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.3",
+          "published_at": "2026-11-12T19:37:30+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
         {
           "title": "0.170.0-alpha.2",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.2",
@@ -861,26 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.169.0-alpha.10",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.10",
-          "published_at": "2026-11-11T03:38:15+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.167.0-alpha.4.2",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.2",
-          "published_at": "2026-11-11T01:34:42+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-12T12:54:42.160455+00:00",
-      "last_success_at": "2026-11-12T12:54:42.160455+00:00",
+      "checked_at": "2026-11-12T20:55:52.788970+00:00",
+      "last_success_at": "2026-11-12T20:55:52.788970+00:00",
       "status": "ok"
     },
     {
@@ -954,8 +954,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-12T12:54:42.160455+00:00",
-      "last_success_at": "2026-11-12T12:54:42.160455+00:00",
+      "checked_at": "2026-11-12T20:55:52.788970+00:00",
+      "last_success_at": "2026-11-12T20:55:52.788970+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-12T12:54:42.160455+00:00",
-      "last_success_at": "2026-11-12T12:54:42.160455+00:00",
+      "checked_at": "2026-11-12T20:55:52.788970+00:00",
+      "last_success_at": "2026-11-12T20:55:52.788970+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-12T12:54:42.160455+00:00",
+    "checked_at": "2026-11-12T20:55:52.788970+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-12T12:54:42.160455+00:00",
-    "last_success_at": "2026-11-12T12:54:42.160455+00:00",
+    "checked_at": "2026-11-12T20:55:52.788970+00:00",
+    "last_success_at": "2026-11-12T20:55:52.788970+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
