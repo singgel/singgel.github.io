@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T01:56:22.313243+00:00",
+  "updated_at": "2026-11-13T09:42:40.442229+00:00",
   "boards": [
     {
       "id": "text",
@@ -8,106 +8,106 @@
       "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
       "data_url": "https://datasets-server.huggingface.co/rows?dataset=lmarena-ai%2Fleaderboard-dataset&config=text_style_control&split=latest&offset=0&length=100",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "published_at": "2026-11-09",
+      "published_at": "2026-11-11",
       "entries": [
         {
           "rank": 1,
           "model": "Gemini 4 Carbon (High)",
           "organization": "google",
-          "score": 1526.0,
-          "lower": 1516.4,
-          "upper": 1535.6,
-          "votes": 4282
+          "score": 1526.2,
+          "lower": 1516.6,
+          "upper": 1535.8,
+          "votes": 4273
         },
         {
           "rank": 2,
           "model": "Gemini 4 Argon (High)",
           "organization": "google",
-          "score": 1522.4,
-          "lower": 1516.9,
-          "upper": 1527.9,
-          "votes": 19787
+          "score": 1521.7,
+          "lower": 1516.3,
+          "upper": 1527.1,
+          "votes": 20779
         },
         {
           "rank": 3,
           "model": "Muse Wonder (Max)",
           "organization": "meta",
-          "score": 1511.0,
-          "lower": 1504.6,
-          "upper": 1517.3,
-          "votes": 12032
+          "score": 1510.9,
+          "lower": 1504.7,
+          "upper": 1517.1,
+          "votes": 12696
         },
         {
           "rank": 4,
           "model": "Claude Opus 5.5 (High)",
           "organization": "anthropic",
-          "score": 1506.1,
-          "lower": 1500.0,
-          "upper": 1512.1,
-          "votes": 15249
+          "score": 1506.8,
+          "lower": 1500.8,
+          "upper": 1512.7,
+          "votes": 15793
         },
         {
           "rank": 5,
           "model": "Claude Fable 5 (High)",
           "organization": "anthropic",
-          "score": 1503.9,
-          "lower": 1499.7,
-          "upper": 1508.1,
-          "votes": 45524
+          "score": 1504.0,
+          "lower": 1499.8,
+          "upper": 1508.2,
+          "votes": 45469
         },
         {
           "rank": 6,
           "model": "Claude Opus 4.6 (High)",
           "organization": "anthropic",
-          "score": 1503.0,
-          "lower": 1499.8,
-          "upper": 1506.3,
-          "votes": 84424
+          "score": 1502.8,
+          "lower": 1499.6,
+          "upper": 1506.1,
+          "votes": 84375
         },
         {
           "rank": 7,
           "model": "Claude Fable 5.1 (Max)",
           "organization": "anthropic",
-          "score": 1502.7,
-          "lower": 1497.2,
-          "upper": 1508.2,
-          "votes": 20087
+          "score": 1502.3,
+          "lower": 1496.8,
+          "upper": 1507.8,
+          "votes": 20511
         },
         {
           "rank": 8,
           "model": "Claude Opus 4.7 (High)",
           "organization": "anthropic",
           "score": 1501.1,
-          "lower": 1497.3,
-          "upper": 1504.8,
-          "votes": 64308
+          "lower": 1497.4,
+          "upper": 1504.9,
+          "votes": 64260
         },
         {
           "rank": 9,
           "model": "Gemini 3.8 Flash (High)",
           "organization": "google",
-          "score": 1497.5,
-          "lower": 1493.3,
-          "upper": 1501.7,
-          "votes": 61143
+          "score": 1496.7,
+          "lower": 1492.5,
+          "upper": 1500.9,
+          "votes": 62675
         },
         {
           "rank": 10,
-          "model": "Claude Opus 4.6",
-          "organization": "anthropic",
+          "model": "Muse Spark 1.3 (Max)",
+          "organization": "meta",
           "score": 1496.5,
-          "lower": 1493.3,
-          "upper": 1499.6,
-          "votes": 89228
+          "lower": 1491.5,
+          "upper": 1501.5,
+          "votes": 26806
         },
         {
           "rank": 11,
-          "model": "Muse Spark 1.3 (Max)",
-          "organization": "meta",
-          "score": 1496.3,
-          "lower": 1491.2,
-          "upper": 1501.4,
-          "votes": 26111
+          "model": "Claude Opus 4.6",
+          "organization": "anthropic",
+          "score": 1496.4,
+          "lower": 1493.2,
+          "upper": 1499.6,
+          "votes": 89177
         },
         {
           "rank": 12,
@@ -116,83 +116,83 @@
           "score": 1493.9,
           "lower": 1490.1,
           "upper": 1497.6,
-          "votes": 65369
+          "votes": 65309
         },
         {
           "rank": 13,
           "model": "Muse Spark 1.2 (xHigh)",
           "organization": "meta",
-          "score": 1493.5,
-          "lower": 1487.6,
-          "upper": 1499.3,
-          "votes": 15004
+          "score": 1492.9,
+          "lower": 1487.1,
+          "upper": 1498.7,
+          "votes": 15563
         },
         {
           "rank": 14,
           "model": "Muse Spark 1.1",
           "organization": "meta",
-          "score": 1490.7,
-          "lower": 1486.6,
-          "upper": 1494.9,
-          "votes": 45562
+          "score": 1490.9,
+          "lower": 1486.7,
+          "upper": 1495.0,
+          "votes": 45519
         },
         {
           "rank": 15,
-          "model": "Claude Opus 5 (High)",
-          "organization": "anthropic",
-          "score": 1489.8,
-          "lower": 1486.1,
-          "upper": 1493.4,
-          "votes": 73697
+          "model": "Gemini 4 Hydrogen (High)",
+          "organization": "google",
+          "score": 1490.4,
+          "lower": 1481.4,
+          "upper": 1499.4,
+          "votes": 4741
         },
         {
           "rank": 16,
-          "model": "Gemini 3.7 Flash (High)",
-          "organization": "google",
-          "score": 1489.4,
-          "lower": 1484.7,
-          "upper": 1494.1,
-          "votes": 33300
+          "model": "Claude Opus 5 (High)",
+          "organization": "anthropic",
+          "score": 1489.7,
+          "lower": 1486.1,
+          "upper": 1493.3,
+          "votes": 73632
         },
         {
           "rank": 17,
-          "model": "Muse Spark",
-          "organization": "meta",
-          "score": 1489.1,
-          "lower": 1483.3,
-          "upper": 1494.9,
-          "votes": 14009
+          "model": "Gemini 3.7 Flash (High)",
+          "organization": "google",
+          "score": 1489.3,
+          "lower": 1484.6,
+          "upper": 1494.0,
+          "votes": 33251
         },
         {
           "rank": 18,
-          "model": "Claude Opus 5 (Max)",
-          "organization": "anthropic",
-          "score": 1488.8,
-          "lower": 1484.1,
-          "upper": 1493.5,
-          "votes": 35710
+          "model": "Muse Spark",
+          "organization": "meta",
+          "score": 1489.2,
+          "lower": 1483.4,
+          "upper": 1495.0,
+          "votes": 13985
         },
         {
           "rank": 19,
-          "model": "Kimi K3 (Max)",
-          "organization": "moonshot",
-          "score": 1487.1,
-          "lower": 1482.8,
-          "upper": 1491.4,
-          "votes": 40867
+          "model": "Claude Opus 5 (Max)",
+          "organization": "anthropic",
+          "score": 1489.0,
+          "lower": 1484.2,
+          "upper": 1493.7,
+          "votes": 35670
         },
         {
           "rank": 20,
-          "model": "Gemini 3.1 Pro Preview",
-          "organization": "google",
-          "score": 1486.7,
-          "lower": 1483.8,
-          "upper": 1489.7,
-          "votes": 132296
+          "model": "Kimi K3 (Max)",
+          "organization": "moonshot",
+          "score": 1487.4,
+          "lower": 1483.2,
+          "upper": 1491.7,
+          "votes": 41402
         }
       ],
-      "checked_at": "2026-11-13T01:56:22.313243+00:00",
-      "last_success_at": "2026-11-13T01:56:22.313243+00:00",
+      "checked_at": "2026-11-13T09:42:40.442229+00:00",
+      "last_success_at": "2026-11-13T09:42:40.442229+00:00",
       "status": "ok"
     },
     {
@@ -201,41 +201,41 @@
       "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
       "data_url": "https://datasets-server.huggingface.co/rows?dataset=lmarena-ai%2Fleaderboard-dataset&config=webdev&split=latest&offset=0&length=100",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "published_at": "2026-11-10",
+      "published_at": "2026-11-11",
       "entries": [
         {
           "rank": 1,
           "model": "Claude Fable 5.2 (xHigh)",
           "organization": "anthropic",
-          "score": 1835.8,
-          "lower": 1813.3,
-          "upper": 1858.2,
-          "votes": 994
+          "score": 1837.8,
+          "lower": 1817.3,
+          "upper": 1858.3,
+          "votes": 1215
         },
         {
           "rank": 2,
           "model": "Claude Opus 5.5 (Max)",
           "organization": "anthropic",
-          "score": 1814.3,
-          "lower": 1802.6,
-          "upper": 1826.0,
-          "votes": 4187
+          "score": 1814.7,
+          "lower": 1802.9,
+          "upper": 1826.4,
+          "votes": 4208
         },
         {
           "rank": 3,
           "model": "Claude Sonnet 5.5 (xHigh)",
           "organization": "anthropic",
-          "score": 1772.5,
-          "lower": 1762.6,
-          "upper": 1782.5,
-          "votes": 5818
+          "score": 1772.3,
+          "lower": 1762.4,
+          "upper": 1782.1,
+          "votes": 5895
         },
         {
           "rank": 4,
           "model": "Gemini 4 Carbon (High)",
           "organization": "google",
           "score": 1768.2,
-          "lower": 1752.8,
+          "lower": 1752.9,
           "upper": 1783.5,
           "votes": 2120
         },
@@ -243,149 +243,149 @@
           "rank": 5,
           "model": "GPT-6 Astra (Max)",
           "organization": "openai",
-          "score": 1764.4,
-          "lower": 1755.8,
-          "upper": 1773.0,
-          "votes": 8425
+          "score": 1763.8,
+          "lower": 1755.2,
+          "upper": 1772.3,
+          "votes": 8470
         },
         {
           "rank": 6,
           "model": "GPT-6.1 Sol (Max)",
           "organization": "openai",
-          "score": 1743.0,
-          "lower": 1733.2,
-          "upper": 1752.9,
-          "votes": 5539
+          "score": 1743.3,
+          "lower": 1733.5,
+          "upper": 1753.1,
+          "votes": 5590
         },
         {
           "rank": 7,
           "model": "Claude Fable 5.1 (Max)",
           "organization": "anthropic",
-          "score": 1742.1,
-          "lower": 1734.1,
-          "upper": 1750.0,
-          "votes": 9756
+          "score": 1741.9,
+          "lower": 1733.9,
+          "upper": 1749.8,
+          "votes": 9800
         },
         {
           "rank": 8,
           "model": "Muse Wonder Full (Max)",
           "organization": "meta",
-          "score": 1723.4,
-          "lower": 1709.0,
-          "upper": 1737.8,
-          "votes": 2069
+          "score": 1723.5,
+          "lower": 1709.1,
+          "upper": 1737.9,
+          "votes": 2068
         },
         {
           "rank": 9,
           "model": "Claude Sonnet 5.5 (High)",
           "organization": "anthropic",
-          "score": 1715.3,
-          "lower": 1706.9,
-          "upper": 1723.8,
-          "votes": 7881
+          "score": 1715.2,
+          "lower": 1706.8,
+          "upper": 1723.6,
+          "votes": 7940
         },
         {
           "rank": 10,
-          "model": "Claude Opus 5 (Max)",
-          "organization": "anthropic",
-          "score": 1691.0,
-          "lower": 1684.9,
-          "upper": 1697.1,
-          "votes": 19561
+          "model": "Gemini 4 Hydrogen (High)",
+          "organization": "google",
+          "score": 1704.2,
+          "lower": 1689.8,
+          "upper": 1718.6,
+          "votes": 1997
         },
         {
           "rank": 11,
-          "model": "Kimi K3.1 Pro (Max)",
-          "organization": "moonshot",
-          "score": 1687.7,
-          "lower": 1677.9,
-          "upper": 1697.4,
-          "votes": 4916
+          "model": "Claude Opus 5 (Max)",
+          "organization": "anthropic",
+          "score": 1690.9,
+          "lower": 1684.8,
+          "upper": 1697.0,
+          "votes": 19559
         },
         {
           "rank": 12,
-          "model": "Gemini 4 Argon (High)",
-          "organization": "google",
-          "score": 1682.1,
-          "lower": 1672.3,
-          "upper": 1691.8,
-          "votes": 4933
+          "model": "Kimi K3.1 Pro (Max)",
+          "organization": "moonshot",
+          "score": 1687.2,
+          "lower": 1677.5,
+          "upper": 1696.9,
+          "votes": 4977
         },
         {
           "rank": 13,
-          "model": "GPT-6.1 Terra (Max)",
-          "organization": "openai",
-          "score": 1678.5,
-          "lower": 1667.8,
-          "upper": 1689.2,
-          "votes": 3944
+          "model": "Gemini 4 Argon (High)",
+          "organization": "google",
+          "score": 1681.0,
+          "lower": 1671.3,
+          "upper": 1690.7,
+          "votes": 4991
         },
         {
           "rank": 14,
-          "model": "Qwen3.8-Max (0902)",
-          "organization": "alibaba",
-          "score": 1675.8,
-          "lower": 1669.6,
-          "upper": 1682.1,
-          "votes": 21951
+          "model": "GPT-6.1 Terra (Max)",
+          "organization": "openai",
+          "score": 1678.1,
+          "lower": 1667.6,
+          "upper": 1688.7,
+          "votes": 4016
         },
         {
           "rank": 15,
-          "model": "GPT-6 Sol (Max)",
-          "organization": "openai",
-          "score": 1673.0,
-          "lower": 1664.6,
-          "upper": 1681.3,
-          "votes": 7249
+          "model": "Qwen3.8-Max (0902)",
+          "organization": "alibaba",
+          "score": 1676.3,
+          "lower": 1670.1,
+          "upper": 1682.6,
+          "votes": 22099
         },
         {
           "rank": 16,
-          "model": "Qwen3.8-Max",
-          "organization": "alibaba",
-          "score": 1670.3,
-          "lower": 1658.2,
-          "upper": 1682.4,
-          "votes": 3371
+          "model": "GPT-6 Sol (Max)",
+          "organization": "openai",
+          "score": 1672.6,
+          "lower": 1664.3,
+          "upper": 1680.9,
+          "votes": 7326
         },
         {
           "rank": 17,
-          "model": "DeepSeek-V4.1-Flash-20261017 (Max)",
-          "organization": "deepseek",
-          "score": 1663.6,
-          "lower": 1656.9,
-          "upper": 1670.4,
-          "votes": 13952
+          "model": "Qwen3.8-Max",
+          "organization": "alibaba",
+          "score": 1670.4,
+          "lower": 1658.3,
+          "upper": 1682.5,
+          "votes": 3370
         },
         {
           "rank": 18,
-          "model": "Kimi K3 (Max)",
-          "organization": "moonshot",
-          "score": 1657.9,
-          "lower": 1652.2,
-          "upper": 1663.6,
-          "votes": 22405
+          "model": "DeepSeek-V4.1-Flash-20261017 (Max)",
+          "organization": "deepseek",
+          "score": 1663.7,
+          "lower": 1656.9,
+          "upper": 1670.4,
+          "votes": 14108
         },
         {
           "rank": 19,
-          "model": "Claude Opus 5 (High)",
-          "organization": "anthropic",
-          "score": 1656.6,
-          "lower": 1651.3,
-          "upper": 1661.9,
-          "votes": 26940
+          "model": "Kimi K3 (Max)",
+          "organization": "moonshot",
+          "score": 1657.8,
+          "lower": 1652.1,
+          "upper": 1663.4,
+          "votes": 22448
         },
         {
           "rank": 20,
-          "model": "Muse Spark 1.3 (Max)",
-          "organization": "meta",
-          "score": 1655.1,
-          "lower": 1648.1,
-          "upper": 1662.1,
-          "votes": 12122
+          "model": "Claude Opus 5 (High)",
+          "organization": "anthropic",
+          "score": 1656.7,
+          "lower": 1651.4,
+          "upper": 1661.9,
+          "votes": 26934
         }
       ],
-      "checked_at": "2026-11-13T01:56:22.313243+00:00",
-      "last_success_at": "2026-11-13T01:56:22.313243+00:00",
+      "checked_at": "2026-11-13T09:42:40.442229+00:00",
+      "last_success_at": "2026-11-13T09:42:40.442229+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 30058
         }
       ],
-      "checked_at": "2026-11-13T01:56:22.313243+00:00",
-      "last_success_at": "2026-11-13T01:56:22.313243+00:00",
+      "checked_at": "2026-11-13T09:42:40.442229+00:00",
+      "last_success_at": "2026-11-13T09:42:40.442229+00:00",
       "status": "ok"
     }
   ],
@@ -654,8 +654,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-13T01:56:22.313243+00:00",
-      "last_success_at": "2026-11-13T01:56:22.313243+00:00",
+      "checked_at": "2026-11-13T09:42:40.442229+00:00",
+      "last_success_at": "2026-11-13T09:42:40.442229+00:00",
       "status": "ok"
     },
     {
@@ -729,8 +729,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-13T01:56:22.313243+00:00",
-      "last_success_at": "2026-11-13T01:56:22.313243+00:00",
+      "checked_at": "2026-11-13T09:42:40.442229+00:00",
+      "last_success_at": "2026-11-13T09:42:40.442229+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-13T01:56:22.313243+00:00",
-      "last_success_at": "2026-11-13T01:56:22.313243+00:00",
+      "checked_at": "2026-11-13T09:42:40.442229+00:00",
+      "last_success_at": "2026-11-13T09:42:40.442229+00:00",
       "status": "ok"
     },
     {
@@ -815,9 +815,41 @@
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
         {
-          "title": "rust-v0.171.0-alpha.1",
+          "title": "0.169.0",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+          "published_at": "2026-11-13T08:39:10+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.171.0-alpha.2",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.2",
+          "published_at": "2026-11-13T08:04:06+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "rust-v0.171.0-alpha.3",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.3",
+          "published_at": "2026-11-13T04:36:47+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.171.0-alpha.1",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.1",
-          "published_at": "2026-11-12T23:23:26+00:00",
+          "published_at": "2026-11-13T04:20:31+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.168.0",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
+          "published_at": "2026-11-13T03:56:26+00:00",
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
@@ -826,14 +858,6 @@
           "title": "0.170.0-alpha.4",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4",
           "published_at": "2026-11-12T23:03:38+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "rust-v0.168.0",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
-          "published_at": "2026-11-12T21:29:07+00:00",
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
@@ -853,34 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.167.0-alpha.4.3",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.3",
-          "published_at": "2026-11-11T23:59:38+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.167.2",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
-          "published_at": "2026-11-11T22:46:17+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.169.0-alpha.11.1",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.11.1",
-          "published_at": "2026-11-11T22:27:26+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-13T01:56:22.313243+00:00",
-      "last_success_at": "2026-11-13T01:56:22.313243+00:00",
+      "checked_at": "2026-11-13T09:42:40.442229+00:00",
+      "last_success_at": "2026-11-13T09:42:40.442229+00:00",
       "status": "ok"
     },
     {
@@ -889,6 +889,22 @@
       "kind": "tools",
       "source_url": "https://github.com/MoonshotAI/kimi-code/releases.atom",
       "items": [
+        {
+          "title": "@moonshot-ai/kimi-code@2.6.1",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.6.1",
+          "published_at": "2026-11-13T07:22:45+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
+        {
+          "title": "@moonshot-ai/kimi-code@2.7.0-canary.20261113055733-391d9e7",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.7.0-canary.20261113055733-391d9e7",
+          "published_at": "2026-11-13T06:14:12+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
         {
           "title": "@moonshot-ai/kimi-code@2.6.0",
           "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.6.0",
@@ -936,26 +952,10 @@
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
-        },
-        {
-          "title": "@moonshot-ai/kimi-code@2.6.0-canary.20261106122412-eb2035f",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.6.0-canary.20261106122412-eb2035f",
-          "published_at": "2026-11-06T12:54:00+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
-        },
-        {
-          "title": "@moonshot-ai/kimi-code@2.6.0-canary.20261106115820-bc6fa89",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.6.0-canary.20261106115820-bc6fa89",
-          "published_at": "2026-11-06T12:12:41+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-13T01:56:22.313243+00:00",
-      "last_success_at": "2026-11-13T01:56:22.313243+00:00",
+      "checked_at": "2026-11-13T09:42:40.442229+00:00",
+      "last_success_at": "2026-11-13T09:42:40.442229+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-13T01:56:22.313243+00:00",
-      "last_success_at": "2026-11-13T01:56:22.313243+00:00",
+      "checked_at": "2026-11-13T09:42:40.442229+00:00",
+      "last_success_at": "2026-11-13T09:42:40.442229+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-13T01:56:22.313243+00:00",
+    "checked_at": "2026-11-13T09:42:40.442229+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-13T01:56:22.313243+00:00",
-    "last_success_at": "2026-11-13T01:56:22.313243+00:00",
+    "checked_at": "2026-11-13T09:42:40.442229+00:00",
+    "last_success_at": "2026-11-13T09:42:40.442229+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
