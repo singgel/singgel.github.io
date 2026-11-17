@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T14:38:21.358872+00:00",
+  "updated_at": "2026-11-17T22:58:53.652107+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 41402
         }
       ],
-      "checked_at": "2026-11-17T14:38:21.358872+00:00",
-      "last_success_at": "2026-11-17T14:38:21.358872+00:00",
+      "checked_at": "2026-11-17T22:58:53.652107+00:00",
+      "last_success_at": "2026-11-17T22:58:53.652107+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 22692
         }
       ],
-      "checked_at": "2026-11-17T14:38:21.358872+00:00",
-      "last_success_at": "2026-11-17T14:38:21.358872+00:00",
+      "checked_at": "2026-11-17T22:58:53.652107+00:00",
+      "last_success_at": "2026-11-17T22:58:53.652107+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 30058
         }
       ],
-      "checked_at": "2026-11-17T14:38:21.358872+00:00",
-      "last_success_at": "2026-11-17T14:38:21.358872+00:00",
+      "checked_at": "2026-11-17T22:58:53.652107+00:00",
+      "last_success_at": "2026-11-17T22:58:53.652107+00:00",
       "status": "ok"
     }
   ],
@@ -590,8 +590,32 @@
       "source_url": "https://openai.com/news/rss.xml",
       "items": [
         {
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "published_at": "2026-11-17T17:45:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "Introducing ChatGPT for Sales",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+          "published_at": "2026-11-17T08:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
           "title": "Strengthening NATO and allied cyber defenses with AI",
           "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "published_at": "2026-11-17T00:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "Astra for Law leads in legal intelligence",
+          "url": "https://openai.com/index/astra-law-6-2",
           "published_at": "2026-11-17T00:00:00+00:00",
           "source": "OpenAI",
           "source_id": "openai",
@@ -628,34 +652,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "How Revolut raises ambition without lowering the bar",
-          "url": "https://openai.com/business/customer-stories/revolut",
-          "published_at": "2026-11-16T09:30:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-          "url": "https://openai.com/index/lvmh-media-division-partnership",
-          "published_at": "2026-11-16T09:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "Our first phase of embedded assessments",
-          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-          "published_at": "2026-11-16T08:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-17T14:38:21.358872+00:00",
-      "last_success_at": "2026-11-17T14:38:21.358872+00:00",
+      "checked_at": "2026-11-17T22:58:53.652107+00:00",
+      "last_success_at": "2026-11-17T22:58:53.652107+00:00",
       "status": "ok"
     },
     {
@@ -664,6 +664,14 @@
       "kind": "news",
       "source_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "items": [
+        {
+          "title": "Put Gemini to work for you",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "published_at": "2026-11-17T17:00:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
         {
           "title": "New Ask Maps features to help with holiday travel and prep",
           "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
@@ -719,18 +727,10 @@
           "source": "Google AI",
           "source_id": "google",
           "kind": "news"
-        },
-        {
-          "title": "Google Cloud launches Gemini for healthcare.",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-          "published_at": "2026-11-10T13:00:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-17T14:38:21.358872+00:00",
-      "last_success_at": "2026-11-17T14:38:21.358872+00:00",
+      "checked_at": "2026-11-17T22:58:53.652107+00:00",
+      "last_success_at": "2026-11-17T22:58:53.652107+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-17T14:38:21.358872+00:00",
-      "last_success_at": "2026-11-17T14:38:21.358872+00:00",
+      "checked_at": "2026-11-17T22:58:53.652107+00:00",
+      "last_success_at": "2026-11-17T22:58:53.652107+00:00",
       "status": "ok"
     },
     {
@@ -814,6 +814,14 @@
       "kind": "tools",
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
+        {
+          "title": "0.169.1",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.1",
+          "published_at": "2026-11-17T22:22:49+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
         {
           "title": "0.171.0-alpha.12",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.12",
@@ -869,18 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.171.0-alpha.6",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.6",
-          "published_at": "2026-11-15T19:03:37+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-17T14:38:21.358872+00:00",
-      "last_success_at": "2026-11-17T14:38:21.358872+00:00",
+      "checked_at": "2026-11-17T22:58:53.652107+00:00",
+      "last_success_at": "2026-11-17T22:58:53.652107+00:00",
       "status": "ok"
     },
     {
@@ -889,6 +889,14 @@
       "kind": "tools",
       "source_url": "https://github.com/MoonshotAI/kimi-code/releases.atom",
       "items": [
+        {
+          "title": "@moonshot-ai/kimi-code@2.6.3",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.6.3",
+          "published_at": "2026-11-17T15:28:26+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
         {
           "title": "@moonshot-ai/kimi-code@2.6.2",
           "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.6.2",
@@ -944,18 +952,10 @@
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
-        },
-        {
-          "title": "@moonshot-ai/kimi-code@2.5.3",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.5.3",
-          "published_at": "2026-11-10T13:21:38+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-17T14:38:21.358872+00:00",
-      "last_success_at": "2026-11-17T14:38:21.358872+00:00",
+      "checked_at": "2026-11-17T22:58:53.652107+00:00",
+      "last_success_at": "2026-11-17T22:58:53.652107+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-17T14:38:21.358872+00:00",
-      "last_success_at": "2026-11-17T14:38:21.358872+00:00",
+      "checked_at": "2026-11-17T22:58:53.652107+00:00",
+      "last_success_at": "2026-11-17T22:58:53.652107+00:00",
       "status": "ok"
     }
   ],
@@ -1047,10 +1047,10 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-17T14:38:21.358872+00:00",
+    "checked_at": "2026-11-17T22:58:53.652107+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
-    "error": "ValueError"
+    "error": "HTTPError"
   },
   "benchmark": {
     "id": "benchmark",
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-17T14:38:21.358872+00:00",
-    "last_success_at": "2026-11-17T14:38:21.358872+00:00",
+    "checked_at": "2026-11-17T22:58:53.652107+00:00",
+    "last_success_at": "2026-11-17T22:58:53.652107+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
