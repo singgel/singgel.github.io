@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T13:28:51.474309+00:00",
+  "updated_at": "2026-11-19T22:16:15.589493+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 35568
         }
       ],
-      "checked_at": "2026-11-19T13:28:51.474309+00:00",
-      "last_success_at": "2026-11-19T13:28:51.474309+00:00",
+      "checked_at": "2026-11-19T22:16:15.589493+00:00",
+      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 8102
         }
       ],
-      "checked_at": "2026-11-19T13:28:51.474309+00:00",
-      "last_success_at": "2026-11-19T13:28:51.474309+00:00",
+      "checked_at": "2026-11-19T22:16:15.589493+00:00",
+      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 30058
         }
       ],
-      "checked_at": "2026-11-19T13:28:51.474309+00:00",
-      "last_success_at": "2026-11-19T13:28:51.474309+00:00",
+      "checked_at": "2026-11-19T22:16:15.589493+00:00",
+      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
       "status": "ok"
     }
   ],
@@ -590,6 +590,14 @@
       "source_url": "https://openai.com/news/rss.xml",
       "items": [
         {
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "published_at": "2026-11-19T08:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
           "title": "The Silent Consensus",
           "url": "https://openai.com/index/the-silent-consensus",
           "published_at": "2026-11-18T10:00:00+00:00",
@@ -598,16 +606,16 @@
           "kind": "news"
         },
         {
-          "title": "Research acceleration: The jagged frontier",
-          "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+          "url": "https://openai.com/business/customer-stories/sumitomo-life",
           "published_at": "2026-11-18T08:00:00+00:00",
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
         },
         {
-          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-          "url": "https://openai.com/business/customer-stories/sumitomo-life",
+          "title": "Research acceleration: The jagged frontier",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier",
           "published_at": "2026-11-18T08:00:00+00:00",
           "source": "OpenAI",
           "source_id": "openai",
@@ -644,18 +652,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "Introducing GPT-6.2 Astra and Sol",
-          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-          "published_at": "2026-11-17T17:45:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-19T13:28:51.474309+00:00",
-      "last_success_at": "2026-11-19T13:28:51.474309+00:00",
+      "checked_at": "2026-11-19T22:16:15.589493+00:00",
+      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
       "status": "ok"
     },
     {
@@ -664,6 +664,22 @@
       "kind": "news",
       "source_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "items": [
+        {
+          "title": "Introducing Tool Retrieval in the Gemini API",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+          "published_at": "2026-11-19T18:00:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
+        {
+          "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+          "published_at": "2026-11-19T17:00:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
         {
           "title": "The Gemini app is now available on lower-memory Android devices.",
           "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
@@ -711,26 +727,10 @@
           "source": "Google AI",
           "source_id": "google",
           "kind": "news"
-        },
-        {
-          "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-          "published_at": "2026-11-11T09:00:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
-        },
-        {
-          "title": "Gemini Intelligence: New features, on more devices",
-          "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-          "published_at": "2026-11-10T19:00:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-19T13:28:51.474309+00:00",
-      "last_success_at": "2026-11-19T13:28:51.474309+00:00",
+      "checked_at": "2026-11-19T22:16:15.589493+00:00",
+      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-19T13:28:51.474309+00:00",
-      "last_success_at": "2026-11-19T13:28:51.474309+00:00",
+      "checked_at": "2026-11-19T22:16:15.589493+00:00",
+      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
       "status": "ok"
     },
     {
@@ -814,6 +814,22 @@
       "kind": "tools",
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
+        {
+          "title": "0.171.0-alpha.13.1",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13.1",
+          "published_at": "2026-11-19T22:07:59+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.172.0-alpha.2",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.2",
+          "published_at": "2026-11-19T15:49:51+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
         {
           "title": "0.172.0-alpha.1",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.1",
@@ -861,26 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.171.0-alpha.11",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.11",
-          "published_at": "2026-11-17T04:30:04+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.170.0-alpha.4.1",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4.1",
-          "published_at": "2026-11-17T02:24:32+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-19T13:28:51.474309+00:00",
-      "last_success_at": "2026-11-19T13:28:51.474309+00:00",
+      "checked_at": "2026-11-19T22:16:15.589493+00:00",
+      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
       "status": "ok"
     },
     {
@@ -954,8 +954,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-19T13:28:51.474309+00:00",
-      "last_success_at": "2026-11-19T13:28:51.474309+00:00",
+      "checked_at": "2026-11-19T22:16:15.589493+00:00",
+      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
       "status": "ok"
     },
     {
@@ -964,6 +964,14 @@
       "kind": "tools",
       "source_url": "https://github.com/anthropics/claude-code/releases.atom",
       "items": [
+        {
+          "title": "v2.1.329",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+          "published_at": "2026-11-19T22:14:41+00:00",
+          "source": "Claude Code",
+          "source_id": "claude",
+          "kind": "tools"
+        },
         {
           "title": "v2.1.328",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
@@ -1019,18 +1027,10 @@
           "source": "Claude Code",
           "source_id": "claude",
           "kind": "tools"
-        },
-        {
-          "title": "v2.1.319",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
-          "published_at": "2026-11-06T17:04:01+00:00",
-          "source": "Claude Code",
-          "source_id": "claude",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-19T13:28:51.474309+00:00",
-      "last_success_at": "2026-11-19T13:28:51.474309+00:00",
+      "checked_at": "2026-11-19T22:16:15.589493+00:00",
+      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
       "status": "ok"
     }
   ],
@@ -1047,10 +1047,10 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-19T13:28:51.474309+00:00",
+    "checked_at": "2026-11-19T22:16:15.589493+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
-    "error": "HTTPError"
+    "error": "ValueError"
   },
   "benchmark": {
     "id": "benchmark",
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-19T13:28:51.474309+00:00",
-    "last_success_at": "2026-11-19T13:28:51.474309+00:00",
+    "checked_at": "2026-11-19T22:16:15.589493+00:00",
+    "last_success_at": "2026-11-19T22:16:15.589493+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
