@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T22:16:15.589493+00:00",
+  "updated_at": "2026-11-20T03:29:45.832411+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 35568
         }
       ],
-      "checked_at": "2026-11-19T22:16:15.589493+00:00",
-      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
+      "checked_at": "2026-11-20T03:29:45.832411+00:00",
+      "last_success_at": "2026-11-20T03:29:45.832411+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 8102
         }
       ],
-      "checked_at": "2026-11-19T22:16:15.589493+00:00",
-      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
+      "checked_at": "2026-11-20T03:29:45.832411+00:00",
+      "last_success_at": "2026-11-20T03:29:45.832411+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 30058
         }
       ],
-      "checked_at": "2026-11-19T22:16:15.589493+00:00",
-      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
+      "checked_at": "2026-11-20T03:29:45.832411+00:00",
+      "last_success_at": "2026-11-20T03:29:45.832411+00:00",
       "status": "ok"
     }
   ],
@@ -598,17 +598,41 @@
           "kind": "news"
         },
         {
-          "title": "The Silent Consensus",
-          "url": "https://openai.com/index/the-silent-consensus",
-          "published_at": "2026-11-18T10:00:00+00:00",
+          "title": "Deploying Daybreak Red",
+          "url": "https://openai.com/business/learn/deploying-daybreak-red",
+          "published_at": "2026-11-19T00:00:00+00:00",
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
         },
         {
-          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-          "url": "https://openai.com/business/customer-stories/sumitomo-life",
-          "published_at": "2026-11-18T08:00:00+00:00",
+          "title": "See PR scans in action",
+          "url": "https://openai.com/business/learn/pr-scans-demo",
+          "published_at": "2026-11-19T00:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "Explore the Codex Security Plugin",
+          "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+          "published_at": "2026-11-19T00:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "Get started with Daybreak Blue",
+          "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+          "published_at": "2026-11-19T00:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "The Silent Consensus",
+          "url": "https://openai.com/index/the-silent-consensus",
+          "published_at": "2026-11-18T10:00:00+00:00",
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
@@ -622,40 +646,16 @@
           "kind": "news"
         },
         {
-          "title": "Inside the Codex sandbox",
-          "url": "https://openai.com/index/inside-the-codex-sandbox",
+          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+          "url": "https://openai.com/business/customer-stories/sumitomo-life",
           "published_at": "2026-11-18T08:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "Managing frontier AI risk: From training to deployment",
-          "url": "https://openai.com/index/managing-frontier-ai-risk",
-          "published_at": "2026-11-18T06:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-          "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-          "published_at": "2026-11-18T00:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "Advancing chip design with OpenAI models",
-          "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-          "published_at": "2026-11-18T00:00:00+00:00",
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-19T22:16:15.589493+00:00",
-      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
+      "checked_at": "2026-11-20T03:29:45.832411+00:00",
+      "last_success_at": "2026-11-20T03:29:45.832411+00:00",
       "status": "ok"
     },
     {
@@ -729,8 +729,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-19T22:16:15.589493+00:00",
-      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
+      "checked_at": "2026-11-20T03:29:45.832411+00:00",
+      "last_success_at": "2026-11-20T03:29:45.832411+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-19T22:16:15.589493+00:00",
-      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
+      "checked_at": "2026-11-20T03:29:45.832411+00:00",
+      "last_success_at": "2026-11-20T03:29:45.832411+00:00",
       "status": "ok"
     },
     {
@@ -814,6 +814,22 @@
       "kind": "tools",
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
+        {
+          "title": "0.173.0-alpha.1",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.1",
+          "published_at": "2026-11-20T02:54:54+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.171.0",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+          "published_at": "2026-11-20T00:47:14+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
         {
           "title": "0.171.0-alpha.13.1",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13.1",
@@ -861,26 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.169.1",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.1",
-          "published_at": "2026-11-17T22:22:49+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.171.0-alpha.12",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.12",
-          "published_at": "2026-11-17T14:32:14+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-19T22:16:15.589493+00:00",
-      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
+      "checked_at": "2026-11-20T03:29:45.832411+00:00",
+      "last_success_at": "2026-11-20T03:29:45.832411+00:00",
       "status": "ok"
     },
     {
@@ -889,6 +889,14 @@
       "kind": "tools",
       "source_url": "https://github.com/MoonshotAI/kimi-code/releases.atom",
       "items": [
+        {
+          "title": "Kimi Code CLI 2.7.0-canary.20261120021741-0947717",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.7.0-canary.20261120021741-0947717",
+          "published_at": "2026-11-20T02:39:42+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
         {
           "title": "Kimi Code CLI 2.7.0",
           "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.7.0",
@@ -938,14 +946,6 @@
           "kind": "tools"
         },
         {
-          "title": "Kimi Code Desktop 1.4.0-canary.20261119080857-a4332be",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.4.0-canary.20261119080857-a4332be",
-          "published_at": "2026-11-19T08:21:31+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
-        },
-        {
           "title": "Kimi Code Desktop 1.4.0-canary.329.1.gf90ccb1a",
           "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.4.0-canary.329.1.gf90ccb1a",
           "published_at": "2026-11-19T06:56:01+00:00",
@@ -954,8 +954,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-19T22:16:15.589493+00:00",
-      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
+      "checked_at": "2026-11-20T03:29:45.832411+00:00",
+      "last_success_at": "2026-11-20T03:29:45.832411+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-19T22:16:15.589493+00:00",
-      "last_success_at": "2026-11-19T22:16:15.589493+00:00",
+      "checked_at": "2026-11-20T03:29:45.832411+00:00",
+      "last_success_at": "2026-11-20T03:29:45.832411+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-19T22:16:15.589493+00:00",
+    "checked_at": "2026-11-20T03:29:45.832411+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "ValueError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-19T22:16:15.589493+00:00",
-    "last_success_at": "2026-11-19T22:16:15.589493+00:00",
+    "checked_at": "2026-11-20T03:29:45.832411+00:00",
+    "last_success_at": "2026-11-20T03:29:45.832411+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
