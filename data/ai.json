@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T14:55:22.140277+00:00",
+  "updated_at": "2026-11-24T02:20:13.523160+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 13959
         }
       ],
-      "checked_at": "2026-11-23T14:55:22.140277+00:00",
-      "last_success_at": "2026-11-23T14:55:22.140277+00:00",
+      "checked_at": "2026-11-24T02:20:13.523160+00:00",
+      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 25851
         }
       ],
-      "checked_at": "2026-11-23T14:55:22.140277+00:00",
-      "last_success_at": "2026-11-23T14:55:22.140277+00:00",
+      "checked_at": "2026-11-24T02:20:13.523160+00:00",
+      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 19229
         }
       ],
-      "checked_at": "2026-11-23T14:55:22.140277+00:00",
-      "last_success_at": "2026-11-23T14:55:22.140277+00:00",
+      "checked_at": "2026-11-24T02:20:13.523160+00:00",
+      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
       "status": "ok"
     }
   ],
@@ -589,6 +589,30 @@
       "kind": "news",
       "source_url": "https://openai.com/news/rss.xml",
       "items": [
+        {
+          "title": "OpenAI and Cisco introduce Shirudo",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "published_at": "2026-11-23T21:20:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "Connected intelligence for in-house legal",
+          "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+          "published_at": "2026-11-23T08:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
+        {
+          "title": "Richpanel helps companies automate 50% of support in 30 days",
+          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+          "published_at": "2026-11-23T08:00:00+00:00",
+          "source": "OpenAI",
+          "source_id": "openai",
+          "kind": "news"
+        },
         {
           "title": "Perplexity and Intelligence",
           "url": "https://openai.com/index/perplexity-and-intelligence",
@@ -628,34 +652,10 @@
           "source": "OpenAI",
           "source_id": "openai",
           "kind": "news"
-        },
-        {
-          "title": "Deploying Daybreak Red",
-          "url": "https://openai.com/business/learn/deploying-daybreak-red",
-          "published_at": "2026-11-19T00:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "See PR scans in action",
-          "url": "https://openai.com/business/learn/pr-scans-demo",
-          "published_at": "2026-11-19T00:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
-        },
-        {
-          "title": "Get started with Daybreak Blue",
-          "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-          "published_at": "2026-11-19T00:00:00+00:00",
-          "source": "OpenAI",
-          "source_id": "openai",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-23T14:55:22.140277+00:00",
-      "last_success_at": "2026-11-23T14:55:22.140277+00:00",
+      "checked_at": "2026-11-24T02:20:13.523160+00:00",
+      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
       "status": "ok"
     },
     {
@@ -664,6 +664,14 @@
       "kind": "news",
       "source_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
       "items": [
+        {
+          "title": "A more tailored Google Search that’s uniquely yours",
+          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+          "published_at": "2026-11-23T17:00:00+00:00",
+          "source": "Google AI",
+          "source_id": "google",
+          "kind": "news"
+        },
         {
           "title": "Introducing Tool Retrieval in the Gemini API",
           "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
@@ -719,18 +727,10 @@
           "source": "Google AI",
           "source_id": "google",
           "kind": "news"
-        },
-        {
-          "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-          "published_at": "2026-11-11T16:00:00+00:00",
-          "source": "Google AI",
-          "source_id": "google",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-23T14:55:22.140277+00:00",
-      "last_success_at": "2026-11-23T14:55:22.140277+00:00",
+      "checked_at": "2026-11-24T02:20:13.523160+00:00",
+      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
       "status": "ok"
     },
     {
@@ -739,6 +739,14 @@
       "kind": "news",
       "source_url": "https://deepmind.google/blog/rss.xml",
       "items": [
+        {
+          "title": "Finding faster quantum algorithms with agents and formal verification",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+          "published_at": "2026-11-23T16:59:40+00:00",
+          "source": "Google DeepMind",
+          "source_id": "deepmind",
+          "kind": "news"
+        },
         {
           "title": "Introducing Gemini 4 Neon",
           "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
@@ -794,18 +802,10 @@
           "source": "Google DeepMind",
           "source_id": "deepmind",
           "kind": "news"
-        },
-        {
-          "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-          "published_at": "2026-11-09T19:51:47+00:00",
-          "source": "Google DeepMind",
-          "source_id": "deepmind",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-23T14:55:22.140277+00:00",
-      "last_success_at": "2026-11-23T14:55:22.140277+00:00",
+      "checked_at": "2026-11-24T02:20:13.523160+00:00",
+      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
       "status": "ok"
     },
     {
@@ -814,6 +814,46 @@
       "kind": "tools",
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
+        {
+          "title": "0.174.0-alpha.1",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.1",
+          "published_at": "2026-11-24T01:51:10+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.172.0",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+          "published_at": "2026-11-24T00:06:41+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "rust-v0.173.0-alpha.5",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.5",
+          "published_at": "2026-11-23T23:10:34+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.171.0-alpha.13.2",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13.2",
+          "published_at": "2026-11-23T19:43:27+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
+        {
+          "title": "0.172.0-alpha.2.1",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.2.1",
+          "published_at": "2026-11-23T18:07:33+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
         {
           "title": "0.173.0-alpha.4",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.4",
@@ -837,50 +877,10 @@
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
-        },
-        {
-          "title": "0.173.0-alpha.1",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.1",
-          "published_at": "2026-11-20T02:54:54+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.171.0",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
-          "published_at": "2026-11-20T00:47:14+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.171.0-alpha.13.1",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13.1",
-          "published_at": "2026-11-19T22:07:59+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.172.0-alpha.2",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.2",
-          "published_at": "2026-11-19T15:49:51+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "0.172.0-alpha.1",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.1",
-          "published_at": "2026-11-18T18:01:02+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-23T14:55:22.140277+00:00",
-      "last_success_at": "2026-11-23T14:55:22.140277+00:00",
+      "checked_at": "2026-11-24T02:20:13.523160+00:00",
+      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
       "status": "ok"
     },
     {
@@ -889,6 +889,30 @@
       "kind": "tools",
       "source_url": "https://github.com/MoonshotAI/kimi-code/releases.atom",
       "items": [
+        {
+          "title": "Kimi Code Desktop 1.4.3",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.4.3",
+          "published_at": "2026-11-23T16:56:55+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
+        {
+          "title": "Kimi Code CLI 2.7.3",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.7.3",
+          "published_at": "2026-11-23T16:53:21+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
+        {
+          "title": "Kimi Code CLI 2.8.0-canary.20261123144244-c0e9faf",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.8.0-canary.20261123144244-c0e9faf",
+          "published_at": "2026-11-23T15:06:51+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
         {
           "title": "Kimi Code Desktop 1.5.0-canary.20261123125121-c0e9faf",
           "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261123125121-c0e9faf",
@@ -928,34 +952,10 @@
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
-        },
-        {
-          "title": "Kimi Code Desktop 1.4.2",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.4.2",
-          "published_at": "2026-11-20T09:19:47+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
-        },
-        {
-          "title": "Kimi Code Desktop 1.4.1",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.4.1",
-          "published_at": "2026-11-20T06:57:10+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
-        },
-        {
-          "title": "Kimi Code CLI 2.7.1",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.7.1",
-          "published_at": "2026-11-20T06:53:11+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-23T14:55:22.140277+00:00",
-      "last_success_at": "2026-11-23T14:55:22.140277+00:00",
+      "checked_at": "2026-11-24T02:20:13.523160+00:00",
+      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
       "status": "ok"
     },
     {
@@ -964,6 +964,14 @@
       "kind": "tools",
       "source_url": "https://github.com/anthropics/claude-code/releases.atom",
       "items": [
+        {
+          "title": "v2.1.331",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+          "published_at": "2026-11-23T21:34:41+00:00",
+          "source": "Claude Code",
+          "source_id": "claude",
+          "kind": "tools"
+        },
         {
           "title": "v2.1.330",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
@@ -1019,18 +1027,10 @@
           "source": "Claude Code",
           "source_id": "claude",
           "kind": "tools"
-        },
-        {
-          "title": "v2.1.322",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
-          "published_at": "2026-11-10T02:29:43+00:00",
-          "source": "Claude Code",
-          "source_id": "claude",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-23T14:55:22.140277+00:00",
-      "last_success_at": "2026-11-23T14:55:22.140277+00:00",
+      "checked_at": "2026-11-24T02:20:13.523160+00:00",
+      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
       "status": "ok"
     }
   ],
@@ -1047,10 +1047,10 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-23T14:55:22.140277+00:00",
+    "checked_at": "2026-11-24T02:20:13.523160+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
-    "error": "HTTPError"
+    "error": "ValueError"
   },
   "benchmark": {
     "id": "benchmark",
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-23T14:55:22.140277+00:00",
-    "last_success_at": "2026-11-23T14:55:22.140277+00:00",
+    "checked_at": "2026-11-24T02:20:13.523160+00:00",
+    "last_success_at": "2026-11-24T02:20:13.523160+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
