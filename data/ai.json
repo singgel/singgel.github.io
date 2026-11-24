@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T02:20:13.523160+00:00",
+  "updated_at": "2026-11-24T12:39:29.114644+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 13959
         }
       ],
-      "checked_at": "2026-11-24T02:20:13.523160+00:00",
-      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
+      "checked_at": "2026-11-24T12:39:29.114644+00:00",
+      "last_success_at": "2026-11-24T12:39:29.114644+00:00",
       "status": "ok"
     },
     {
@@ -201,191 +201,191 @@
       "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
       "data_url": "https://datasets-server.huggingface.co/rows?dataset=lmarena-ai%2Fleaderboard-dataset&config=webdev&split=latest&offset=0&length=100",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "published_at": "2026-11-22",
+      "published_at": "2026-11-23",
       "entries": [
         {
           "rank": 1,
           "model": "Claude Fable 5.2 (xHigh)",
           "organization": "anthropic",
-          "score": 1822.1,
-          "lower": 1806.6,
-          "upper": 1837.6,
-          "votes": 2124
+          "score": 1821.7,
+          "lower": 1806.3,
+          "upper": 1837.0,
+          "votes": 2159
         },
         {
           "rank": 2,
           "model": "Claude Opus 5.5 (Max)",
           "organization": "anthropic",
-          "score": 1820.3,
-          "lower": 1809.5,
-          "upper": 1831.0,
-          "votes": 5075
+          "score": 1820.4,
+          "lower": 1809.6,
+          "upper": 1831.1,
+          "votes": 5121
         },
         {
           "rank": 3,
           "model": "Claude Sonnet 5.5 (xHigh)",
           "organization": "anthropic",
-          "score": 1772.4,
-          "lower": 1763.2,
-          "upper": 1781.5,
-          "votes": 6925
+          "score": 1772.6,
+          "lower": 1763.5,
+          "upper": 1781.8,
+          "votes": 6973
         },
         {
           "rank": 4,
           "model": "Gemini 4 Carbon (High)",
           "organization": "google",
-          "score": 1768.9,
-          "lower": 1753.5,
-          "upper": 1784.3,
-          "votes": 2092
+          "score": 1769.0,
+          "lower": 1753.6,
+          "upper": 1784.4,
+          "votes": 2091
         },
         {
           "rank": 5,
-          "model": "Gemini 4 Neon (High)",
+          "model": "Gemini 4 Neon (xHigh)",
           "organization": "google",
-          "score": 1765.8,
-          "lower": 1752.1,
-          "upper": 1779.4,
-          "votes": 2310
+          "score": 1765.3,
+          "lower": 1751.6,
+          "upper": 1778.9,
+          "votes": 2308
         },
         {
           "rank": 6,
           "model": "GPT-6 Astra (Max)",
           "organization": "openai",
-          "score": 1764.3,
-          "lower": 1756.3,
-          "upper": 1772.4,
-          "votes": 9495
+          "score": 1763.6,
+          "lower": 1755.6,
+          "upper": 1771.7,
+          "votes": 9541
         },
         {
           "rank": 7,
           "model": "GPT-6.2 Astra (Max)",
           "organization": "openai",
-          "score": 1759.4,
-          "lower": 1744.8,
-          "upper": 1774.1,
-          "votes": 2088
+          "score": 1760.7,
+          "lower": 1746.3,
+          "upper": 1775.0,
+          "votes": 2170
         },
         {
           "rank": 8,
           "model": "GPT-6.2 Sol (Max)",
           "organization": "openai",
-          "score": 1755.1,
+          "score": 1754.8,
           "lower": 1741.0,
-          "upper": 1769.1,
-          "votes": 2247
+          "upper": 1768.7,
+          "votes": 2336
         },
         {
           "rank": 9,
           "model": "Qwen4-Max (xHigh)",
           "organization": "alibaba",
-          "score": 1752.0,
-          "lower": 1736.4,
-          "upper": 1767.5,
-          "votes": 1792
+          "score": 1752.1,
+          "lower": 1736.6,
+          "upper": 1767.7,
+          "votes": 1794
         },
         {
           "rank": 10,
           "model": "GPT-6.1 Sol (Max)",
           "organization": "openai",
-          "score": 1744.4,
-          "lower": 1735.4,
-          "upper": 1753.5,
-          "votes": 6699
+          "score": 1744.7,
+          "lower": 1735.7,
+          "upper": 1753.7,
+          "votes": 6737
         },
         {
           "rank": 11,
           "model": "Claude Fable 5.1 (Max)",
           "organization": "anthropic",
-          "score": 1742.1,
-          "lower": 1734.6,
-          "upper": 1749.6,
-          "votes": 10764
+          "score": 1741.8,
+          "lower": 1734.3,
+          "upper": 1749.3,
+          "votes": 10805
         },
         {
           "rank": 12,
           "model": "Muse Wonder Full (Max)",
           "organization": "meta",
-          "score": 1723.1,
-          "lower": 1708.6,
-          "upper": 1737.5,
-          "votes": 2051
+          "score": 1723.5,
+          "lower": 1709.1,
+          "upper": 1738.0,
+          "votes": 2049
         },
         {
           "rank": 13,
           "model": "Claude Sonnet 5.5 (High)",
           "organization": "anthropic",
-          "score": 1715.9,
-          "lower": 1708.0,
-          "upper": 1723.8,
-          "votes": 9072
+          "score": 1715.4,
+          "lower": 1707.6,
+          "upper": 1723.3,
+          "votes": 9129
         },
         {
           "rank": 14,
-          "model": "Gemini 4 Hydrogen (High)",
+          "model": "Gemini 4 Hydrogen (xHigh)",
           "organization": "google",
-          "score": 1701.1,
-          "lower": 1686.8,
-          "upper": 1715.4,
-          "votes": 2014
+          "score": 1701.4,
+          "lower": 1687.1,
+          "upper": 1715.7,
+          "votes": 2012
         },
         {
           "rank": 15,
           "model": "Claude Opus 5 (Max)",
           "organization": "anthropic",
-          "score": 1691.7,
-          "lower": 1685.6,
+          "score": 1691.6,
+          "lower": 1685.5,
           "upper": 1697.7,
-          "votes": 19440
+          "votes": 19435
         },
         {
           "rank": 16,
           "model": "GPT-6.1 Terra (Max)",
           "organization": "openai",
-          "score": 1686.4,
-          "lower": 1677.0,
-          "upper": 1695.8,
-          "votes": 5390
+          "score": 1686.3,
+          "lower": 1676.9,
+          "upper": 1695.6,
+          "votes": 5462
         },
         {
           "rank": 17,
           "model": "Kimi K3.1 Pro (Max)",
           "organization": "moonshot",
-          "score": 1683.1,
-          "lower": 1674.3,
-          "upper": 1692.0,
-          "votes": 6154
+          "score": 1682.9,
+          "lower": 1674.1,
+          "upper": 1691.7,
+          "votes": 6207
         },
         {
           "rank": 18,
           "model": "Gemini 4 Argon (High)",
           "organization": "google",
-          "score": 1681.4,
-          "lower": 1672.6,
-          "upper": 1690.3,
-          "votes": 6176
+          "score": 1682.1,
+          "lower": 1673.3,
+          "upper": 1690.9,
+          "votes": 6227
         },
         {
           "rank": 19,
           "model": "GPT-6 Sol (Max)",
           "organization": "openai",
-          "score": 1674.8,
-          "lower": 1667.0,
-          "upper": 1682.6,
-          "votes": 8512
+          "score": 1674.5,
+          "lower": 1666.8,
+          "upper": 1682.3,
+          "votes": 8574
         },
         {
           "rank": 20,
           "model": "Qwen3.8-Max (0902)",
           "organization": "alibaba",
-          "score": 1672.7,
-          "lower": 1666.8,
-          "upper": 1678.5,
-          "votes": 25851
+          "score": 1672.9,
+          "lower": 1667.0,
+          "upper": 1678.7,
+          "votes": 26061
         }
       ],
-      "checked_at": "2026-11-24T02:20:13.523160+00:00",
-      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
+      "checked_at": "2026-11-24T12:39:29.114644+00:00",
+      "last_success_at": "2026-11-24T12:39:29.114644+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 19229
         }
       ],
-      "checked_at": "2026-11-24T02:20:13.523160+00:00",
-      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
+      "checked_at": "2026-11-24T12:39:29.114644+00:00",
+      "last_success_at": "2026-11-24T12:39:29.114644+00:00",
       "status": "ok"
     }
   ],
@@ -654,8 +654,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-24T02:20:13.523160+00:00",
-      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
+      "checked_at": "2026-11-24T12:39:29.114644+00:00",
+      "last_success_at": "2026-11-24T12:39:29.114644+00:00",
       "status": "ok"
     },
     {
@@ -729,8 +729,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-24T02:20:13.523160+00:00",
-      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
+      "checked_at": "2026-11-24T12:39:29.114644+00:00",
+      "last_success_at": "2026-11-24T12:39:29.114644+00:00",
       "status": "ok"
     },
     {
@@ -804,8 +804,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-24T02:20:13.523160+00:00",
-      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
+      "checked_at": "2026-11-24T12:39:29.114644+00:00",
+      "last_success_at": "2026-11-24T12:39:29.114644+00:00",
       "status": "ok"
     },
     {
@@ -814,6 +814,14 @@
       "kind": "tools",
       "source_url": "https://github.com/openai/codex/releases.atom",
       "items": [
+        {
+          "title": "0.173.0-alpha.5",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.5",
+          "published_at": "2026-11-24T06:48:20+00:00",
+          "source": "Codex",
+          "source_id": "codex",
+          "kind": "tools"
+        },
         {
           "title": "0.174.0-alpha.1",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.1",
@@ -826,14 +834,6 @@
           "title": "0.172.0",
           "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
           "published_at": "2026-11-24T00:06:41+00:00",
-          "source": "Codex",
-          "source_id": "codex",
-          "kind": "tools"
-        },
-        {
-          "title": "rust-v0.173.0-alpha.5",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.5",
-          "published_at": "2026-11-23T23:10:34+00:00",
           "source": "Codex",
           "source_id": "codex",
           "kind": "tools"
@@ -879,8 +879,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-24T02:20:13.523160+00:00",
-      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
+      "checked_at": "2026-11-24T12:39:29.114644+00:00",
+      "last_success_at": "2026-11-24T12:39:29.114644+00:00",
       "status": "ok"
     },
     {
@@ -889,6 +889,46 @@
       "kind": "tools",
       "source_url": "https://github.com/MoonshotAI/kimi-code/releases.atom",
       "items": [
+        {
+          "title": "Kimi Code Desktop 1.5.0-canary.20261124105845-2a5523a",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261124105845-2a5523a",
+          "published_at": "2026-11-24T11:15:41+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
+        {
+          "title": "Kimi Code Desktop 1.5.0-canary.20261124102055-baaab05",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261124102055-baaab05",
+          "published_at": "2026-11-24T10:43:46+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
+        {
+          "title": "Kimi Code Desktop 1.5.0-canary.20261124092206-c7d3576",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261124092206-c7d3576",
+          "published_at": "2026-11-24T09:47:08+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
+        {
+          "title": "Kimi Code Desktop 1.5.0-canary.20261124032414-d22ffe8",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261124032414-d22ffe8",
+          "published_at": "2026-11-24T03:34:15+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
+        {
+          "title": "Kimi Code CLI 2.8.0-canary.20261124020358-e0a50e8",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.8.0-canary.20261124020358-e0a50e8",
+          "published_at": "2026-11-24T02:26:16+00:00",
+          "source": "Kimi Code",
+          "source_id": "kimi",
+          "kind": "tools"
+        },
         {
           "title": "Kimi Code Desktop 1.4.3",
           "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.4.3",
@@ -912,50 +952,10 @@
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
-        },
-        {
-          "title": "Kimi Code Desktop 1.5.0-canary.20261123125121-c0e9faf",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261123125121-c0e9faf",
-          "published_at": "2026-11-23T13:04:21+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
-        },
-        {
-          "title": "Kimi Code Desktop 1.5.0-canary.20261123052207-c106716",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261123052207-c106716",
-          "published_at": "2026-11-23T05:37:17+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
-        },
-        {
-          "title": "Kimi Code Desktop 1.5.0-canary.20261122032410-83e4dde",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261122032410-83e4dde",
-          "published_at": "2026-11-22T03:34:04+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
-        },
-        {
-          "title": "Kimi Code Desktop 1.5.0-canary.20261121032349-83e4dde",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261121032349-83e4dde",
-          "published_at": "2026-11-21T03:35:21+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
-        },
-        {
-          "title": "Kimi Code CLI 2.7.2",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.7.2",
-          "published_at": "2026-11-20T09:25:05+00:00",
-          "source": "Kimi Code",
-          "source_id": "kimi",
-          "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-24T02:20:13.523160+00:00",
-      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
+      "checked_at": "2026-11-24T12:39:29.114644+00:00",
+      "last_success_at": "2026-11-24T12:39:29.114644+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-24T02:20:13.523160+00:00",
-      "last_success_at": "2026-11-24T02:20:13.523160+00:00",
+      "checked_at": "2026-11-24T12:39:29.114644+00:00",
+      "last_success_at": "2026-11-24T12:39:29.114644+00:00",
       "status": "ok"
     }
   ],
@@ -1047,10 +1047,10 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-24T02:20:13.523160+00:00",
+    "checked_at": "2026-11-24T12:39:29.114644+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
-    "error": "ValueError"
+    "error": "HTTPError"
   },
   "benchmark": {
     "id": "benchmark",
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-24T02:20:13.523160+00:00",
-    "last_success_at": "2026-11-24T02:20:13.523160+00:00",
+    "checked_at": "2026-11-24T12:39:29.114644+00:00",
+    "last_success_at": "2026-11-24T12:39:29.114644+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
