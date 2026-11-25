@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-25T05:29:15.980457+00:00",
+  "updated_at": "2026-11-25T17:24:45.923028+00:00",
   "boards": [
     {
       "id": "text",
@@ -191,8 +191,8 @@
           "votes": 13959
         }
       ],
-      "checked_at": "2026-11-25T05:29:15.980457+00:00",
-      "last_success_at": "2026-11-25T05:29:15.980457+00:00",
+      "checked_at": "2026-11-25T17:24:45.923028+00:00",
+      "last_success_at": "2026-11-25T17:24:45.923028+00:00",
       "status": "ok"
     },
     {
@@ -384,8 +384,8 @@
           "votes": 26061
         }
       ],
-      "checked_at": "2026-11-25T05:29:15.980457+00:00",
-      "last_success_at": "2026-11-25T05:29:15.980457+00:00",
+      "checked_at": "2026-11-25T17:24:45.923028+00:00",
+      "last_success_at": "2026-11-25T17:24:45.923028+00:00",
       "status": "ok"
     },
     {
@@ -577,8 +577,8 @@
           "votes": 19229
         }
       ],
-      "checked_at": "2026-11-25T05:29:15.980457+00:00",
-      "last_success_at": "2026-11-25T05:29:15.980457+00:00",
+      "checked_at": "2026-11-25T17:24:45.923028+00:00",
+      "last_success_at": "2026-11-25T17:24:45.923028+00:00",
       "status": "ok"
     }
   ],
@@ -654,8 +654,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-25T05:29:15.980457+00:00",
-      "last_success_at": "2026-11-25T05:29:15.980457+00:00",
+      "checked_at": "2026-11-25T17:24:45.923028+00:00",
+      "last_success_at": "2026-11-25T17:24:45.923028+00:00",
       "status": "ok"
     },
     {
@@ -729,8 +729,8 @@
           "kind": "news"
         }
       ],
-      "checked_at": "2026-11-25T05:29:15.980457+00:00",
-      "last_success_at": "2026-11-25T05:29:15.980457+00:00",
+      "checked_at": "2026-11-25T17:24:45.923028+00:00",
+      "last_success_at": "2026-11-25T17:24:45.923028+00:00",
       "status": "ok"
     },
     {
@@ -739,6 +739,14 @@
       "kind": "news",
       "source_url": "https://deepmind.google/blog/rss.xml",
       "items": [
+        {
+          "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+          "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+          "published_at": "2026-11-24T13:07:53+00:00",
+          "source": "Google DeepMind",
+          "source_id": "deepmind",
+          "kind": "news"
+        },
         {
           "title": "Finding faster quantum algorithms with agents and formal verification",
           "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
@@ -794,18 +802,10 @@
           "source": "Google DeepMind",
           "source_id": "deepmind",
           "kind": "news"
-        },
-        {
-          "title": "Opening the datasets behind our AI weather models",
-          "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
-          "published_at": "2026-11-10T11:13:04+00:00",
-          "source": "Google DeepMind",
-          "source_id": "deepmind",
-          "kind": "news"
         }
       ],
-      "checked_at": "2026-11-25T05:29:15.980457+00:00",
-      "last_success_at": "2026-11-25T05:29:15.980457+00:00",
+      "checked_at": "2026-11-25T17:24:45.923028+00:00",
+      "last_success_at": "2026-11-25T17:24:45.923028+00:00",
       "status": "ok"
     },
     {
@@ -879,8 +879,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-25T05:29:15.980457+00:00",
-      "last_success_at": "2026-11-25T05:29:15.980457+00:00",
+      "checked_at": "2026-11-25T17:24:45.923028+00:00",
+      "last_success_at": "2026-11-25T17:24:45.923028+00:00",
       "status": "ok"
     },
     {
@@ -890,72 +890,72 @@
       "source_url": "https://github.com/MoonshotAI/kimi-code/releases.atom",
       "items": [
         {
-          "title": "Kimi Code Desktop 1.5.0-canary.20261125044519-48be878",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261125044519-48be878",
-          "published_at": "2026-11-25T05:20:24+00:00",
+          "title": "Kimi Code Desktop 1.5.0",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0",
+          "published_at": "2026-11-25T12:55:10+00:00",
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
         },
         {
-          "title": "Kimi Code Desktop 1.5.0-canary.20261125043736-9fed8eb",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261125043736-9fed8eb",
-          "published_at": "2026-11-25T04:59:09+00:00",
+          "title": "Kimi Code CLI 2.8.0",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.8.0",
+          "published_at": "2026-11-25T12:50:55+00:00",
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
         },
         {
-          "title": "Kimi Code Desktop 1.5.0-canary.20261125041649-f8375e1",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261125041649-f8375e1",
-          "published_at": "2026-11-25T04:31:28+00:00",
+          "title": "Kimi Code Desktop 1.5.0-canary.20261125113258-46d9085",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261125113258-46d9085",
+          "published_at": "2026-11-25T12:06:32+00:00",
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
         },
         {
-          "title": "Kimi Code Desktop 1.5.0-canary.20261125032812-82ace45",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261125032812-82ace45",
-          "published_at": "2026-11-25T03:44:27+00:00",
+          "title": "Kimi Code Desktop 1.5.0-canary.20261125111403-132c4e8",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261125111403-132c4e8",
+          "published_at": "2026-11-25T11:55:38+00:00",
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
         },
         {
-          "title": "Kimi Code CLI 2.8.0-canary.20261125020505-48cdb62",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.8.0-canary.20261125020505-48cdb62",
-          "published_at": "2026-11-25T02:26:24+00:00",
+          "title": "Kimi Code Desktop 1.5.0-canary.20261125111321-e9d21aa",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261125111321-e9d21aa",
+          "published_at": "2026-11-25T11:52:35+00:00",
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
         },
         {
-          "title": "Kimi Code Desktop 1.5.0-canary.20261124122946-2b1b095",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261124122946-2b1b095",
-          "published_at": "2026-11-24T12:46:58+00:00",
+          "title": "Kimi Code Desktop 1.5.0-canary.20261125101715-75a378d",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261125101715-75a378d",
+          "published_at": "2026-11-25T10:35:23+00:00",
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
         },
         {
-          "title": "Kimi Code Desktop 1.5.0-canary.20261124105845-2a5523a",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261124105845-2a5523a",
-          "published_at": "2026-11-24T11:15:41+00:00",
+          "title": "Kimi Code Desktop 1.5.0-canary.20261125070835-6eb6df5",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261125070835-6eb6df5",
+          "published_at": "2026-11-25T09:11:47+00:00",
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
         },
         {
-          "title": "Kimi Code Desktop 1.5.0-canary.20261124102055-baaab05",
-          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261124102055-baaab05",
-          "published_at": "2026-11-24T10:43:46+00:00",
+          "title": "Kimi Code Desktop 1.5.0-canary.20261125054708-f323e36",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/kimi-code-desktop%401.5.0-canary.20261125054708-f323e36",
+          "published_at": "2026-11-25T07:08:29+00:00",
           "source": "Kimi Code",
           "source_id": "kimi",
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-25T05:29:15.980457+00:00",
-      "last_success_at": "2026-11-25T05:29:15.980457+00:00",
+      "checked_at": "2026-11-25T17:24:45.923028+00:00",
+      "last_success_at": "2026-11-25T17:24:45.923028+00:00",
       "status": "ok"
     },
     {
@@ -1029,8 +1029,8 @@
           "kind": "tools"
         }
       ],
-      "checked_at": "2026-11-25T05:29:15.980457+00:00",
-      "last_success_at": "2026-11-25T05:29:15.980457+00:00",
+      "checked_at": "2026-11-25T17:24:45.923028+00:00",
+      "last_success_at": "2026-11-25T17:24:45.923028+00:00",
       "status": "ok"
     }
   ],
@@ -1047,7 +1047,7 @@
       }
     ],
     "coverage": "仅检查公开页面返回的近期原帖；不是完整时间线。关键词命中不代表额度已到账。",
-    "checked_at": "2026-11-25T05:29:15.980457+00:00",
+    "checked_at": "2026-11-25T17:24:45.923028+00:00",
     "last_success_at": "2026-10-20T07:03:49.295832+00:00",
     "status": "stale",
     "error": "HTTPError"
@@ -1059,8 +1059,8 @@
     "version": "4.0",
     "harness": "官方模型＋Agent配置，含不同Agent",
     "status": "ok",
-    "checked_at": "2026-11-25T05:29:15.980457+00:00",
-    "last_success_at": "2026-11-25T05:29:15.980457+00:00",
+    "checked_at": "2026-11-25T17:24:45.923028+00:00",
+    "last_success_at": "2026-11-25T17:24:45.923028+00:00",
     "source_url": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions",
     "license_url": "https://github.com/harbor-framework/terminal-bench/blob/cac7593809b74b94cdada9b512eb85b12380aa89/LICENSE",
     "coverage": "12 selected official submissions, not a complete ranking.",
